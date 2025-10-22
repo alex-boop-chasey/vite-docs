@@ -1,51 +1,56 @@
-// sync-docs.js
-// Universal docs compiler for Vite / Astro / Tailwind / etc.
+/**
+ * sync-docs.js
+ * Extracts all human-readable documentation and code examples
+ * from the Vite docs repo into a single compiled text file.
+ */
 
-import fs from 'fs';
-import path from 'path';
+import fs from "fs";
+import path from "path";
 
-// --- Configuration ---
-const DOCS_DIR = path.resolve('./docs'); // Change if needed
-const OUTPUT_FILE = path.resolve('./compiled-docs.txt');
+const ROOT = "./docs"; // the docs folder root
+const OUTPUT = "./compiled-docs.txt";
+const VALID_EXT = [".md", ".mdx", ".html"]; // include markdown + html
+const EXCLUDE_DIRS = ["images", "public", "_data"]; // skip noise folders
 
-// --- Helper: recursively collect all .md and .html files ---
-function getAllDocs(dir) {
-  const entries = fs.readdirSync(dir, { withFileTypes: true });
-  const files = [];
+let collected = [];
 
-  for (const entry of entries) {
-    const fullPath = path.join(dir, entry.name);
-    if (entry.isDirectory()) {
-      files.push(...getAllDocs(fullPath));
-    } else if (/\.(md|html)$/.test(entry.name)) {
-      files.push(fullPath);
+function crawl(dir) {
+  const items = fs.readdirSync(dir, { withFileTypes: true });
+
+  for (const item of items) {
+    const fullPath = path.join(dir, item.name);
+
+    // Skip unwanted folders
+    if (item.isDirectory() && !EXCLUDE_DIRS.includes(item.name)) {
+      crawl(fullPath);
+      continue;
+    }
+
+    // Process markdown/html documentation files
+    if (item.isFile() && VALID_EXT.includes(path.extname(item.name))) {
+      const content = fs.readFileSync(fullPath, "utf8");
+
+      // Basic content cleaning rules
+      const clean = content
+        .replace(/---[\s\S]*?---/g, "") // remove YAML frontmatter
+        .replace(/<style[\s\S]*?<\/style>/gi, "")
+        .replace(/<script[\s\S]*?<\/script>/gi, "")
+        .replace(/\n{3,}/g, "\n\n"); // compress empty lines
+
+      collected.push(`# ${item.name}\n\n${clean.trim()}\n`);
     }
   }
-  return files;
 }
 
-// --- Helper: strip unwanted HTML and keep readable content ---
-function cleanContent(text) {
-  return text
-    .replace(/<script[\s\S]*?<\/script>/gi, '')
-    .replace(/<style[\s\S]*?<\/style>/gi, '')
-    .replace(/<[^>]+>/g, '') // remove remaining tags
-    .replace(/\n{3,}/g, '\n\n')
-    .trim();
-}
+// Start recursive crawl
+crawl(ROOT);
 
-// --- Main: extract and combine ---
-function compileDocs() {
-  const files = getAllDocs(DOCS_DIR);
-  let output = '=== VITE DOCUMENTATION ===\n\n';
+// Combine and write output
+const finalOutput = [
+  "VITE DOCUMENTATION\n===================\n",
+  ...collected
+].join("\n\n");
 
-  for (const file of files) {
-    const content = fs.readFileSync(file, 'utf8');
-    output += `# ${path.basename(file)}\n\n${cleanContent(content)}\n\n---\n\n`;
-  }
+fs.writeFileSync(OUTPUT, finalOutput, "utf8");
 
-  fs.writeFileSync(OUTPUT_FILE, output, 'utf8');
-  console.log(`✅ Documentation compiled to ${OUTPUT_FILE}`);
-}
-
-compileDocs();
+console.log(`✅ Documentation compiled successfully into ${OUTPUT}`);
