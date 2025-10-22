@@ -1,55 +1,60 @@
 /**
  * sync-docs.js
  * Extracts all human-readable documentation and code examples
- * from the Vite docs repo into a single compiled text file.
+ * from the Vite docs repo into a single compiled text file,
+ * organized by folder section (Guide, Config, API, etc.)
  */
 
 import fs from "fs";
 import path from "path";
 
-const ROOT = "./docs"; // the docs folder root
-const OUTPUT = "./compiled-docs.txt";
-const VALID_EXT = [".md", ".mdx", ".html"]; // include markdown + html
-const EXCLUDE_DIRS = ["images", "public", "_data"]; // skip noise folders
+const ROOT = "../docs"; // folder where vite docs live
+const OUTPUT = "../compiled-docs.txt";
+const VALID_EXT = [".md", ".mdx", ".html"];
+const EXCLUDE_DIRS = ["images", "public", "_data", ".vitepress"];
 
 let collected = [];
 
-function crawl(dir) {
+/** Recursively crawls a directory and groups files by their parent folder name */
+function crawl(dir, groupName = "General") {
   const items = fs.readdirSync(dir, { withFileTypes: true });
 
   for (const item of items) {
     const fullPath = path.join(dir, item.name);
 
-    // Skip unwanted folders
-    if (item.isDirectory() && !EXCLUDE_DIRS.includes(item.name)) {
-      crawl(fullPath);
+    if (item.isDirectory()) {
+      if (!EXCLUDE_DIRS.includes(item.name)) {
+        crawl(fullPath, item.name);
+      }
       continue;
     }
 
-    // Process markdown/html documentation files
     if (item.isFile() && VALID_EXT.includes(path.extname(item.name))) {
       const content = fs.readFileSync(fullPath, "utf8");
 
-      // Basic content cleaning rules
+      // Basic content cleaning
       const clean = content
         .replace(/---[\s\S]*?---/g, "") // remove YAML frontmatter
         .replace(/<style[\s\S]*?<\/style>/gi, "")
         .replace(/<script[\s\S]*?<\/script>/gi, "")
         .replace(/\n{3,}/g, "\n\n"); // compress empty lines
 
-      collected.push(`# ${item.name}\n\n${clean.trim()}\n`);
+      if (!collected[groupName]) collected[groupName] = [];
+      collected[groupName].push(`# ${item.name}\n\n${clean.trim()}\n`);
     }
   }
 }
 
-// Start recursive crawl
+// Crawl the docs root
 crawl(ROOT);
 
-// Combine and write output
-const finalOutput = [
-  "VITE DOCUMENTATION\n===================\n",
-  ...collected
-].join("\n\n");
+// Assemble the output by section
+let finalOutput = "VITE DOCUMENTATION\n===================\n\n";
+
+for (const section in collected) {
+  finalOutput += `\n\n## ${section.toUpperCase()}\n\n`;
+  finalOutput += collected[section].join("\n\n");
+}
 
 fs.writeFileSync(OUTPUT, finalOutput, "utf8");
 
