@@ -1,0 +1,3061 @@
+.
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── docs
+│   ├── _data
+│   │   ├── blog.data.ts
+│   │   └── team.js
+│   ├── blog
+│   │   ├── announcing-vite2.md
+│   │   ├── announcing-vite3.md
+│   │   ├── announcing-vite4-3.md
+│   │   ├── announcing-vite4.md
+│   │   ├── announcing-vite5-1.md
+│   │   ├── announcing-vite5.md
+│   │   ├── announcing-vite6.md
+│   │   └── announcing-vite7.md
+│   ├── blog.md
+│   ├── changes
+│   │   ├── hotupdate-hook.md
+│   │   ├── index.md
+│   │   ├── per-environment-apis.md
+│   │   ├── shared-plugins-during-build.md
+│   │   ├── ssr-using-modulerunner.md
+│   │   └── this-environment-in-hooks.md
+│   ├── config
+│   │   ├── build-options.md
+│   │   ├── dep-optimization-options.md
+│   │   ├── index.md
+│   │   ├── preview-options.md
+│   │   ├── server-options.md
+│   │   ├── shared-options.md
+│   │   ├── ssr-options.md
+│   │   └── worker-options.md
+│   ├── guide
+│   │   ├── api-environment-frameworks.md
+│   │   ├── api-environment-instances.md
+│   │   ├── api-environment-plugins.md
+│   │   ├── api-environment-runtimes.md
+│   │   ├── api-environment.md
+│   │   ├── api-hmr.md
+│   │   ├── api-javascript.md
+│   │   ├── api-plugin.md
+│   │   ├── assets.md
+│   │   ├── backend-integration.md
+│   │   ├── build.md
+│   │   ├── cli.md
+│   │   ├── dep-pre-bundling.md
+│   │   ├── env-and-mode.md
+│   │   ├── features.md
+│   │   ├── index.md
+│   │   ├── migration.md
+│   │   ├── performance.md
+│   │   ├── philosophy.md
+│   │   ├── rolldown.md
+│   │   ├── ssr.md
+│   │   ├── static-deploy-github-pages.yaml
+│   │   ├── static-deploy.md
+│   │   ├── troubleshooting.md
+│   │   ├── using-plugins.md
+│   │   └── why.md
+│   ├── images
+│   │   ├── bundler.svg
+│   │   ├── community
+│   │   │   └── placeholder.webp
+│   │   ├── diagrams.fig
+│   │   ├── ecosystem-vite4.webp
+│   │   ├── esm.svg
+│   │   ├── graph.svg
+│   │   ├── lit.svg
+│   │   ├── preact.svg
+│   │   ├── react.svg
+│   │   ├── svelte.svg
+│   │   ├── v3-docs.webp
+│   │   ├── v3-new-open-issues-and-PRs.webp
+│   │   ├── v3-open-issues-and-PRs.webp
+│   │   ├── vite-3-cold-start.svg
+│   │   ├── vite-environments.svg
+│   │   ├── vite-plugin-inspect.webp
+│   │   ├── vite.svg
+│   │   ├── vite4-3-hmr-time.webp
+│   │   ├── vite4-3-startup-time.webp
+│   │   ├── vite5-1-10K-modules-loading-time.webp
+│   │   ├── vite6-npm-weekly-downloads.webp
+│   │   ├── viteconf.svg
+│   │   ├── voice.svg
+│   │   └── vue.svg
+│   ├── index.md
+│   ├── package.json
+│   ├── plugins
+│   │   └── index.md
+│   ├── public
+│   │   ├── _headers
+│   │   ├── _redirects
+│   │   ├── logo-uwu.webp
+│   │   ├── logo-with-shadow.webp
+│   │   ├── logo.svg
+│   │   ├── og-image-announcing-vite3.webp
+│   │   ├── og-image-announcing-vite4-3.webp
+│   │   ├── og-image-announcing-vite4.webp
+│   │   ├── og-image-announcing-vite5-1.webp
+│   │   ├── og-image-announcing-vite5.webp
+│   │   ├── og-image-announcing-vite6.webp
+│   │   ├── og-image-announcing-vite7.webp
+│   │   ├── og-image.jpg
+│   │   └── vite.mp3
+│   ├── releases.md
+│   ├── team.md
+│   └── tsconfig.json
+├── eslint.config.js
+├── LICENSE
+├── netlify.toml
+├── package.json
+├── packages
+│   ├── create-vite
+│   │   ├── __tests__
+│   │   │   └── cli.spec.ts
+│   │   ├── CHANGELOG.md
+│   │   ├── index.js
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   └── index.ts
+│   │   ├── template-lit
+│   │   │   ├── _gitignore
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   └── src
+│   │   │       ├── assets
+│   │   │       │   └── lit.svg
+│   │   │       ├── index.css
+│   │   │       └── my-element.js
+│   │   ├── template-lit-ts
+│   │   │   ├── _gitignore
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   ├── src
+│   │   │   │   ├── assets
+│   │   │   │   │   └── lit.svg
+│   │   │   │   ├── index.css
+│   │   │   │   └── my-element.ts
+│   │   │   └── tsconfig.json
+│   │   ├── template-preact
+│   │   │   ├── _gitignore
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   ├── src
+│   │   │   │   ├── app.css
+│   │   │   │   ├── app.jsx
+│   │   │   │   ├── assets
+│   │   │   │   │   └── preact.svg
+│   │   │   │   ├── index.css
+│   │   │   │   └── main.jsx
+│   │   │   └── vite.config.js
+│   │   ├── template-preact-ts
+│   │   │   ├── _gitignore
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   ├── src
+│   │   │   │   ├── app.css
+│   │   │   │   ├── app.tsx
+│   │   │   │   ├── assets
+│   │   │   │   │   └── preact.svg
+│   │   │   │   ├── index.css
+│   │   │   │   └── main.tsx
+│   │   │   ├── tsconfig.app.json
+│   │   │   ├── tsconfig.json
+│   │   │   ├── tsconfig.node.json
+│   │   │   └── vite.config.ts
+│   │   ├── template-qwik
+│   │   │   ├── _gitignore
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   ├── README.md
+│   │   │   ├── src
+│   │   │   │   ├── app.css
+│   │   │   │   ├── app.jsx
+│   │   │   │   ├── assets
+│   │   │   │   │   └── qwik.svg
+│   │   │   │   ├── index.css
+│   │   │   │   └── main.jsx
+│   │   │   └── vite.config.js
+│   │   ├── template-qwik-ts
+│   │   │   ├── _gitignore
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   ├── README.md
+│   │   │   ├── src
+│   │   │   │   ├── app.css
+│   │   │   │   ├── app.tsx
+│   │   │   │   ├── assets
+│   │   │   │   │   └── qwik.svg
+│   │   │   │   ├── index.css
+│   │   │   │   └── main.tsx
+│   │   │   ├── tsconfig.app.json
+│   │   │   ├── tsconfig.json
+│   │   │   ├── tsconfig.node.json
+│   │   │   └── vite.config.ts
+│   │   ├── template-react
+│   │   │   ├── _gitignore
+│   │   │   ├── eslint.config.js
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   ├── README.md
+│   │   │   ├── src
+│   │   │   │   ├── App.css
+│   │   │   │   ├── App.jsx
+│   │   │   │   ├── assets
+│   │   │   │   │   └── react.svg
+│   │   │   │   ├── index.css
+│   │   │   │   └── main.jsx
+│   │   │   └── vite.config.js
+│   │   ├── template-react-ts
+│   │   │   ├── _gitignore
+│   │   │   ├── eslint.config.js
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   ├── README.md
+│   │   │   ├── src
+│   │   │   │   ├── App.css
+│   │   │   │   ├── App.tsx
+│   │   │   │   ├── assets
+│   │   │   │   │   └── react.svg
+│   │   │   │   ├── index.css
+│   │   │   │   └── main.tsx
+│   │   │   ├── tsconfig.app.json
+│   │   │   ├── tsconfig.json
+│   │   │   ├── tsconfig.node.json
+│   │   │   └── vite.config.ts
+│   │   ├── template-solid
+│   │   │   ├── _gitignore
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   ├── README.md
+│   │   │   ├── src
+│   │   │   │   ├── App.css
+│   │   │   │   ├── App.jsx
+│   │   │   │   ├── assets
+│   │   │   │   │   └── solid.svg
+│   │   │   │   ├── index.css
+│   │   │   │   └── index.jsx
+│   │   │   └── vite.config.js
+│   │   ├── template-solid-ts
+│   │   │   ├── _gitignore
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   ├── README.md
+│   │   │   ├── src
+│   │   │   │   ├── App.css
+│   │   │   │   ├── App.tsx
+│   │   │   │   ├── assets
+│   │   │   │   │   └── solid.svg
+│   │   │   │   ├── index.css
+│   │   │   │   └── index.tsx
+│   │   │   ├── tsconfig.app.json
+│   │   │   ├── tsconfig.json
+│   │   │   ├── tsconfig.node.json
+│   │   │   └── vite.config.ts
+│   │   ├── template-svelte
+│   │   │   ├── _gitignore
+│   │   │   ├── index.html
+│   │   │   ├── jsconfig.json
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   ├── README.md
+│   │   │   ├── src
+│   │   │   │   ├── app.css
+│   │   │   │   ├── App.svelte
+│   │   │   │   ├── assets
+│   │   │   │   │   └── svelte.svg
+│   │   │   │   ├── lib
+│   │   │   │   │   └── Counter.svelte
+│   │   │   │   └── main.js
+│   │   │   ├── svelte.config.js
+│   │   │   └── vite.config.js
+│   │   ├── template-svelte-ts
+│   │   │   ├── _gitignore
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   ├── README.md
+│   │   │   ├── src
+│   │   │   │   ├── app.css
+│   │   │   │   ├── App.svelte
+│   │   │   │   ├── assets
+│   │   │   │   │   └── svelte.svg
+│   │   │   │   ├── lib
+│   │   │   │   │   └── Counter.svelte
+│   │   │   │   └── main.ts
+│   │   │   ├── svelte.config.js
+│   │   │   ├── tsconfig.app.json
+│   │   │   ├── tsconfig.json
+│   │   │   ├── tsconfig.node.json
+│   │   │   └── vite.config.ts
+│   │   ├── template-vanilla
+│   │   │   ├── _gitignore
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   └── src
+│   │   │       ├── counter.js
+│   │   │       ├── javascript.svg
+│   │   │       ├── main.js
+│   │   │       └── style.css
+│   │   ├── template-vanilla-ts
+│   │   │   ├── _gitignore
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   ├── src
+│   │   │   │   ├── counter.ts
+│   │   │   │   ├── main.ts
+│   │   │   │   ├── style.css
+│   │   │   │   └── typescript.svg
+│   │   │   └── tsconfig.json
+│   │   ├── template-vue
+│   │   │   ├── _gitignore
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   ├── README.md
+│   │   │   ├── src
+│   │   │   │   ├── App.vue
+│   │   │   │   ├── assets
+│   │   │   │   │   └── vue.svg
+│   │   │   │   ├── components
+│   │   │   │   │   └── HelloWorld.vue
+│   │   │   │   ├── main.js
+│   │   │   │   └── style.css
+│   │   │   └── vite.config.js
+│   │   ├── template-vue-ts
+│   │   │   ├── _gitignore
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   ├── public
+│   │   │   │   └── vite.svg
+│   │   │   ├── README.md
+│   │   │   ├── src
+│   │   │   │   ├── App.vue
+│   │   │   │   ├── assets
+│   │   │   │   │   └── vue.svg
+│   │   │   │   ├── components
+│   │   │   │   │   └── HelloWorld.vue
+│   │   │   │   ├── main.ts
+│   │   │   │   └── style.css
+│   │   │   ├── tsconfig.app.json
+│   │   │   ├── tsconfig.json
+│   │   │   ├── tsconfig.node.json
+│   │   │   └── vite.config.ts
+│   │   ├── tsconfig.json
+│   │   └── tsdown.config.ts
+│   ├── plugin-legacy
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── __tests__
+│   │   │   │   ├── readme.spec.ts
+│   │   │   │   └── snippets.spec.ts
+│   │   │   ├── index.ts
+│   │   │   ├── shims.d.ts
+│   │   │   ├── snippets.ts
+│   │   │   └── types.ts
+│   │   ├── tsconfig.json
+│   │   ├── tsdown.config.ts
+│   │   └── types
+│   │       └── legacy-for-rolldown-vite.d.ts
+│   └── vite
+│       ├── bin
+│       │   ├── openChrome.js
+│       │   └── vite.js
+│       ├── CHANGELOG.md
+│       ├── client.d.ts
+│       ├── LICENSE.md
+│       ├── misc
+│       │   ├── false.d.ts
+│       │   ├── false.js
+│       │   ├── true.d.ts
+│       │   └── true.js
+│       ├── package.json
+│       ├── README.md
+│       ├── rolldown.config.ts
+│       ├── rolldown.dts.config.ts
+│       ├── rollupLicensePlugin.ts
+│       ├── scripts
+│       │   └── generateTarget.ts
+│       ├── src
+│       │   ├── client
+│       │   │   ├── client.ts
+│       │   │   ├── env.ts
+│       │   │   ├── overlay.ts
+│       │   │   └── tsconfig.json
+│       │   ├── module-runner
+│       │   │   ├── constants.ts
+│       │   │   ├── createImportMeta.ts
+│       │   │   ├── esmEvaluator.ts
+│       │   │   ├── evaluatedModules.ts
+│       │   │   ├── hmrHandler.ts
+│       │   │   ├── hmrLogger.ts
+│       │   │   ├── importMetaResolver.ts
+│       │   │   ├── index.ts
+│       │   │   ├── runner.ts
+│       │   │   ├── sourcemap
+│       │   │   │   ├── decoder.ts
+│       │   │   │   ├── index.ts
+│       │   │   │   └── interceptor.ts
+│       │   │   ├── tsconfig.json
+│       │   │   ├── types.ts
+│       │   │   └── utils.ts
+│       │   ├── node
+│       │   │   ├── __tests__
+│       │   │   │   ├── __snapshots__
+│       │   │   │   │   └── utils.spec.ts.snap
+│       │   │   │   ├── assetSource.spec.ts
+│       │   │   │   ├── build.spec.ts
+│       │   │   │   ├── config.spec.ts
+│       │   │   │   ├── constants.spec.ts
+│       │   │   │   ├── dev.spec.ts
+│       │   │   │   ├── env
+│       │   │   │   ├── env.spec.ts
+│       │   │   │   ├── environment.spec.ts
+│       │   │   │   ├── external.spec.ts
+│       │   │   │   ├── fixtures
+│       │   │   │   │   ├── cjs-ssr-dep
+│       │   │   │   │   │   ├── index.js
+│       │   │   │   │   │   └── package.json
+│       │   │   │   │   ├── config
+│       │   │   │   │   │   ├── entry
+│       │   │   │   │   │   │   ├── imports-field.ts
+│       │   │   │   │   │   │   ├── package.json
+│       │   │   │   │   │   │   ├── vite.config.import-attributes.ts
+│       │   │   │   │   │   │   └── vite.config.ts
+│       │   │   │   │   │   ├── import-meta
+│       │   │   │   │   │   │   └── vite.config.ts
+│       │   │   │   │   │   ├── loadConfigFromFile
+│       │   │   │   │   │   ├── native-import
+│       │   │   │   │   │   │   └── basic.js
+│       │   │   │   │   │   ├── plugin-module-condition
+│       │   │   │   │   │   │   ├── index.cjs
+│       │   │   │   │   │   │   ├── index.d.ts
+│       │   │   │   │   │   │   ├── index.mjs
+│       │   │   │   │   │   │   ├── module.mjs
+│       │   │   │   │   │   │   └── package.json
+│       │   │   │   │   │   └── siblings
+│       │   │   │   │   │       ├── foo.ts
+│       │   │   │   │   │       └── package.json
+│       │   │   │   │   ├── dynamic-import
+│       │   │   │   │   │   ├── dep.mjs
+│       │   │   │   │   │   └── entry.mjs
+│       │   │   │   │   ├── emit-assets
+│       │   │   │   │   │   ├── css-module.module.css
+│       │   │   │   │   │   ├── css-normal.css
+│       │   │   │   │   │   └── entry.mjs
+│       │   │   │   │   ├── environment-alias
+│       │   │   │   │   │   ├── test.client.js
+│       │   │   │   │   │   ├── test.rsc.js
+│       │   │   │   │   │   └── test.ssr.js
+│       │   │   │   │   ├── file-url
+│       │   │   │   │   │   ├── entry.js
+│       │   │   │   │   │   └── package.json
+│       │   │   │   │   ├── runner-import
+│       │   │   │   │   │   ├── basic.ts
+│       │   │   │   │   │   ├── cjs.js
+│       │   │   │   │   │   ├── dynamic-import-dep.ts
+│       │   │   │   │   │   ├── dynamic-import.ts
+│       │   │   │   │   │   ├── plugin.ts
+│       │   │   │   │   │   ├── vite.config.outside-pkg-import.mts
+│       │   │   │   │   │   └── vite.config.ts
+│       │   │   │   │   ├── scan-jsx-runtime
+│       │   │   │   │   │   ├── entry-jsx.tsx
+│       │   │   │   │   │   ├── entry-no-jsx.js
+│       │   │   │   │   │   └── tsconfig.json
+│       │   │   │   │   ├── shared-config-build
+│       │   │   │   │   │   └── emitAssets
+│       │   │   │   │   │       ├── entry.js
+│       │   │   │   │   │       └── test.css
+│       │   │   │   │   ├── shared-plugins
+│       │   │   │   │   │   └── minify
+│       │   │   │   │   │       └── entry.js
+│       │   │   │   │   ├── test-dep-conditions
+│       │   │   │   │   │   ├── dir
+│       │   │   │   │   │   │   ├── index.default.js
+│       │   │   │   │   │   │   └── index.module.js
+│       │   │   │   │   │   ├── index.browser.js
+│       │   │   │   │   │   ├── index.css
+│       │   │   │   │   │   ├── index.custom1.js
+│       │   │   │   │   │   ├── index.default.js
+│       │   │   │   │   │   ├── index.worker.js
+│       │   │   │   │   │   └── package.json
+│       │   │   │   │   ├── test-dep-conditions-app
+│       │   │   │   │   │   ├── entry-with-module.js
+│       │   │   │   │   │   ├── entry.css
+│       │   │   │   │   │   └── entry.js
+│       │   │   │   │   ├── watch-rebuild-manifest
+│       │   │   │   │   │   ├── dep.js
+│       │   │   │   │   │   ├── entry.js
+│       │   │   │   │   │   └── package.json
+│       │   │   │   │   └── worker-dynamic
+│       │   │   │   │       ├── dynamic.js
+│       │   │   │   │       ├── main.js
+│       │   │   │   │       └── worker.js
+│       │   │   │   ├── package.json
+│       │   │   │   ├── packages
+│       │   │   │   │   ├── build-project
+│       │   │   │   │   │   └── index.html
+│       │   │   │   │   ├── child
+│       │   │   │   │   │   ├── index.js
+│       │   │   │   │   │   └── package.json
+│       │   │   │   │   ├── module
+│       │   │   │   │   │   └── package.json
+│       │   │   │   │   ├── name
+│       │   │   │   │   │   └── package.json
+│       │   │   │   │   ├── noname
+│       │   │   │   │   │   └── package.json
+│       │   │   │   │   ├── package.json
+│       │   │   │   │   └── parent
+│       │   │   │   │       ├── index.ts
+│       │   │   │   │       └── package.json
+│       │   │   │   ├── plugins
+│       │   │   │   │   ├── __snapshots__
+│       │   │   │   │   │   └── license.spec.ts.snap
+│       │   │   │   │   ├── assetImportMetaUrl.spec.ts
+│       │   │   │   │   ├── css.spec.ts
+│       │   │   │   │   ├── define.spec.ts
+│       │   │   │   │   ├── dynamicImportVar
+│       │   │   │   │   │   ├── __snapshots__
+│       │   │   │   │   │   │   └── parse.spec.ts.snap
+│       │   │   │   │   │   ├── mods
+│       │   │   │   │   │   │   ├── hello.js
+│       │   │   │   │   │   │   └── hi.js
+│       │   │   │   │   │   └── parse.spec.ts
+│       │   │   │   │   ├── esbuild.spec.ts
+│       │   │   │   │   ├── fixtures
+│       │   │   │   │   │   ├── css-module-compose
+│       │   │   │   │   │   │   └── css
+│       │   │   │   │   │   │       └── bar.module.css
+│       │   │   │   │   │   └── license
+│       │   │   │   │   │       ├── dep-licence-cc0
+│       │   │   │   │   │       │   ├── index.js
+│       │   │   │   │   │       │   ├── licence
+│       │   │   │   │   │       │   └── package.json
+│       │   │   │   │   │       ├── dep-license-mit
+│       │   │   │   │   │       │   ├── index.js
+│       │   │   │   │   │       │   ├── license
+│       │   │   │   │   │       │   └── package.json
+│       │   │   │   │   │       ├── dep-nested-license-isc
+│       │   │   │   │   │       │   ├── index.js
+│       │   │   │   │   │       │   ├── LICENSE
+│       │   │   │   │   │       │   └── package.json
+│       │   │   │   │   │       ├── index.html
+│       │   │   │   │   │       └── package.json
+│       │   │   │   │   ├── hooks.spec.ts
+│       │   │   │   │   ├── import.spec.ts
+│       │   │   │   │   ├── importGlob
+│       │   │   │   │   │   ├── __snapshots__
+│       │   │   │   │   │   │   └── fixture.spec.ts.snap
+│       │   │   │   │   │   ├── fixture-a
+│       │   │   │   │   │   │   ├── index.ts
+│       │   │   │   │   │   │   ├── modules
+│       │   │   │   │   │   │   │   ├── a.ts
+│       │   │   │   │   │   │   │   ├── b.ts
+│       │   │   │   │   │   │   │   └── index.ts
+│       │   │   │   │   │   │   ├── node_modules
+│       │   │   │   │   │   │   │   └── framework
+│       │   │   │   │   │   │   │       └── pages
+│       │   │   │   │   │   │   │           └── hello.page.js
+│       │   │   │   │   │   │   └── sibling.ts
+│       │   │   │   │   │   ├── fixture-b
+│       │   │   │   │   │   │   ├── a.ts
+│       │   │   │   │   │   │   ├── b.ts
+│       │   │   │   │   │   │   └── index.ts
+│       │   │   │   │   │   ├── fixture.spec.ts
+│       │   │   │   │   │   ├── parse.spec.ts
+│       │   │   │   │   │   └── utils.spec.ts
+│       │   │   │   │   ├── index.spec.ts
+│       │   │   │   │   ├── json.spec.ts
+│       │   │   │   │   ├── license.spec.ts
+│       │   │   │   │   ├── modulePreloadPolyfill
+│       │   │   │   │   │   ├── __snapshots__
+│       │   │   │   │   │   │   └── modulePreloadPolyfill.spec.ts.snap
+│       │   │   │   │   │   └── modulePreloadPolyfill.spec.ts
+│       │   │   │   │   ├── pluginFilter.spec.ts
+│       │   │   │   │   ├── terser.spec.ts
+│       │   │   │   │   └── workerImportMetaUrl.spec.ts
+│       │   │   │   ├── resolve.spec.ts
+│       │   │   │   ├── runnerImport.spec.ts
+│       │   │   │   ├── scan.spec.ts
+│       │   │   │   ├── utils
+│       │   │   │   │   └── isFileReadable
+│       │   │   │   │       └── permission-test-file
+│       │   │   │   └── utils.spec.ts
+│       │   │   ├── __tests_dts__
+│       │   │   │   ├── config.ts
+│       │   │   │   ├── plugin.ts
+│       │   │   │   ├── tsconfig.json
+│       │   │   │   ├── typeOptions.ts
+│       │   │   │   └── utils.ts
+│       │   │   ├── assetSource.ts
+│       │   │   ├── baseEnvironment.ts
+│       │   │   ├── build.ts
+│       │   │   ├── cli.ts
+│       │   │   ├── config.ts
+│       │   │   ├── constants.ts
+│       │   │   ├── deprecations.ts
+│       │   │   ├── env.ts
+│       │   │   ├── environment.ts
+│       │   │   ├── external.ts
+│       │   │   ├── http.ts
+│       │   │   ├── idResolver.ts
+│       │   │   ├── index.ts
+│       │   │   ├── logger.ts
+│       │   │   ├── nodeResolve.ts
+│       │   │   ├── optimizer
+│       │   │   │   ├── esbuildDepPlugin.ts
+│       │   │   │   ├── index.ts
+│       │   │   │   ├── optimizer.ts
+│       │   │   │   ├── resolve.ts
+│       │   │   │   └── scan.ts
+│       │   │   ├── packages.ts
+│       │   │   ├── plugin.ts
+│       │   │   ├── plugins
+│       │   │   │   ├── asset.ts
+│       │   │   │   ├── assetImportMetaUrl.ts
+│       │   │   │   ├── clientInjections.ts
+│       │   │   │   ├── completeSystemWrap.ts
+│       │   │   │   ├── css.ts
+│       │   │   │   ├── dataUri.ts
+│       │   │   │   ├── define.ts
+│       │   │   │   ├── dynamicImportVars.ts
+│       │   │   │   ├── esbuild.ts
+│       │   │   │   ├── html.ts
+│       │   │   │   ├── importAnalysis.ts
+│       │   │   │   ├── importAnalysisBuild.ts
+│       │   │   │   ├── importMetaGlob.ts
+│       │   │   │   ├── index.ts
+│       │   │   │   ├── json.ts
+│       │   │   │   ├── license.ts
+│       │   │   │   ├── loadFallback.ts
+│       │   │   │   ├── manifest.ts
+│       │   │   │   ├── metadata.ts
+│       │   │   │   ├── modulePreloadPolyfill.ts
+│       │   │   │   ├── optimizedDeps.ts
+│       │   │   │   ├── pluginFilter.ts
+│       │   │   │   ├── preAlias.ts
+│       │   │   │   ├── prepareOutDir.ts
+│       │   │   │   ├── reporter.ts
+│       │   │   │   ├── resolve.ts
+│       │   │   │   ├── terser.ts
+│       │   │   │   ├── wasm.ts
+│       │   │   │   ├── worker.ts
+│       │   │   │   └── workerImportMetaUrl.ts
+│       │   │   ├── preview.ts
+│       │   │   ├── publicDir.ts
+│       │   │   ├── server
+│       │   │   │   ├── __tests__
+│       │   │   │   │   ├── fixtures
+│       │   │   │   │   │   ├── lerna
+│       │   │   │   │   │   │   ├── lerna.json
+│       │   │   │   │   │   │   └── nested
+│       │   │   │   │   │   │       └── package.json
+│       │   │   │   │   │   ├── none
+│       │   │   │   │   │   │   └── nested
+│       │   │   │   │   │   │       └── package.json
+│       │   │   │   │   │   ├── pnpm
+│       │   │   │   │   │   │   ├── nested
+│       │   │   │   │   │   │   │   └── package.json
+│       │   │   │   │   │   │   ├── package.json
+│       │   │   │   │   │   │   └── pnpm-workspace.yaml
+│       │   │   │   │   │   ├── watcher
+│       │   │   │   │   │   │   ├── config-deps
+│       │   │   │   │   │   │   │   └── foo.js
+│       │   │   │   │   │   │   ├── custom-env
+│       │   │   │   │   │   │   ├── custom-public
+│       │   │   │   │   │   │   │   └── foo.txt
+│       │   │   │   │   │   │   ├── nested-root
+│       │   │   │   │   │   │   │   └── vite.config.js
+│       │   │   │   │   │   │   └── package.json
+│       │   │   │   │   │   └── yarn
+│       │   │   │   │   │       ├── nested
+│       │   │   │   │   │       │   └── package.json
+│       │   │   │   │   │       └── package.json
+│       │   │   │   │   ├── moduleGraph.spec.ts
+│       │   │   │   │   ├── pluginContainer.spec.ts
+│       │   │   │   │   ├── search-root.spec.ts
+│       │   │   │   │   └── watcher.spec.ts
+│       │   │   │   ├── environment.ts
+│       │   │   │   ├── environments
+│       │   │   │   │   ├── fetchableEnvironments.ts
+│       │   │   │   │   └── runnableEnvironment.ts
+│       │   │   │   ├── hmr.ts
+│       │   │   │   ├── index.ts
+│       │   │   │   ├── middlewares
+│       │   │   │   │   ├── __tests__
+│       │   │   │   │   │   ├── hostCheck.spec.ts
+│       │   │   │   │   │   └── static.spec.ts
+│       │   │   │   │   ├── base.ts
+│       │   │   │   │   ├── error.ts
+│       │   │   │   │   ├── hostCheck.ts
+│       │   │   │   │   ├── htmlFallback.ts
+│       │   │   │   │   ├── indexHtml.ts
+│       │   │   │   │   ├── notFound.ts
+│       │   │   │   │   ├── proxy.ts
+│       │   │   │   │   ├── rejectInvalidRequest.ts
+│       │   │   │   │   ├── static.ts
+│       │   │   │   │   ├── time.ts
+│       │   │   │   │   └── transform.ts
+│       │   │   │   ├── mixedModuleGraph.ts
+│       │   │   │   ├── moduleGraph.ts
+│       │   │   │   ├── openBrowser.ts
+│       │   │   │   ├── pluginContainer.ts
+│       │   │   │   ├── searchRoot.ts
+│       │   │   │   ├── send.ts
+│       │   │   │   ├── sourcemap.ts
+│       │   │   │   ├── transformRequest.ts
+│       │   │   │   ├── warmup.ts
+│       │   │   │   └── ws.ts
+│       │   │   ├── shortcuts.ts
+│       │   │   ├── ssr
+│       │   │   │   ├── __tests__
+│       │   │   │   │   ├── __snapshots__
+│       │   │   │   │   │   └── ssrLoadModule.spec.ts.snap
+│       │   │   │   │   ├── fixtures
+│       │   │   │   │   │   ├── bundled-with-sourcemaps
+│       │   │   │   │   │   │   ├── bundle.js
+│       │   │   │   │   │   │   └── bundle.js.map
+│       │   │   │   │   │   ├── errors
+│       │   │   │   │   │   │   ├── syntax-error-dep.js
+│       │   │   │   │   │   │   ├── syntax-error-dep.ts
+│       │   │   │   │   │   │   ├── syntax-error.js
+│       │   │   │   │   │   │   └── syntax-error.ts
+│       │   │   │   │   │   ├── file-url
+│       │   │   │   │   │   │   ├── test space.js
+│       │   │   │   │   │   │   └── test.js
+│       │   │   │   │   │   ├── global
+│       │   │   │   │   │   │   ├── export.js
+│       │   │   │   │   │   │   └── test.js
+│       │   │   │   │   │   ├── json
+│       │   │   │   │   │   │   └── test.json
+│       │   │   │   │   │   ├── modules
+│       │   │   │   │   │   │   ├── has-error.js
+│       │   │   │   │   │   │   ├── has-invalid-import.js
+│       │   │   │   │   │   │   └── import-meta.js
+│       │   │   │   │   │   ├── multi-source-sourcemaps
+│       │   │   │   │   │   │   ├── dist.js
+│       │   │   │   │   │   │   ├── dist.js.map
+│       │   │   │   │   │   │   ├── entrypoint.js
+│       │   │   │   │   │   │   └── nested-directory
+│       │   │   │   │   │   │       └── nested-file.js
+│       │   │   │   │   │   └── named-overwrite-all
+│       │   │   │   │   │       ├── dep1.js
+│       │   │   │   │   │       ├── dep2.js
+│       │   │   │   │   │       └── main.js
+│       │   │   │   │   ├── ssrLoadModule.spec.ts
+│       │   │   │   │   ├── ssrStacktrace.spec.ts
+│       │   │   │   │   └── ssrTransform.spec.ts
+│       │   │   │   ├── fetchModule.ts
+│       │   │   │   ├── index.ts
+│       │   │   │   ├── runnerImport.ts
+│       │   │   │   ├── runtime
+│       │   │   │   │   ├── __tests__
+│       │   │   │   │   │   ├── fixtures
+│       │   │   │   │   │   │   ├── a.ts
+│       │   │   │   │   │   │   ├── assets
+│       │   │   │   │   │   │   │   ├── placeholder.mov
+│       │   │   │   │   │   │   │   ├── placeholder.png
+│       │   │   │   │   │   │   │   ├── placeholder.txt
+│       │   │   │   │   │   │   │   └── placeholder.webp
+│       │   │   │   │   │   │   ├── assets.js
+│       │   │   │   │   │   │   ├── b.ts
+│       │   │   │   │   │   │   ├── basic.js
+│       │   │   │   │   │   │   ├── builtin-import.ts
+│       │   │   │   │   │   │   ├── c.ts
+│       │   │   │   │   │   │   ├── circular
+│       │   │   │   │   │   │   │   ├── circular-a.js
+│       │   │   │   │   │   │   │   ├── circular-b.js
+│       │   │   │   │   │   │   │   └── circular-index.js
+│       │   │   │   │   │   │   ├── cjs-external
+│       │   │   │   │   │   │   │   ├── index.cjs
+│       │   │   │   │   │   │   │   └── package.json
+│       │   │   │   │   │   │   ├── cjs-external-existing.js
+│       │   │   │   │   │   │   ├── cjs-external-non-existing.js
+│       │   │   │   │   │   │   ├── cyclic
+│       │   │   │   │   │   │   │   ├── action.js
+│       │   │   │   │   │   │   │   ├── entry-cyclic.js
+│       │   │   │   │   │   │   │   └── entry.js
+│       │   │   │   │   │   │   ├── cyclic2
+│       │   │   │   │   │   │   │   ├── package.json
+│       │   │   │   │   │   │   │   ├── README.md
+│       │   │   │   │   │   │   │   ├── test1
+│       │   │   │   │   │   │   │   │   ├── dep1.js
+│       │   │   │   │   │   │   │   │   ├── dep2.js
+│       │   │   │   │   │   │   │   │   └── index.js
+│       │   │   │   │   │   │   │   ├── test2
+│       │   │   │   │   │   │   │   │   ├── dep1.js
+│       │   │   │   │   │   │   │   │   ├── dep2.js
+│       │   │   │   │   │   │   │   │   └── index.js
+│       │   │   │   │   │   │   │   ├── test3
+│       │   │   │   │   │   │   │   │   ├── dep1.js
+│       │   │   │   │   │   │   │   │   ├── dep2.js
+│       │   │   │   │   │   │   │   │   └── index.js
+│       │   │   │   │   │   │   │   ├── test4
+│       │   │   │   │   │   │   │   │   ├── dep1.js
+│       │   │   │   │   │   │   │   │   ├── dep2.js
+│       │   │   │   │   │   │   │   │   └── index.js
+│       │   │   │   │   │   │   │   ├── test5
+│       │   │   │   │   │   │   │   │   ├── dep1.js
+│       │   │   │   │   │   │   │   │   ├── dep2.js
+│       │   │   │   │   │   │   │   │   └── index.js
+│       │   │   │   │   │   │   │   ├── test6
+│       │   │   │   │   │   │   │   │   ├── dep1.js
+│       │   │   │   │   │   │   │   │   ├── dep2.js
+│       │   │   │   │   │   │   │   │   └── index.js
+│       │   │   │   │   │   │   │   ├── test7
+│       │   │   │   │   │   │   │   │   ├── dom
+│       │   │   │   │   │   │   │   │   │   ├── Blob.js
+│       │   │   │   │   │   │   │   │   │   └── index.js
+│       │   │   │   │   │   │   │   │   ├── Ion.js
+│       │   │   │   │   │   │   │   │   ├── IonTypes.js
+│       │   │   │   │   │   │   │   │   └── README.md
+│       │   │   │   │   │   │   │   └── test9
+│       │   │   │   │   │   │   │       ├── dep.js
+│       │   │   │   │   │   │   │       └── index.js
+│       │   │   │   │   │   │   ├── d.ts
+│       │   │   │   │   │   │   ├── default-string.ts
+│       │   │   │   │   │   │   ├── dynamic-import.js
+│       │   │   │   │   │   │   ├── esm-external
+│       │   │   │   │   │   │   │   ├── index.mjs
+│       │   │   │   │   │   │   │   └── package.json
+│       │   │   │   │   │   │   ├── esm-external-existing.js
+│       │   │   │   │   │   │   ├── esm-external-non-existing.js
+│       │   │   │   │   │   │   ├── execution-order-re-export
+│       │   │   │   │   │   │   │   ├── dep1.js
+│       │   │   │   │   │   │   │   ├── dep2.js
+│       │   │   │   │   │   │   │   └── index.js
+│       │   │   │   │   │   │   ├── has-error-deep.ts
+│       │   │   │   │   │   │   ├── has-error-first-comment.ts
+│       │   │   │   │   │   │   ├── has-error-first.js
+│       │   │   │   │   │   │   ├── has-error.js
+│       │   │   │   │   │   │   ├── hmr.js
+│       │   │   │   │   │   │   ├── import-external.ts
+│       │   │   │   │   │   │   ├── installed.js
+│       │   │   │   │   │   │   ├── live-binding
+│       │   │   │   │   │   │   │   ├── package.json
+│       │   │   │   │   │   │   │   ├── test1
+│       │   │   │   │   │   │   │   │   ├── dep.js
+│       │   │   │   │   │   │   │   │   └── index.js
+│       │   │   │   │   │   │   │   ├── test2
+│       │   │   │   │   │   │   │   │   ├── dep.js
+│       │   │   │   │   │   │   │   │   └── index.js
+│       │   │   │   │   │   │   │   ├── test3
+│       │   │   │   │   │   │   │   │   ├── dep.js
+│       │   │   │   │   │   │   │   │   └── index.js
+│       │   │   │   │   │   │   │   └── test4
+│       │   │   │   │   │   │   │       ├── dep.js
+│       │   │   │   │   │   │   │       └── index.js
+│       │   │   │   │   │   │   ├── native.js
+│       │   │   │   │   │   │   ├── no-this
+│       │   │   │   │   │   │   │   ├── importee.js
+│       │   │   │   │   │   │   │   └── importer.js
+│       │   │   │   │   │   │   ├── pre-source-mapped-file.js
+│       │   │   │   │   │   │   ├── simple.js
+│       │   │   │   │   │   │   ├── string-literal-sourcemap.ts
+│       │   │   │   │   │   │   ├── test.css
+│       │   │   │   │   │   │   ├── test.module.css
+│       │   │   │   │   │   │   ├── throws-error-method.ts
+│       │   │   │   │   │   │   ├── top-level-object.js
+│       │   │   │   │   │   │   ├── virtual.js
+│       │   │   │   │   │   │   ├── worker.invoke.mjs
+│       │   │   │   │   │   │   └── worker.mjs
+│       │   │   │   │   │   ├── package.json
+│       │   │   │   │   │   ├── server-hmr.spec.ts
+│       │   │   │   │   │   ├── server-no-hmr.spec.ts
+│       │   │   │   │   │   ├── server-runtime.spec.ts
+│       │   │   │   │   │   ├── server-source-maps.spec.ts
+│       │   │   │   │   │   ├── server-worker-runner.invoke.spec.ts
+│       │   │   │   │   │   ├── server-worker-runner.spec.ts
+│       │   │   │   │   │   └── utils.ts
+│       │   │   │   │   └── serverModuleRunner.ts
+│       │   │   │   ├── ssrManifestPlugin.ts
+│       │   │   │   ├── ssrModuleLoader.ts
+│       │   │   │   ├── ssrStacktrace.ts
+│       │   │   │   └── ssrTransform.ts
+│       │   │   ├── tsconfig.json
+│       │   │   ├── typeUtils.ts
+│       │   │   ├── utils.ts
+│       │   │   └── watch.ts
+│       │   ├── shared
+│       │   │   ├── builtin.ts
+│       │   │   ├── constants.ts
+│       │   │   ├── hmr.ts
+│       │   │   ├── hmrHandler.ts
+│       │   │   ├── invokeMethods.ts
+│       │   │   ├── moduleRunnerTransport.ts
+│       │   │   ├── ssrTransform.ts
+│       │   │   ├── tsconfig.json
+│       │   │   └── utils.ts
+│       │   └── types
+│       │       ├── alias.d.ts
+│       │       ├── anymatch.d.ts
+│       │       ├── chokidar.d.ts
+│       │       ├── commonjs.d.ts
+│       │       ├── connect.d.ts
+│       │       ├── dynamicImportVars.d.ts
+│       │       ├── package.json
+│       │       ├── shims.d.ts
+│       │       └── ws.d.ts
+│       ├── tsconfig.base.json
+│       ├── tsconfig.check.json
+│       ├── tsconfig.json
+│       └── types
+│           ├── customEvent.d.ts
+│           ├── hmrPayload.d.ts
+│           ├── hot.d.ts
+│           ├── import-meta.d.ts
+│           ├── importGlob.d.ts
+│           ├── importMeta.d.ts
+│           ├── internal
+│           │   ├── cssPreprocessorOptions.d.ts
+│           │   ├── lightningcssOptions.d.ts
+│           │   └── terserOptions.d.ts
+│           ├── metadata.d.ts
+│           └── package.json
+├── patches
+│   ├── chokidar@3.6.0.patch
+│   ├── dotenv-expand@12.0.3.patch
+│   └── sirv@3.0.2.patch
+├── playground
+│   ├── alias
+│   │   ├── __tests__
+│   │   │   └── alias.spec.ts
+│   │   ├── customResolver.js
+│   │   ├── dir
+│   │   │   ├── from-script-src.js
+│   │   │   ├── module
+│   │   │   │   ├── index.js
+│   │   │   │   └── package.json
+│   │   │   ├── test.css
+│   │   │   ├── test.js
+│   │   │   └── url_conflict.js
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── test.js
+│   │   └── vite.config.js
+│   ├── assets
+│   │   ├── __tests__
+│   │   │   ├── assets.spec.ts
+│   │   │   ├── encoded-base
+│   │   │   │   └── assets-encoded-base.spec.ts
+│   │   │   ├── relative-base
+│   │   │   │   └── assets-relative-base.spec.ts
+│   │   │   ├── runtime-base
+│   │   │   │   └── assets-runtime-base.spec.ts
+│   │   │   └── url-base
+│   │   │       └── assets-url-base.spec.ts
+│   │   ├── テスト-測試-white space.js
+│   │   ├── asset
+│   │   │   ├── main.js
+│   │   │   ├── percent%.png
+│   │   │   └── style.css
+│   │   ├── css
+│   │   │   ├── css-url-url.css
+│   │   │   ├── css-url.css
+│   │   │   ├── fonts.css
+│   │   │   ├── foo.module.css
+│   │   │   ├── icons.css
+│   │   │   ├── import.css
+│   │   │   ├── manual-chunks.css
+│   │   │   └── nested
+│   │   │       └── at-imported-css-url.css
+│   │   ├── favicon.ico
+│   │   ├── fonts
+│   │   │   ├── Inter-Italic.woff
+│   │   │   └── Inter-Italic.woff2
+│   │   ├── foo.js
+│   │   ├── import-meta-url
+│   │   │   ├── img-update.png
+│   │   │   └── img.png
+│   │   ├── index.html
+│   │   ├── manifest.json
+│   │   ├── multiline-import-meta-url.js
+│   │   ├── nested
+│   │   │   ├── テスト-測試-white space.png
+│   │   │   ├── asset.png
+│   │   │   ├── asset[small].png
+│   │   │   ├── donuts-large.svg
+│   │   │   ├── foo.unknown
+│   │   │   ├── fragment-bg-hmr.svg
+│   │   │   ├── fragment-bg-hmr2.svg
+│   │   │   ├── fragment-bg.svg
+│   │   │   ├── fragment.svg
+│   │   │   ├── html-only-asset.jpg
+│   │   │   ├── icon.png
+│   │   │   ├── inlined.svg
+│   │   │   ├── partial.html
+│   │   │   ├── test.js
+│   │   │   └── with-single'quote.png
+│   │   ├── package.json
+│   │   ├── static
+│   │   │   ├── bar
+│   │   │   ├── foo.css
+│   │   │   ├── foo.json
+│   │   │   ├── foo.txt
+│   │   │   ├── icon.png
+│   │   │   ├── import-expression.js
+│   │   │   ├── raw.css
+│   │   │   ├── raw.js
+│   │   │   ├── raw.mts
+│   │   │   └── raw.ts
+│   │   ├── vite.config-encoded-base.js
+│   │   ├── vite.config-relative-base.js
+│   │   ├── vite.config-runtime-base.js
+│   │   ├── vite.config-url-base.js
+│   │   └── vite.config.js
+│   ├── assets-sanitize
+│   │   ├── __tests__
+│   │   │   └── assets-sanitize.spec.ts
+│   │   ├── _circle.svg
+│   │   ├── +circle.svg
+│   │   ├── index.html
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   └── vite.config.js
+│   ├── backend-integration
+│   │   ├── __tests__
+│   │   │   └── backend-integration.spec.ts
+│   │   ├── dir
+│   │   │   ├── custom.css
+│   │   │   └── foo.css
+│   │   ├── frontend
+│   │   │   ├── entrypoints
+│   │   │   │   ├── foo.pcss
+│   │   │   │   ├── global.css
+│   │   │   │   ├── icon.png
+│   │   │   │   ├── index.html
+│   │   │   │   ├── main.ts
+│   │   │   │   ├── nested
+│   │   │   │   │   ├── blue.scss
+│   │   │   │   │   └── sub.ts
+│   │   │   │   └── water-container.svg
+│   │   │   ├── images
+│   │   │   │   └── logo.png
+│   │   │   └── styles
+│   │   │       ├── background.css
+│   │   │       ├── imported.css
+│   │   │       ├── tailwind.css
+│   │   │       └── url.css
+│   │   ├── package.json
+│   │   ├── references.css
+│   │   └── vite.config.js
+│   ├── build-old
+│   │   ├── __tests__
+│   │   │   └── build-old.spec.ts
+│   │   ├── dynamic.js
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   └── vite.config.js
+│   ├── cli
+│   │   ├── __tests__
+│   │   │   ├── cli.spec.ts
+│   │   │   └── serve.ts
+│   │   ├── index.html
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   └── vite.config.js
+│   ├── cli-module
+│   │   ├── __tests__
+│   │   │   ├── cli-module.spec.ts
+│   │   │   └── serve.ts
+│   │   ├── index.html
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   └── vite.config.js
+│   ├── client-reload
+│   │   ├── __tests__
+│   │   │   ├── client-reload.spec.ts
+│   │   │   └── serve.ts
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   └── vite.config.ts
+│   ├── csp
+│   │   ├── __tests__
+│   │   │   └── csp.spec.ts
+│   │   ├── dynamic.css
+│   │   ├── dynamic.js
+│   │   ├── from-js.css
+│   │   ├── index.html
+│   │   ├── index.js
+│   │   ├── linked.css
+│   │   ├── package.json
+│   │   └── vite.config.js
+│   ├── css
+│   │   ├── __tests__
+│   │   │   ├── css.spec.ts
+│   │   │   ├── lightningcss
+│   │   │   │   └── lightningcss.spec.ts
+│   │   │   ├── no-css-minify
+│   │   │   │   └── css-no-css-minify.spec.ts
+│   │   │   ├── postcss-plugins-different-dir
+│   │   │   │   ├── css-postcss-plugins-different-dir.spec.ts
+│   │   │   │   └── serve.ts
+│   │   │   ├── same-file-name
+│   │   │   │   └── css-same-file-name.spec.ts
+│   │   │   ├── sass-modern-compiler-build
+│   │   │   │   └── sass-modern-compiler.spec.ts
+│   │   │   ├── sass-tests.ts
+│   │   │   └── tests.ts
+│   │   ├── aliased
+│   │   │   ├── bar.module.css
+│   │   │   └── foo.css
+│   │   ├── async
+│   │   │   ├── async-1.css
+│   │   │   ├── async-1.js
+│   │   │   ├── async-2.css
+│   │   │   ├── async-2.js
+│   │   │   ├── async-3.js
+│   │   │   ├── async-3.module.css
+│   │   │   ├── base.css
+│   │   │   ├── base.js
+│   │   │   └── index.js
+│   │   ├── async-treeshaken.css
+│   │   ├── async-treeshaken.js
+│   │   ├── async.css
+│   │   ├── async.js
+│   │   ├── charset.css
+│   │   ├── composed.module.css
+│   │   ├── composed.module.less
+│   │   ├── composed.module.scss
+│   │   ├── composes-path-resolving.module.css
+│   │   ├── css-dep
+│   │   │   ├── index.css
+│   │   │   ├── index.js
+│   │   │   ├── index.scss
+│   │   │   ├── index.styl
+│   │   │   └── package.json
+│   │   ├── css-dep-exports
+│   │   │   ├── foo1.scss
+│   │   │   ├── index.js
+│   │   │   ├── package.json
+│   │   │   ├── style.css
+│   │   │   └── style.scss
+│   │   ├── css-js-dep
+│   │   │   ├── bar.module.css
+│   │   │   ├── foo.css
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── css-proxy-dep
+│   │   │   ├── index.css
+│   │   │   └── package.json
+│   │   ├── css-proxy-dep-nested
+│   │   │   ├── index.css
+│   │   │   └── package.json
+│   │   ├── dep.css
+│   │   ├── empty.css
+│   │   ├── file-absolute.scss
+│   │   ├── folder with space
+│   │   │   ├── ok.png
+│   │   │   └── space.css
+│   │   ├── glob-dep
+│   │   │   ├── bar.css
+│   │   │   ├── foo.css
+│   │   │   └── nested (dir)
+│   │   │       └── baz.css
+│   │   ├── glob-dep.css
+│   │   ├── glob-import
+│   │   │   ├── bar.css
+│   │   │   └── foo.css
+│   │   ├── imported-at-import.css
+│   │   ├── imported.css
+│   │   ├── imported.scss
+│   │   ├── imports-field.css
+│   │   ├── imports-imports-field.css
+│   │   ├── index.html
+│   │   ├── inline.module.css
+│   │   ├── inlined.css
+│   │   ├── jsfile.css.js
+│   │   ├── layered
+│   │   │   ├── blue.css
+│   │   │   ├── green.css
+│   │   │   └── index.css
+│   │   ├── less
+│   │   │   ├── components
+│   │   │   │   └── form.less
+│   │   │   ├── images
+│   │   │   │   └── backgrounds
+│   │   │   │       └── form-select.svg
+│   │   │   └── ommer.less
+│   │   ├── less-plugin
+│   │   │   └── test.js
+│   │   ├── less-plugin.less
+│   │   ├── less.less
+│   │   ├── lightningcss-plugins.js
+│   │   ├── linked-at-import.css
+│   │   ├── linked.css
+│   │   ├── main.js
+│   │   ├── manual-chunk.css
+│   │   ├── minify.css
+│   │   ├── mod.module.css
+│   │   ├── mod.module.scss
+│   │   ├── nested
+│   │   │   ├── _index.scss
+│   │   │   ├── _partial.scss
+│   │   │   ├── css-in-less-2.less
+│   │   │   ├── css-in-less.css
+│   │   │   ├── css-in-less.less
+│   │   │   ├── css-in-scss.css
+│   │   │   ├── icon.png
+│   │   │   ├── nested.less
+│   │   │   ├── nested.sss
+│   │   │   ├── nested.styl
+│   │   │   ├── relative.scss
+│   │   │   ├── replacement-alias.scss
+│   │   │   └── root-relative.scss
+│   │   ├── ok.png
+│   │   ├── options
+│   │   │   ├── absolute-import.styl
+│   │   │   └── relative-import.styl
+│   │   ├── package.json
+│   │   ├── pkg-dep
+│   │   │   ├── _index.scss
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── postcss-caching
+│   │   │   ├── blue-app
+│   │   │   │   ├── imported.css
+│   │   │   │   ├── index.html
+│   │   │   │   ├── main.js
+│   │   │   │   ├── package.json
+│   │   │   │   └── postcss.config.js
+│   │   │   ├── css.spec.ts
+│   │   │   ├── green-app
+│   │   │   │   ├── imported.css
+│   │   │   │   ├── index.html
+│   │   │   │   ├── main.js
+│   │   │   │   ├── package.json
+│   │   │   │   └── postcss.config.js
+│   │   │   └── serve.ts
+│   │   ├── postcss-inject-url.css
+│   │   ├── postcss-source-input.css
+│   │   ├── postcss.config.js
+│   │   ├── raw-imported.css
+│   │   ├── same-name
+│   │   │   ├── sub1
+│   │   │   │   ├── sub.css
+│   │   │   │   └── sub.js
+│   │   │   └── sub2
+│   │   │       ├── sub.css
+│   │   │       └── sub.js
+│   │   ├── sass-modern-compiler-build
+│   │   │   ├── entry1.scss
+│   │   │   └── entry2.scss
+│   │   ├── sass.scss
+│   │   ├── scss-dir
+│   │   │   ├── dir
+│   │   │   │   └── index.scss
+│   │   │   └── main.scss
+│   │   ├── scss-proxy-dep
+│   │   │   ├── index.scss
+│   │   │   └── package.json
+│   │   ├── scss-proxy-dep-nested
+│   │   │   ├── index.css
+│   │   │   └── package.json
+│   │   ├── stylus.styl
+│   │   ├── sugarss.sss
+│   │   ├── treeshake-module
+│   │   │   ├── a.js
+│   │   │   ├── a.module.css
+│   │   │   ├── b.js
+│   │   │   ├── b.module.css
+│   │   │   └── index.js
+│   │   ├── treeshake-scoped
+│   │   │   ├── a-scoped.css
+│   │   │   ├── a.js
+│   │   │   ├── b-scoped.css
+│   │   │   ├── b.js
+│   │   │   ├── c-scoped.css
+│   │   │   ├── c.js
+│   │   │   ├── d-scoped.css
+│   │   │   ├── d.js
+│   │   │   ├── index.html
+│   │   │   ├── index.js
+│   │   │   └── order
+│   │   │       ├── a-scoped.css
+│   │   │       ├── a.js
+│   │   │       ├── after.css
+│   │   │       └── before.css
+│   │   ├── unsupported.css
+│   │   ├── url-imported.css
+│   │   ├── vite.config-lightningcss.js
+│   │   ├── vite.config-no-css-minify.js
+│   │   ├── vite.config-relative-base.js
+│   │   ├── vite.config-same-file-name.js
+│   │   ├── vite.config-sass-modern-compiler-build.js
+│   │   ├── vite.config.js
+│   │   └── weapp.wxss
+│   ├── css-codesplit
+│   │   ├── __tests__
+│   │   │   ├── css-codesplit-consistent.spec.ts
+│   │   │   └── css-codesplit.spec.ts
+│   │   ├── async-js.css
+│   │   ├── async-js.js
+│   │   ├── async.css
+│   │   ├── chunk.css
+│   │   ├── index.html
+│   │   ├── inline.css
+│   │   ├── main.css
+│   │   ├── main.js
+│   │   ├── mod.module.css
+│   │   ├── order
+│   │   │   ├── base.css
+│   │   │   ├── dynamic.css
+│   │   │   ├── index.js
+│   │   │   └── insert.js
+│   │   ├── other.js
+│   │   ├── package.json
+│   │   ├── shared-css-empty-1.js
+│   │   ├── shared-css-empty-2.js
+│   │   ├── shared-css-main.js
+│   │   ├── shared-css-no-js.html
+│   │   ├── shared-css-theme.css
+│   │   ├── shared-css-with-js.html
+│   │   ├── style.css
+│   │   ├── style2.css
+│   │   ├── style2.js
+│   │   └── vite.config.js
+│   ├── css-codesplit-cjs
+│   │   ├── __tests__
+│   │   │   └── css-codesplit-cjs.spec.ts
+│   │   ├── index.html
+│   │   ├── main.css
+│   │   ├── main.js
+│   │   ├── other.js
+│   │   ├── package.json
+│   │   ├── style.css
+│   │   └── vite.config.js
+│   ├── css-dynamic-import
+│   │   ├── __tests__
+│   │   │   ├── css-dynamic-import.spec.ts
+│   │   │   └── serve.ts
+│   │   ├── dynamic.css
+│   │   ├── dynamic.js
+│   │   ├── index.html
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   ├── static.css
+│   │   └── static.js
+│   ├── css-lightningcss
+│   │   ├── __tests__
+│   │   │   └── css-lightningcss.spec.ts
+│   │   ├── composed.module.css
+│   │   ├── composes-path-resolving.module.css
+│   │   ├── css-url.css
+│   │   ├── external-url.css
+│   │   ├── imported-at-import.css
+│   │   ├── imported.css
+│   │   ├── index.html
+│   │   ├── inline.module.css
+│   │   ├── inlined.css
+│   │   ├── linked-at-import.css
+│   │   ├── linked.css
+│   │   ├── main.js
+│   │   ├── minify.css
+│   │   ├── mod.module.css
+│   │   ├── nested
+│   │   │   ├── fragment.svg
+│   │   │   └── nested.css
+│   │   ├── ok.png
+│   │   ├── package.json
+│   │   └── vite.config.js
+│   ├── css-lightningcss-proxy
+│   │   ├── __tests__
+│   │   │   ├── css-lightningcss-proxy.spec.ts
+│   │   │   └── serve.ts
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   └── server.js
+│   ├── css-lightningcss-root
+│   │   ├── __tests__
+│   │   │   └── css-lightningcss-root.spec.ts
+│   │   ├── package.json
+│   │   ├── root
+│   │   │   ├── index.html
+│   │   │   ├── main.js
+│   │   │   ├── ok.png
+│   │   │   └── url-dep.css
+│   │   └── vite.config.js
+│   ├── css-no-codesplit
+│   │   ├── __tests__
+│   │   │   └── css-no-codesplit.spec.ts
+│   │   ├── async-js.css
+│   │   ├── async-js.js
+│   │   ├── index.html
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   ├── shared-linked.css
+│   │   ├── sub.html
+│   │   └── vite.config.js
+│   ├── css-sourcemap
+│   │   ├── __tests__
+│   │   │   ├── css-sourcemap.spec.ts
+│   │   │   ├── lib-entry
+│   │   │   │   └── css-sourcemap-lib-entry.spec.ts
+│   │   │   └── lightningcss
+│   │   │       └── lightningcss.spec.ts
+│   │   ├── be-imported.css
+│   │   ├── imported-nested.sass
+│   │   ├── imported-with-import.css
+│   │   ├── imported.css
+│   │   ├── imported.less
+│   │   ├── imported.module.sass
+│   │   ├── imported.sass
+│   │   ├── imported.sss
+│   │   ├── imported.styl
+│   │   ├── index.html
+│   │   ├── index.js
+│   │   ├── input-map.css
+│   │   ├── input-map.css.map
+│   │   ├── input-map.src.css
+│   │   ├── linked-with-import.css
+│   │   ├── linked.css
+│   │   ├── package.json
+│   │   ├── vite.config-lib-entry.js
+│   │   ├── vite.config-lightningcss.js
+│   │   └── vite.config.js
+│   ├── data-uri
+│   │   ├── __tests__
+│   │   │   └── data-uri.spec.ts
+│   │   ├── double-quote-in-single-quotes.svg
+│   │   ├── double-quotes-in-single-quotes.svg
+│   │   ├── index.html
+│   │   ├── main.js
+│   │   ├── package.json
+│   │   ├── single-quote-in-double-quotes.svg
+│   │   ├── single-quotes-in-double-quotes.svg
+│   │   └── vite.config.js
+│   ├── define
+│   │   ├── __tests__
+│   │   │   └── define.spec.ts
+│   │   ├── commonjs-dep
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── data.json
+│   │   ├── index.html
+│   │   ├── optional-env.js
+│   │   ├── package.json
+│   │   └── vite.config.js
+│   ├── dynamic-import
+│   │   ├── __tests__
+│   │   │   └── dynamic-import.spec.ts
+│   │   ├── (app)
+│   │   │   ├── main.js
+│   │   │   └── nest
+│   │   │       └── index.js
+│   │   ├── alias
+│   │   │   ├── hello.js
+│   │   │   ├── hi.js
+│   │   │   ├── url.js
+│   │   │   └── worker.js
+│   │   ├── css
+│   │   │   └── index.css
+│   │   ├── files
+│   │   │   ├── mxd.js
+│   │   │   └── mxd.json
+│   │   ├── index.html
+│   │   ├── nested
+│   │   │   ├── deps.js
+│   │   │   ├── hello.js
+│   │   │   ├── index.js
+│   │   │   ├── nested
+│   │   │   │   └── self.js
+│   │   │   ├── self.js
+│   │   │   ├── shared.js
+│   │   │   ├── static.js
+│   │   │   └── treeshaken
+│   │   │       ├── syntax.js
+│   │   │       └── treeshaken.js
+│   │   ├── package.json
+│   │   ├── pkg
+│   │   │   ├── index.js
+│   │   │   ├── package.json
+│   │   │   └── pkg.css
+│   │   ├── views
+│   │   │   ├── bar.js
+│   │   │   ├── baz.js
+│   │   │   ├── foo.js
+│   │   │   └── qux.js
+│   │   └── vite.config.js
+│   ├── dynamic-import-inline
+│   │   ├── __tests__
+│   │   │   └── dynamic-import-inline.spec.ts
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── src
+│   │   │   ├── foo.js
+│   │   │   └── index.js
+│   │   └── vite.config.js
+│   ├── env
+│   │   ├── __tests__
+│   │   │   └── env.spec.ts
+│   │   ├── index.html
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   └── vite.config.js
+│   ├── env-nested
+│   │   ├── __tests__
+│   │   │   └── env-nested.spec.ts
+│   │   ├── envs
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   └── vite.config.js
+│   ├── environment-react-ssr
+│   │   ├── __tests__
+│   │   │   └── environment-react-ssr.spec.ts
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── src
+│   │   │   ├── entry-client.tsx
+│   │   │   ├── entry-server.tsx
+│   │   │   └── root.tsx
+│   │   ├── tsconfig.json
+│   │   └── vite.config.ts
+│   ├── extensions
+│   │   ├── __tests__
+│   │   │   └── extensions.spec.ts
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   └── vite.config.js
+│   ├── external
+│   │   ├── __tests__
+│   │   │   └── external.spec.ts
+│   │   ├── dep-that-imports
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-that-requires
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── public
+│   │   │   └── slash@3.0.0.js
+│   │   ├── src
+│   │   │   └── main.js
+│   │   └── vite.config.js
+│   ├── fs-serve
+│   │   ├── __tests__
+│   │   │   ├── base
+│   │   │   │   └── fs-serve-base.spec.ts
+│   │   │   ├── deny
+│   │   │   │   └── fs-serve-deny.spec.ts
+│   │   │   └── fs-serve.spec.ts
+│   │   ├── entry.js
+│   │   ├── nested
+│   │   │   └── foo.js
+│   │   ├── package.json
+│   │   ├── root
+│   │   │   ├── src
+│   │   │   │   ├── code.js
+│   │   │   │   ├── deny
+│   │   │   │   │   └── deny.txt
+│   │   │   │   ├── dummy.crt
+│   │   │   │   ├── index.html
+│   │   │   │   ├── safe.txt
+│   │   │   │   ├── special characters åäö
+│   │   │   │   │   ├── safe.json
+│   │   │   │   │   └── safe.txt
+│   │   │   │   └── subdir
+│   │   │   │       └── safe.txt
+│   │   │   ├── svgVirtualModulePlugin.ts
+│   │   │   ├── unsafe.html
+│   │   │   ├── unsafe.svg
+│   │   │   ├── unsafe.txt
+│   │   │   ├── vite.config-base.js
+│   │   │   ├── vite.config-deny.js
+│   │   │   └── vite.config.js
+│   │   ├── safe.json
+│   │   ├── unsafe.html
+│   │   └── unsafe.json
+│   ├── glob-import
+│   │   ├── __tests__
+│   │   │   └── glob-import.spec.ts
+│   │   ├── array-test-dir
+│   │   │   ├── excluded.js
+│   │   │   └── included.js
+│   │   ├── dir
+│   │   │   ├── alias.js
+│   │   │   ├── baz.json
+│   │   │   ├── foo.css
+│   │   │   ├── foo.js
+│   │   │   ├── index.js
+│   │   │   ├── nested
+│   │   │   │   └── bar.js
+│   │   │   ├── node_modules
+│   │   │   │   └── hoge.js
+│   │   │   └── quote'.js
+│   │   ├── escape
+│   │   │   ├── (parenthesis)
+│   │   │   │   ├── glob.js
+│   │   │   │   └── mod
+│   │   │   │       └── index.js
+│   │   │   ├── [brackets]
+│   │   │   │   ├── glob.js
+│   │   │   │   └── mod
+│   │   │   │       └── index.js
+│   │   │   └── {curlies}
+│   │   │       ├── glob.js
+│   │   │       └── mod
+│   │   │           └── index.js
+│   │   ├── import-meta-glob-pkg
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── imports-path
+│   │   │   ├── bar.js
+│   │   │   └── foo.js
+│   │   ├── index.html
+│   │   ├── no-tree-shake.css
+│   │   ├── package.json
+│   │   ├── pkg-pages
+│   │   │   └── foo.js
+│   │   ├── side-effect
+│   │   │   ├── writedom.js
+│   │   │   └── writetodom.js
+│   │   ├── tree-shake.css
+│   │   └── vite.config.ts
+│   ├── hmr
+│   │   ├── __tests__
+│   │   │   └── hmr.spec.ts
+│   │   ├── accept-exports
+│   │   │   ├── dynamic-imports
+│   │   │   │   ├── deps-all-accepted.ts
+│   │   │   │   ├── deps-some-accepted.ts
+│   │   │   │   ├── dynamic-imports.ts
+│   │   │   │   └── index.html
+│   │   │   ├── export-from
+│   │   │   │   ├── depA.ts
+│   │   │   │   ├── export-from.ts
+│   │   │   │   ├── hub.ts
+│   │   │   │   └── index.html
+│   │   │   ├── main-accepted
+│   │   │   │   ├── callback.ts
+│   │   │   │   ├── dep.ts
+│   │   │   │   ├── index.html
+│   │   │   │   ├── main-accepted.ts
+│   │   │   │   └── target.ts
+│   │   │   ├── main-non-accepted
+│   │   │   │   ├── default.ts
+│   │   │   │   ├── dep.ts
+│   │   │   │   ├── index.html
+│   │   │   │   ├── main-non-accepted.ts
+│   │   │   │   └── named.ts
+│   │   │   ├── reexports.bak
+│   │   │   │   ├── accept-named.ts
+│   │   │   │   ├── index.html
+│   │   │   │   ├── reexports.ts
+│   │   │   │   └── source.ts
+│   │   │   ├── side-effects
+│   │   │   │   ├── index.html
+│   │   │   │   └── side-effects.ts
+│   │   │   ├── star-imports
+│   │   │   │   ├── deps-all-accepted.ts
+│   │   │   │   ├── deps-some-accepted.ts
+│   │   │   │   ├── index.html
+│   │   │   │   └── star-imports.ts
+│   │   │   └── unused-exports
+│   │   │       ├── index.html
+│   │   │       ├── index.ts
+│   │   │       ├── unused.ts
+│   │   │       └── used.ts
+│   │   ├── circular
+│   │   │   ├── index.js
+│   │   │   ├── mod-a.js
+│   │   │   ├── mod-b.js
+│   │   │   └── mod-c.js
+│   │   ├── counter
+│   │   │   ├── dep.ts
+│   │   │   ├── index.html
+│   │   │   └── index.ts
+│   │   ├── css-deps
+│   │   │   ├── dep.js
+│   │   │   ├── index.html
+│   │   │   └── main.css
+│   │   ├── css-link
+│   │   │   ├── index.html
+│   │   │   ├── main.js
+│   │   │   ├── plugin.ts
+│   │   │   └── styles.css
+│   │   ├── customFile.js
+│   │   ├── event.d.ts
+│   │   ├── file-delete-restore
+│   │   │   ├── child.js
+│   │   │   ├── index.js
+│   │   │   ├── parent.js
+│   │   │   └── runtime.js
+│   │   ├── global.css
+│   │   ├── hmr.ts
+│   │   ├── hmrDep.js
+│   │   ├── hmrNestedDep.js
+│   │   ├── icon.png
+│   │   ├── importedVirtual.js
+│   │   ├── importing-updated
+│   │   │   ├── a.js
+│   │   │   ├── b.js
+│   │   │   └── index.js
+│   │   ├── index.html
+│   │   ├── intermediate-file-delete
+│   │   │   ├── display.js
+│   │   │   ├── index.js
+│   │   │   └── re-export.js
+│   │   ├── invalidation
+│   │   │   ├── child.js
+│   │   │   ├── parent.js
+│   │   │   └── root.js
+│   │   ├── invalidation-circular-deps
+│   │   │   ├── circular-invalidate
+│   │   │   │   ├── child.js
+│   │   │   │   └── parent.js
+│   │   │   ├── index.js
+│   │   │   └── invalidate-handled-in-circle
+│   │   │       ├── child.js
+│   │   │       └── parent.js
+│   │   ├── logo-no-inline.svg
+│   │   ├── logo.svg
+│   │   ├── missing-file
+│   │   │   ├── index.html
+│   │   │   └── main.js
+│   │   ├── missing-import
+│   │   │   ├── a.js
+│   │   │   ├── index.html
+│   │   │   └── main.js
+│   │   ├── modules.d.ts
+│   │   ├── optional-chaining
+│   │   │   ├── child.js
+│   │   │   └── parent.js
+│   │   ├── package.json
+│   │   ├── prune
+│   │   │   ├── dep1.js
+│   │   │   ├── dep2-other.js
+│   │   │   ├── dep2.js
+│   │   │   └── index.js
+│   │   ├── self-accept-within-circular
+│   │   │   ├── a.js
+│   │   │   ├── b.js
+│   │   │   ├── c.js
+│   │   │   ├── index.html
+│   │   │   └── index.js
+│   │   ├── soft-invalidation
+│   │   │   ├── child.js
+│   │   │   └── index.js
+│   │   ├── unicode-path
+│   │   │   └── 中文-にほんご-한글-🌕🌖🌗
+│   │   │       └── index.html
+│   │   └── vite.config.ts
+│   ├── hmr-root
+│   │   ├── __tests__
+│   │   │   └── hmr-root.spec.ts
+│   │   ├── foo.js
+│   │   ├── root
+│   │   │   └── index.html
+│   │   └── vite.config.ts
+│   ├── hmr-ssr
+│   │   ├── __tests__
+│   │   │   └── hmr-ssr.spec.ts
+│   │   ├── accept-exports
+│   │   │   ├── dynamic-imports
+│   │   │   │   ├── deps-all-accepted.ts
+│   │   │   │   ├── deps-some-accepted.ts
+│   │   │   │   ├── dynamic-imports.ts
+│   │   │   │   └── index.ts
+│   │   │   ├── export-from
+│   │   │   │   ├── depA.ts
+│   │   │   │   ├── export-from.ts
+│   │   │   │   ├── hub.ts
+│   │   │   │   └── index.html
+│   │   │   ├── main-accepted
+│   │   │   │   ├── callback.ts
+│   │   │   │   ├── dep.ts
+│   │   │   │   ├── index.ts
+│   │   │   │   ├── main-accepted.ts
+│   │   │   │   └── target.ts
+│   │   │   ├── main-non-accepted
+│   │   │   │   ├── default.ts
+│   │   │   │   ├── dep.ts
+│   │   │   │   ├── index.ts
+│   │   │   │   ├── main-non-accepted.ts
+│   │   │   │   └── named.ts
+│   │   │   ├── reexports.bak
+│   │   │   │   ├── accept-named.ts
+│   │   │   │   ├── index.html
+│   │   │   │   ├── reexports.ts
+│   │   │   │   └── source.ts
+│   │   │   ├── side-effects
+│   │   │   │   ├── index.ts
+│   │   │   │   └── side-effects.ts
+│   │   │   ├── star-imports
+│   │   │   │   ├── deps-all-accepted.ts
+│   │   │   │   ├── deps-some-accepted.ts
+│   │   │   │   ├── index.ts
+│   │   │   │   └── star-imports.ts
+│   │   │   └── unused-exports
+│   │   │       ├── index.html
+│   │   │       ├── index.ts
+│   │   │       ├── unused.ts
+│   │   │       └── used.ts
+│   │   ├── circular
+│   │   │   ├── index.js
+│   │   │   ├── mod-a.js
+│   │   │   ├── mod-b.js
+│   │   │   └── mod-c.js
+│   │   ├── counter
+│   │   │   ├── dep.ts
+│   │   │   └── index.ts
+│   │   ├── customFile.js
+│   │   ├── event.d.ts
+│   │   ├── file-delete-restore
+│   │   │   ├── child.js
+│   │   │   ├── index.js
+│   │   │   ├── parent.js
+│   │   │   └── runtime.js
+│   │   ├── hmr.ts
+│   │   ├── hmrDep.js
+│   │   ├── hmrNestedDep.js
+│   │   ├── importedVirtual.js
+│   │   ├── importing-updated
+│   │   │   ├── a.js
+│   │   │   ├── b.js
+│   │   │   └── index.js
+│   │   ├── intermediate-file-delete
+│   │   │   ├── display.js
+│   │   │   ├── index.js
+│   │   │   └── re-export.js
+│   │   ├── invalidation
+│   │   │   ├── child.js
+│   │   │   └── parent.js
+│   │   ├── invalidation-circular-deps
+│   │   │   ├── circular-invalidate
+│   │   │   │   ├── child.js
+│   │   │   │   └── parent.js
+│   │   │   ├── index.js
+│   │   │   └── invalidate-handled-in-circle
+│   │   │       ├── child.js
+│   │   │       └── parent.js
+│   │   ├── logo-no-inline.svg
+│   │   ├── logo.svg
+│   │   ├── missing-import
+│   │   │   ├── a.js
+│   │   │   ├── index.js
+│   │   │   └── main.js
+│   │   ├── modules.d.ts
+│   │   ├── non-tested
+│   │   │   ├── dep.js
+│   │   │   └── index.js
+│   │   ├── optional-chaining
+│   │   │   ├── child.js
+│   │   │   └── parent.js
+│   │   ├── package.json
+│   │   ├── queries
+│   │   │   ├── index.js
+│   │   │   └── multi-query.js
+│   │   ├── self-accept-within-circular
+│   │   │   ├── a.js
+│   │   │   ├── b.js
+│   │   │   ├── c.js
+│   │   │   └── index.js
+│   │   ├── soft-invalidation
+│   │   │   ├── child.js
+│   │   │   └── index.js
+│   │   ├── unresolved.ts
+│   │   └── vite.config.ts
+│   ├── html
+│   │   ├── __tests__
+│   │   │   └── html.spec.ts
+│   │   ├── a á.html
+│   │   ├── common.css
+│   │   ├── emptyAttr.html
+│   │   ├── env.html
+│   │   ├── foo.html
+│   │   ├── importmapOrder.html
+│   │   ├── index.html
+│   │   ├── inline
+│   │   │   ├── common.js
+│   │   │   ├── dep1.js
+│   │   │   ├── dep2.js
+│   │   │   ├── dep3.js
+│   │   │   ├── module-graph.dot
+│   │   │   ├── shared_a.html
+│   │   │   ├── shared-1.html
+│   │   │   ├── shared-2.html
+│   │   │   ├── shared.js
+│   │   │   ├── unique.html
+│   │   │   └── unique.js
+│   │   ├── invalid.html
+│   │   ├── invalidClick.html
+│   │   ├── invalidEscape.html
+│   │   ├── link-props
+│   │   │   ├── index.html
+│   │   │   ├── print.css
+│   │   │   └── screen.css
+│   │   ├── link.html
+│   │   ├── main.css
+│   │   ├── main.js
+│   │   ├── malformed-url.html
+│   │   ├── nested
+│   │   │   ├── asset
+│   │   │   │   ├── main.js
+│   │   │   │   └── style.css
+│   │   │   ├── index.html
+│   │   │   ├── nested.css
+│   │   │   └── nested.js
+│   │   ├── noBody.html
+│   │   ├── noHead.html
+│   │   ├── package.json
+│   │   ├── public
+│   │   │   └── sprite.svg
+│   │   ├── relative-input
+│   │   │   └── main.js
+│   │   ├── relative-input.html
+│   │   ├── scriptAsync.html
+│   │   ├── scriptMixed.html
+│   │   ├── serve
+│   │   │   ├── both
+│   │   │   │   └── index.html
+│   │   │   ├── both.html
+│   │   │   ├── file.html
+│   │   │   └── folder
+│   │   │       └── index.html
+│   │   ├── shared.js
+│   │   ├── side-effects
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   └── sideEffects.js
+│   │   ├── test.js
+│   │   ├── transform-inline-js.html
+│   │   ├── unicode-path
+│   │   │   └── 中文-にほんご-한글-🌕🌖🌗
+│   │   │       └── index.html
+│   │   ├── valid.html
+│   │   ├── valid.js
+│   │   ├── vite.config.js
+│   │   ├── warmup
+│   │   │   └── warm.js
+│   │   ├── write.html
+│   │   └── zeroJS.html
+│   ├── import-assertion
+│   │   ├── __tests__
+│   │   │   └── import-assertion.spec.ts
+│   │   ├── data.json
+│   │   ├── import-assertion-dep
+│   │   │   ├── data.json
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── index.html
+│   │   └── package.json
+│   ├── js-sourcemap
+│   │   ├── __tests__
+│   │   │   └── js-sourcemap.spec.ts
+│   │   ├── after-preload-dynamic-hashbang.js
+│   │   ├── after-preload-dynamic-no-dep.js
+│   │   ├── after-preload-dynamic.js
+│   │   ├── bar.ts
+│   │   ├── dynamic
+│   │   │   ├── dynamic-foo.css
+│   │   │   ├── dynamic-foo.js
+│   │   │   └── dynamic-no-dep.js
+│   │   ├── foo-with-sourcemap-plugin.ts
+│   │   ├── foo-with-sourcemap.js
+│   │   ├── foo.js
+│   │   ├── importee-pkg
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── plugin-foo.js
+│   │   ├── test-ssr-dev.js
+│   │   ├── vite.config.js
+│   │   ├── with-define-object-ssr.ts
+│   │   ├── with-define-object.ts
+│   │   ├── with-multiline-import.ts
+│   │   ├── zoo-with-sourcemap-plugin.ts
+│   │   └── zoo.js
+│   ├── json
+│   │   ├── __tests__
+│   │   │   └── csr
+│   │   │       └── json-csr.spec.ts
+│   │   ├── dep-json-require
+│   │   │   ├── content.json
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── hmr.json
+│   │   ├── index.html
+│   │   ├── json-bom
+│   │   │   └── has-bom.json
+│   │   ├── json-module
+│   │   │   ├── index.json
+│   │   │   └── package.json
+│   │   ├── package.json
+│   │   ├── public
+│   │   │   └── public.json
+│   │   └── test.json
+│   ├── legacy
+│   │   ├── __tests__
+│   │   │   ├── client-and-ssr
+│   │   │   │   ├── legacy-client-legacy-ssr-sequential-builds.spec.ts
+│   │   │   │   └── serve.ts
+│   │   │   ├── legacy.spec.ts
+│   │   │   ├── no-polyfills
+│   │   │   │   └── legacy-no-polyfills.spec.ts
+│   │   │   ├── no-polyfills-no-systemjs
+│   │   │   │   └── legacy-no-polyfills-no-systemjs.spec.ts
+│   │   │   ├── ssr
+│   │   │   │   ├── legacy-ssr.spec.ts
+│   │   │   │   └── serve.ts
+│   │   │   └── watch
+│   │   │       └── legacy-styles-only-entry-watch.spec.ts
+│   │   ├── async.js
+│   │   ├── custom0.js
+│   │   ├── custom1.js
+│   │   ├── custom2.js
+│   │   ├── dynamic.css
+│   │   ├── entry-server-sequential.js
+│   │   ├── entry-server.js
+│   │   ├── immutable-chunk.js
+│   │   ├── index.html
+│   │   ├── main.js
+│   │   ├── module.js
+│   │   ├── nested
+│   │   │   └── index.html
+│   │   ├── no-polyfills-no-systemjs.html
+│   │   ├── no-polyfills-no-systemjs.js
+│   │   ├── no-polyfills.html
+│   │   ├── no-polyfills.js
+│   │   ├── package.json
+│   │   ├── style-only-entry.css
+│   │   ├── style.css
+│   │   ├── vite.config-custom-filename.js
+│   │   ├── vite.config-multiple-output.js
+│   │   ├── vite.config-no-polyfills-no-systemjs.js
+│   │   ├── vite.config-no-polyfills.js
+│   │   ├── vite.config-watch.js
+│   │   ├── vite.config.js
+│   │   ├── vite.svg
+│   │   └── worker.js
+│   ├── lib
+│   │   ├── __tests__
+│   │   │   ├── lib.spec.ts
+│   │   │   └── serve.ts
+│   │   ├── index.dist.html
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── src
+│   │   │   ├── css-entry-1.js
+│   │   │   ├── css-entry-2.js
+│   │   │   ├── dynamic.css
+│   │   │   ├── entry-1.css
+│   │   │   ├── entry-2.css
+│   │   │   ├── index.css
+│   │   │   ├── main-helpers-injection.js
+│   │   │   ├── main-multiple-output.js
+│   │   │   ├── main-named.js
+│   │   │   ├── main.js
+│   │   │   ├── main2.js
+│   │   │   ├── message.js
+│   │   │   └── sub-multiple-output.js
+│   │   ├── vite.config.js
+│   │   ├── vite.css-code-split.config.js
+│   │   ├── vite.css-multi-entry.config.js
+│   │   ├── vite.css-single-entry.config.js
+│   │   ├── vite.dyimport.config.js
+│   │   ├── vite.helpers-injection.config.js
+│   │   ├── vite.multiple-output.config.js
+│   │   ├── vite.named-exports.config.js
+│   │   ├── vite.nominify.config.js
+│   │   └── vite.terser.config.js
+│   ├── minify
+│   │   ├── __tests__
+│   │   │   └── minify.spec.ts
+│   │   ├── dir
+│   │   │   └── module
+│   │   │       ├── index.css
+│   │   │       ├── index.js
+│   │   │       └── package.json
+│   │   ├── index.html
+│   │   ├── main.js
+│   │   ├── package.json
+│   │   ├── test.css
+│   │   └── vite.config.js
+│   ├── module-graph
+│   │   ├── __tests__
+│   │   │   └── module-graph.spec.ts
+│   │   ├── empty.js
+│   │   ├── imported-urls-order.js
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   └── vite.config.ts
+│   ├── multiple-entrypoints
+│   │   ├── __tests__
+│   │   │   └── multiple-entrypoints.spec.ts
+│   │   ├── deps.json
+│   │   ├── dynamic-a.js
+│   │   ├── dynamic-b.js
+│   │   ├── entrypoints
+│   │   │   ├── a0.js
+│   │   │   ├── a1.js
+│   │   │   ├── a10.js
+│   │   │   ├── a11.js
+│   │   │   ├── a12.js
+│   │   │   ├── a13.js
+│   │   │   ├── a14.js
+│   │   │   ├── a15.js
+│   │   │   ├── a16.js
+│   │   │   ├── a17.js
+│   │   │   ├── a18.js
+│   │   │   ├── a19.js
+│   │   │   ├── a2.js
+│   │   │   ├── a20.js
+│   │   │   ├── a21.js
+│   │   │   ├── a22.js
+│   │   │   ├── a23.js
+│   │   │   ├── a24.js
+│   │   │   ├── a3.js
+│   │   │   ├── a4.js
+│   │   │   ├── a5.js
+│   │   │   ├── a6.js
+│   │   │   ├── a7.js
+│   │   │   ├── a8.js
+│   │   │   └── a9.js
+│   │   ├── index.html
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   ├── reference.js
+│   │   ├── reference.scss
+│   │   └── vite.config.js
+│   ├── nested-deps
+│   │   ├── __tests__
+│   │   │   └── nested-deps.spec.ts
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── test-package-a
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── test-package-b
+│   │   │   ├── index.js
+│   │   │   ├── node_modules
+│   │   │   │   └── test-package-a
+│   │   │   │       ├── index.js
+│   │   │   │       └── package.json
+│   │   │   └── package.json
+│   │   ├── test-package-c
+│   │   │   ├── index-es.js
+│   │   │   ├── index.js
+│   │   │   ├── package.json
+│   │   │   └── side.js
+│   │   ├── test-package-d
+│   │   │   ├── index.js
+│   │   │   ├── package.json
+│   │   │   └── test-package-d-nested
+│   │   │       ├── index.js
+│   │   │       └── package.json
+│   │   ├── test-package-e
+│   │   │   ├── index.js
+│   │   │   ├── package.json
+│   │   │   ├── test-package-e-excluded
+│   │   │   │   ├── index.js
+│   │   │   │   └── package.json
+│   │   │   └── test-package-e-included
+│   │   │       ├── index.js
+│   │   │       └── package.json
+│   │   ├── test-package-f
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   └── vite.config.js
+│   ├── object-hooks
+│   │   ├── __tests__
+│   │   │   └── object-hooks.spec.ts
+│   │   ├── index.html
+│   │   ├── main.ts
+│   │   ├── package.json
+│   │   └── vite.config.ts
+│   ├── optimize-deps
+│   │   ├── __tests__
+│   │   │   └── optimize-deps.spec.ts
+│   │   ├── added-in-entries
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── cjs-dynamic.js
+│   │   ├── cjs.js
+│   │   ├── dedupe.js
+│   │   ├── dep-alias-using-absolute-path
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-cjs-browser-field-bare
+│   │   │   ├── events-shim.js
+│   │   │   ├── index.js
+│   │   │   ├── internal.js
+│   │   │   └── package.json
+│   │   ├── dep-cjs-compiled-from-cjs
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-cjs-compiled-from-esm
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-cjs-external-package-omit-js-suffix
+│   │   │   ├── index.js
+│   │   │   ├── package.json
+│   │   │   ├── test.astro.js
+│   │   │   ├── test.okay.js
+│   │   │   ├── test.scss.js
+│   │   │   └── test.tsx.js
+│   │   ├── dep-cjs-with-assets
+│   │   │   ├── foo.css
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-cjs-with-external-deps
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-css-require
+│   │   │   ├── index.cjs
+│   │   │   ├── mod.cjs
+│   │   │   ├── mod.module.css
+│   │   │   ├── package.json
+│   │   │   └── style.css
+│   │   ├── dep-esbuild-plugin-transform
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-esm-dummy-node-builtin
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-esm-external
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-incompatible
+│   │   │   ├── index.js
+│   │   │   ├── package.json
+│   │   │   └── sub.js
+│   │   ├── dep-linked
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-linked-include
+│   │   │   ├── foo.js
+│   │   │   ├── index.mjs
+│   │   │   ├── package.json
+│   │   │   ├── test.css
+│   │   │   └── Test.vue
+│   │   ├── dep-node-env
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-non-optimized
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-not-js
+│   │   │   ├── foo.js
+│   │   │   ├── index.notjs
+│   │   │   └── package.json
+│   │   ├── dep-optimize-exports-with-glob
+│   │   │   ├── glob
+│   │   │   │   ├── bar.js
+│   │   │   │   ├── foo.js
+│   │   │   │   └── nested
+│   │   │   │       └── baz.js
+│   │   │   ├── index.js
+│   │   │   ├── named.js
+│   │   │   └── package.json
+│   │   ├── dep-optimize-exports-with-root-glob
+│   │   │   ├── dir
+│   │   │   │   └── file2.js
+│   │   │   ├── file1.js
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-optimize-with-glob
+│   │   │   ├── glob
+│   │   │   │   ├── bar.js
+│   │   │   │   ├── foo.js
+│   │   │   │   └── nested
+│   │   │   │       └── baz.js
+│   │   │   ├── index.js
+│   │   │   ├── named.js
+│   │   │   └── package.json
+│   │   ├── dep-relative-to-main
+│   │   │   ├── entry.js
+│   │   │   ├── lib
+│   │   │   │   └── main.js
+│   │   │   └── package.json
+│   │   ├── dep-source-map-no-sources
+│   │   │   ├── all.js
+│   │   │   ├── package.json
+│   │   │   └── sub.js
+│   │   ├── dep-with-asset-ext
+│   │   │   ├── dep1
+│   │   │   │   ├── index.mjs
+│   │   │   │   └── package.json
+│   │   │   └── dep2
+│   │   │       ├── index.js
+│   │   │       └── package.json
+│   │   ├── dep-with-builtin-module-cjs
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-with-builtin-module-esm
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-with-dynamic-import
+│   │   │   ├── dynamic.js
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-with-optional-peer-dep
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-with-optional-peer-dep-cjs
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-with-optional-peer-dep-submodule
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dynamic-use-dep-alias-using-absolute-path.js
+│   │   ├── generics.vue
+│   │   ├── glob
+│   │   │   └── foo.js
+│   │   ├── index.astro
+│   │   ├── index.html
+│   │   ├── long-file-name.js
+│   │   ├── longfilename
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── nested-exclude
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── nested-include
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── non-optimizable-include
+│   │   │   ├── index.css
+│   │   │   └── package.json
+│   │   ├── package.json
+│   │   ├── unused-split-entry.js
+│   │   └── vite.config.js
+│   ├── optimize-deps-no-discovery
+│   │   ├── __tests__
+│   │   │   └── optimize-deps-no-discovery.spec.ts
+│   │   ├── dep-no-discovery
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   └── vite.config.js
+│   ├── optimize-missing-deps
+│   │   ├── __test__
+│   │   │   ├── optimize-missing-deps.spec.ts
+│   │   │   └── serve.ts
+│   │   ├── index.html
+│   │   ├── main.js
+│   │   ├── missing-dep
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── multi-entry-dep
+│   │   │   ├── index.browser.js
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── package.json
+│   │   └── server.js
+│   ├── package.json
+│   ├── preload
+│   │   ├── __tests__
+│   │   │   ├── preload-disabled
+│   │   │   │   └── preload-disabled.spec.ts
+│   │   │   ├── preload.spec.ts
+│   │   │   └── resolve-deps
+│   │   │       └── preload-resolve-deps.spec.ts
+│   │   ├── dep-a
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dep-including-a
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── public
+│   │   │   └── preloaded.js
+│   │   ├── src
+│   │   │   ├── about.js
+│   │   │   ├── chunk.js
+│   │   │   ├── hello.js
+│   │   │   ├── hello.module.css
+│   │   │   └── main.js
+│   │   ├── vite.config-preload-disabled.js
+│   │   ├── vite.config-resolve-deps.js
+│   │   └── vite.config.ts
+│   ├── preserve-symlinks
+│   │   ├── __tests__
+│   │   │   └── preserve-symlinks.spec.ts
+│   │   ├── index.html
+│   │   ├── module-a
+│   │   │   ├── linked.js -> ./src/index.js
+│   │   │   ├── package.json
+│   │   │   └── src
+│   │   │       ├── data.js
+│   │   │       └── index.js
+│   │   ├── package.json
+│   │   └── src
+│   │       └── main.js
+│   ├── proxy-bypass
+│   │   ├── __tests__
+│   │   │   └── proxy-bypass.spec.ts
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   └── vite.config.js
+│   ├── proxy-hmr
+│   │   ├── __tests__
+│   │   │   ├── proxy-hmr.spec.ts
+│   │   │   └── serve.ts
+│   │   ├── index.html
+│   │   ├── other-app
+│   │   │   ├── index.html
+│   │   │   ├── package.json
+│   │   │   └── vite.config.js
+│   │   ├── package.json
+│   │   └── vite.config.js
+│   ├── resolve
+│   │   ├── __tests__
+│   │   │   ├── mainfields-custom-first
+│   │   │   │   └── resolve-mainfields-custom-first.spec.ts
+│   │   │   └── resolve.spec.ts
+│   │   ├── absolute.js
+│   │   ├── browser-field
+│   │   │   ├── bare-import.js
+│   │   │   ├── multiple.dot.path.js
+│   │   │   ├── no-ext-index
+│   │   │   │   └── index.js
+│   │   │   ├── no-ext.js
+│   │   │   ├── not-browser.js
+│   │   │   ├── out
+│   │   │   │   ├── cjs.node.js
+│   │   │   │   └── esm.browser.js
+│   │   │   ├── package.json
+│   │   │   └── relative.js
+│   │   ├── browser-field-bare-import-fail
+│   │   │   ├── main.js
+│   │   │   ├── module.js
+│   │   │   └── package.json
+│   │   ├── browser-field-bare-import-success
+│   │   │   ├── main.js
+│   │   │   ├── module.js
+│   │   │   └── package.json
+│   │   ├── browser-module-field1
+│   │   │   ├── index.js
+│   │   │   ├── index.web.js
+│   │   │   └── package.json
+│   │   ├── browser-module-field2
+│   │   │   ├── index.js
+│   │   │   ├── index.web.js
+│   │   │   └── package.json
+│   │   ├── browser-module-field3
+│   │   │   ├── index.js
+│   │   │   ├── index.web.js
+│   │   │   └── package.json
+│   │   ├── config-dep.cjs
+│   │   ├── custom-browser-main-field
+│   │   │   ├── index.browser.js
+│   │   │   ├── index.custom.js
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── custom-condition
+│   │   │   ├── index.custom.js
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── custom-ext.es
+│   │   ├── custom-main-field
+│   │   │   ├── index.custom.js
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── dir
+│   │   │   └── index.js
+│   │   ├── dir-with-ext
+│   │   │   └── index.js
+│   │   ├── dir-with-ext.js
+│   │   │   └── empty
+│   │   ├── dir.js
+│   │   ├── drive-relative.js
+│   │   ├── exact-extension
+│   │   │   ├── file.js
+│   │   │   ├── file.js.js
+│   │   │   └── file.json.js
+│   │   ├── exports-and-nested-scope
+│   │   │   ├── index.js
+│   │   │   ├── nested-scope
+│   │   │   │   ├── file.js
+│   │   │   │   └── package.json
+│   │   │   └── package.json
+│   │   ├── exports-env
+│   │   │   ├── browser.js
+│   │   │   ├── browser.mjs
+│   │   │   ├── browser.prod.mjs
+│   │   │   ├── fallback.umd.js
+│   │   │   └── package.json
+│   │   ├── exports-from-root
+│   │   │   ├── file.js
+│   │   │   ├── index.js
+│   │   │   ├── nested
+│   │   │   │   ├── file.js
+│   │   │   │   └── package.json
+│   │   │   └── package.json
+│   │   ├── exports-legacy-fallback
+│   │   │   ├── dir
+│   │   │   │   ├── index.js
+│   │   │   │   ├── index.mjs
+│   │   │   │   └── package.json
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── exports-path
+│   │   │   ├── cjs.js
+│   │   │   ├── deep.js
+│   │   │   ├── deep.json
+│   │   │   ├── dir
+│   │   │   │   └── dir.js
+│   │   │   ├── main.js
+│   │   │   └── package.json
+│   │   ├── exports-with-module
+│   │   │   ├── import.mjs
+│   │   │   ├── module.mjs
+│   │   │   └── package.json
+│   │   ├── exports-with-module-condition
+│   │   │   ├── index.esm.js
+│   │   │   ├── index.js
+│   │   │   ├── index.mjs
+│   │   │   └── package.json
+│   │   ├── exports-with-module-condition-required
+│   │   │   ├── index.cjs
+│   │   │   └── package.json
+│   │   ├── file-url.js
+│   │   ├── imports-path
+│   │   │   ├── importer.js
+│   │   │   ├── nested-path.js
+│   │   │   ├── other-pkg
+│   │   │   │   ├── nest
+│   │   │   │   │   └── index.js
+│   │   │   │   └── package.json
+│   │   │   ├── query.json
+│   │   │   ├── same-level.js
+│   │   │   ├── slash
+│   │   │   │   └── index.js
+│   │   │   ├── star
+│   │   │   │   └── index.js
+│   │   │   └── top-level.js
+│   │   ├── index.html
+│   │   ├── inline-package
+│   │   │   ├── inline.js
+│   │   │   └── package.json
+│   │   ├── non-normalized.js
+│   │   ├── package.json
+│   │   ├── public
+│   │   │   └── should-not-be-copied
+│   │   ├── require-pkg-with-module-field
+│   │   │   ├── dep.cjs
+│   │   │   ├── index.cjs
+│   │   │   └── package.json
+│   │   ├── sharp-dir
+│   │   │   ├── index.cjs
+│   │   │   └── package.json
+│   │   ├── side-effects-glob
+│   │   │   ├── effects
+│   │   │   │   └── file.js
+│   │   │   ├── index.js
+│   │   │   ├── no-effect.js
+│   │   │   └── package.json
+│   │   ├── style.css
+│   │   ├── ts-extension
+│   │   │   ├── hello.ts
+│   │   │   ├── hellocjs.cts
+│   │   │   ├── hellojsx.tsx
+│   │   │   ├── hellomjs.mts
+│   │   │   ├── hellotsx.tsx
+│   │   │   ├── index-js.js
+│   │   │   └── index.ts
+│   │   ├── utf8-bom
+│   │   │   └── main.js
+│   │   ├── utf8-bom-package
+│   │   │   ├── index.mjs
+│   │   │   └── package.json
+│   │   ├── util
+│   │   │   ├── bar.util.js
+│   │   │   └── index.js
+│   │   ├── vite.config-mainfields-custom-first.js
+│   │   └── vite.config.js
+│   ├── resolve-linked
+│   │   ├── dep.js
+│   │   ├── package.json
+│   │   └── src
+│   │       └── index.js
+│   ├── self-referencing
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   └── test
+│   │       └── index.js
+│   ├── shims.d.ts
+│   ├── ssr
+│   │   ├── __tests__
+│   │   │   ├── serve.ts
+│   │   │   └── ssr.spec.ts
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── server.js
+│   │   ├── src
+│   │   │   ├── app.js
+│   │   │   ├── circular-dep-init
+│   │   │   │   ├── circular-dep-init.js
+│   │   │   │   ├── module-a.js
+│   │   │   │   ├── module-b.js
+│   │   │   │   └── README.md
+│   │   │   ├── circular-import
+│   │   │   │   ├── a.js
+│   │   │   │   ├── b.js
+│   │   │   │   └── index.js
+│   │   │   ├── circular-import2
+│   │   │   │   ├── a.js
+│   │   │   │   ├── b.js
+│   │   │   │   └── index.js
+│   │   │   ├── forked-deadlock
+│   │   │   │   ├── common-module.js
+│   │   │   │   ├── deadlock-fuse-module.js
+│   │   │   │   ├── dynamic-imports
+│   │   │   │   │   ├── common-module.js
+│   │   │   │   │   ├── deadlock-fuse-module.js
+│   │   │   │   │   ├── fuse-stuck-bridge-module.js
+│   │   │   │   │   ├── middle-module.js
+│   │   │   │   │   └── stuck-module.js
+│   │   │   │   ├── fuse-stuck-bridge-module.js
+│   │   │   │   ├── middle-module.js
+│   │   │   │   ├── README.md
+│   │   │   │   └── stuck-module.js
+│   │   │   └── utils.js
+│   │   └── vite.config.ts
+│   ├── ssr-alias
+│   │   ├── __tests__
+│   │   │   └── ssr-alias.spec.ts
+│   │   ├── alias-original
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── package.json
+│   │   ├── src
+│   │   │   ├── alias-process.js
+│   │   │   ├── alias-replaced.js
+│   │   │   └── main.js
+│   │   └── vite.config.js
+│   ├── ssr-conditions
+│   │   ├── __tests__
+│   │   │   ├── serve.ts
+│   │   │   └── ssr-conditions.spec.ts
+│   │   ├── external
+│   │   │   ├── browser.js
+│   │   │   ├── default.js
+│   │   │   ├── edge.js
+│   │   │   ├── node.js
+│   │   │   ├── node.unbundled.js
+│   │   │   └── package.json
+│   │   ├── index.html
+│   │   ├── no-external
+│   │   │   ├── browser.js
+│   │   │   ├── default.js
+│   │   │   ├── edge.js
+│   │   │   ├── node.js
+│   │   │   ├── node.unbundled.js
+│   │   │   └── package.json
+│   │   ├── package.json
+│   │   ├── server.js
+│   │   ├── src
+│   │   │   └── app.js
+│   │   └── vite.config.js
+│   ├── ssr-deps
+│   │   ├── __tests__
+│   │   │   ├── serve.ts
+│   │   │   └── ssr-deps.spec.ts
+│   │   ├── css-lib
+│   │   │   ├── index.css
+│   │   │   └── package.json
+│   │   ├── define-properties-exports
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── define-property-exports
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── external-entry
+│   │   │   ├── entry.js
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── external-using-external-entry
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── forwarded-export
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── import-builtin-cjs
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── index.html
+│   │   ├── linked-no-external
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── message
+│   │   ├── module-condition
+│   │   │   ├── import.mjs
+│   │   │   ├── module.js
+│   │   │   └── package.json
+│   │   ├── nested-exclude
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── nested-external
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── nested-external-cjs
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── nested-include
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── no-external-cjs
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── no-external-css
+│   │   │   ├── index.css
+│   │   │   └── package.json
+│   │   ├── non-optimized-with-nested-external
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── object-assigned-exports
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── only-object-assigned-exports
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── optimized-cjs-with-nested-external
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── optimized-with-nested-external
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── package.json
+│   │   ├── pkg-exports
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── primitive-export
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── read-file-content
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── require-absolute
+│   │   │   ├── foo.js
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── server.js
+│   │   ├── src
+│   │   │   ├── app.js
+│   │   │   ├── isomorphic-module-browser.js
+│   │   │   └── isomorphic-module-server.js
+│   │   └── ts-transpiled-exports
+│   │       ├── index.js
+│   │       └── package.json
+│   ├── ssr-html
+│   │   ├── __tests__
+│   │   │   ├── serve.ts
+│   │   │   └── ssr-html.spec.ts
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── public
+│   │   │   └── slash@3.0.0.js
+│   │   ├── server.js
+│   │   ├── src
+│   │   │   ├── app.js
+│   │   │   ├── error-js.js
+│   │   │   ├── error-ts.ts
+│   │   │   ├── has-error-deep.ts
+│   │   │   ├── importedVirtual.js
+│   │   │   └── network-imports.js
+│   │   ├── test-network-imports.js
+│   │   ├── test-stacktrace-runtime.js
+│   │   └── test-stacktrace.js
+│   ├── ssr-noexternal
+│   │   ├── __tests__
+│   │   │   ├── serve.ts
+│   │   │   └── ssr-noexternal.spec.ts
+│   │   ├── external-cjs
+│   │   │   ├── import.mjs
+│   │   │   ├── package.json
+│   │   │   └── require.cjs
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── require-external-cjs
+│   │   │   ├── main.js
+│   │   │   └── package.json
+│   │   ├── server.js
+│   │   ├── src
+│   │   │   └── entry-server.js
+│   │   └── vite.config.js
+│   ├── ssr-pug
+│   │   ├── __tests__
+│   │   │   ├── serve.ts
+│   │   │   └── ssr-pug.spec.ts
+│   │   ├── index.pug
+│   │   ├── package.json
+│   │   ├── server.js
+│   │   └── src
+│   │       └── app.js
+│   ├── ssr-resolve
+│   │   ├── __tests__
+│   │   │   └── ssr-resolve.spec.ts
+│   │   ├── deep-import
+│   │   │   ├── bar
+│   │   │   │   └── package.json
+│   │   │   ├── foo
+│   │   │   │   ├── index.js
+│   │   │   │   └── package.json
+│   │   │   ├── index.js
+│   │   │   ├── package.json
+│   │   │   └── utils
+│   │   │       └── bar.js
+│   │   ├── entries
+│   │   │   ├── dir
+│   │   │   │   └── index.js
+│   │   │   ├── file.js
+│   │   │   └── package.json
+│   │   ├── main.js
+│   │   ├── package.json
+│   │   ├── pkg-exports
+│   │   │   ├── entry.js
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── pkg-module-sync
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── util.js
+│   │   └── vite.config.js
+│   ├── ssr-webworker
+│   │   ├── __tests__
+│   │   │   ├── serve.ts
+│   │   │   └── ssr-webworker.spec.ts
+│   │   ├── browser-exports
+│   │   │   ├── browser.js
+│   │   │   ├── node.js
+│   │   │   └── package.json
+│   │   ├── package.json
+│   │   ├── src
+│   │   │   ├── dynamic.js
+│   │   │   └── entry-worker.jsx
+│   │   ├── vite.config.js
+│   │   ├── worker-exports
+│   │   │   ├── browser.js
+│   │   │   ├── node.js
+│   │   │   ├── package.json
+│   │   │   └── worker.js
+│   │   └── worker.js
+│   ├── tailwind
+│   │   ├── __test__
+│   │   │   └── tailwind.spec.ts
+│   │   ├── index.css
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── public
+│   │   │   └── favicon.ico
+│   │   ├── src
+│   │   │   ├── components
+│   │   │   │   └── component1.js
+│   │   │   ├── main.js
+│   │   │   └── views
+│   │   │       └── view1.js
+│   │   ├── tailwind.config.ts
+│   │   └── vite.config.ts
+│   ├── tailwind-sourcemap
+│   │   ├── __tests__
+│   │   │   └── tailwind-sourcemap.spec.ts
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── postcss.config.js
+│   │   ├── tailwind.css
+│   │   └── vite.config.js
+│   ├── tailwind-v3
+│   │   ├── __test__
+│   │   │   └── tailwind-v3.spec.ts
+│   │   ├── index.css
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── postcss.config.js
+│   │   ├── src
+│   │   │   ├── components
+│   │   │   │   └── component1.js
+│   │   │   ├── main.js
+│   │   │   └── views
+│   │   │       └── view1.js
+│   │   ├── tailwind.config.ts
+│   │   └── vite.config.ts
+│   ├── test-utils.ts
+│   ├── transform-plugin
+│   │   ├── __tests__
+│   │   │   ├── base
+│   │   │   │   └── transform-plugin.spec.ts
+│   │   │   ├── tests.ts
+│   │   │   └── transform-plugin.spec.ts
+│   │   ├── index.html
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   ├── plugin-dep-load.js
+│   │   ├── plugin-dep.js
+│   │   ├── vite.config-base.js
+│   │   └── vite.config.js
+│   ├── tsconfig-json
+│   │   ├── __tests__
+│   │   │   └── tsconfig-json.spec.ts
+│   │   ├── index.html
+│   │   ├── nested
+│   │   │   ├── main.ts
+│   │   │   ├── not-used-type.ts
+│   │   │   └── tsconfig.json
+│   │   ├── nested-with-extends
+│   │   │   ├── main.ts
+│   │   │   ├── not-used-type.ts
+│   │   │   └── tsconfig.json
+│   │   ├── package.json
+│   │   ├── src
+│   │   │   ├── decorator.ts
+│   │   │   ├── main.ts
+│   │   │   └── not-used-type.ts
+│   │   └── tsconfig.json
+│   ├── tsconfig-json-load-error
+│   │   ├── __tests__
+│   │   │   ├── serve.ts
+│   │   │   └── tsconfig-json-load-error.spec.ts
+│   │   ├── has-error
+│   │   │   ├── main.ts
+│   │   │   └── tsconfig.json
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── src
+│   │   │   └── main.ts
+│   │   └── tsconfig.json
+│   ├── tsconfig.json
+│   ├── vitestGlobalSetup.ts
+│   ├── vitestSetup.ts
+│   ├── wasm
+│   │   ├── __tests__
+│   │   │   └── wasm.spec.ts
+│   │   ├── add.wasm
+│   │   ├── heavy.wasm
+│   │   ├── heavy.wasm.map
+│   │   ├── index.html
+│   │   ├── light.wasm
+│   │   ├── package.json
+│   │   ├── vite.config.ts
+│   │   └── worker.js
+│   └── worker
+│       ├── __tests__
+│       │   ├── es
+│       │   │   └── worker-es.spec.ts
+│       │   ├── iife
+│       │   │   └── worker-iife.spec.ts
+│       │   ├── relative-base
+│       │   │   └── worker-relative-base.spec.ts
+│       │   ├── relative-base-iife
+│       │   │   └── worker-relative-base-iife.spec.ts
+│       │   ├── sourcemap
+│       │   │   └── worker-sourcemap.spec.ts
+│       │   ├── sourcemap-hidden
+│       │   │   └── worker-sourcemap-hidden.spec.ts
+│       │   └── sourcemap-inline
+│       │       └── worker-sourcemap-inline.spec.ts
+│       ├── classic-esm.js
+│       ├── classic-shared-worker.js
+│       ├── classic-worker.js
+│       ├── deeply-nested-second-worker.js
+│       ├── deeply-nested-third-worker.js
+│       ├── deeply-nested-worker.js
+│       ├── dep-cjs
+│       │   ├── index.cjs
+│       │   └── package.json
+│       ├── dep-self-reference-url-worker
+│       │   ├── index.js
+│       │   ├── package.json
+│       │   └── worker.js
+│       ├── dep-to-optimize
+│       │   ├── index.js
+│       │   └── package.json
+│       ├── emit-chunk-dynamic-import-worker.js
+│       ├── emit-chunk-nested-worker.js
+│       ├── emit-chunk-sub-worker.js
+│       ├── importMetaGlob.worker.js
+│       ├── importMetaGlobEager.worker.js
+│       ├── index.html
+│       ├── module-and-worker.js
+│       ├── modules
+│       │   ├── module0.js
+│       │   ├── module1.js
+│       │   ├── module2.js
+│       │   ├── module3.js
+│       │   ├── test-plugin.js
+│       │   └── workerImport.ts
+│       ├── my-inline-shared-worker.ts
+│       ├── my-shared-worker.ts
+│       ├── my-worker.ts
+│       ├── package.json
+│       ├── possible-ts-output-worker.mjs
+│       ├── public
+│       │   └── classic.js
+│       ├── self-reference-url-worker.js
+│       ├── self-reference-worker.js
+│       ├── simple-worker.js
+│       ├── sub-worker.js
+│       ├── url-shared-worker.js
+│       ├── url-worker.js
+│       ├── vite.config-es.js
+│       ├── vite.config-iife.js
+│       ├── vite.config-relative-base-iife.js
+│       ├── vite.config-relative-base.js
+│       ├── vite.config-sourcemap-hidden.js
+│       ├── vite.config-sourcemap-inline.js
+│       ├── vite.config-sourcemap.js
+│       ├── vite.svg
+│       ├── worker
+│       │   ├── main-classic.js
+│       │   ├── main-deeply-nested.js
+│       │   ├── main-format-es.js
+│       │   ├── main-module.js
+│       │   ├── main-url.js
+│       │   └── main.js
+│       ├── worker-nested-worker.js
+│       ├── worker-plugin-test-plugin.js
+│       └── worker-sourcemap-config.js
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── README.md
+├── scripts
+│   ├── docs-check.sh
+│   ├── publishCI.ts
+│   ├── release.ts
+│   ├── releaseUtils.ts
+│   ├── sync-docs.js
+│   └── tsconfig.json
+├── terminal-cmds.md
+├── vite-file-structure.txt
+├── vitest.config.e2e.ts
+└── vitest.config.ts
+
+737 directories, 2322 files
