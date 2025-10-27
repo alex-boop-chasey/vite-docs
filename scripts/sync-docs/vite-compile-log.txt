@@ -1,0 +1,2453 @@
+
+🎉 Compilation complete!
+✅ Files processed: 1829
+⏭ Files skipped: 616
+🕒 Duration: 1.73s
+📝 Output: /Users/home/Sites/docs/vite-docs/scripts/sync-docs/compiled-docs.txt
+🗜  Zipped: /Users/home/Sites/docs/vite-docs/scripts/sync-docs/compiled-docs.txt.zip
+
+⏭ Skipped (ext): .DS_Store
+⏭ Skipped (ext): .editorconfig
+⏭ Skipped (ext): .git-blame-ignore-revs
+⏭ Skipped (ext): .gitattributes
+✅ Processed: .github/ISSUE_TEMPLATE/bug_report.yml
+✅ Processed: .github/ISSUE_TEMPLATE/config.yml
+✅ Processed: .github/ISSUE_TEMPLATE/docs.yml
+✅ Processed: .github/ISSUE_TEMPLATE/feature_request.yml
+✅ Processed: .github/PULL_REQUEST_TEMPLATE.md
+✅ Processed: .github/commit-convention.md
+✅ Processed: .github/copilot-instructions.md
+⏭ Skipped (ext): .github/renovate.json5
+✅ Processed: .github/workflows/ci.yml
+✅ Processed: .github/workflows/copilot-setup-steps.yml
+✅ Processed: .github/workflows/ecosystem-ci-trigger.yml
+✅ Processed: .github/workflows/issue-close-require.yml
+✅ Processed: .github/workflows/issue-labeled.yml
+✅ Processed: .github/workflows/lock-closed-issues.yml
+✅ Processed: .github/workflows/preview-release.yml
+✅ Processed: .github/workflows/publish.yml
+✅ Processed: .github/workflows/release-tag.yml
+✅ Processed: .github/workflows/semantic-pull-request.yml
+⏭ Skipped (ext): .gitignore
+⏭ Skipped (ext): .prettierignore
+✅ Processed: .prettierrc.json
+✅ Processed: .stackblitz/codeflow.json
+✅ Processed: CODE_OF_CONDUCT.md
+✅ Processed: CONTRIBUTING.md
+⏭ Skipped (ext): LICENSE
+✅ Processed: README.md
+✅ Processed: docs/.vitepress/buildEnd.config.ts
+✅ Processed: docs/.vitepress/config.ts
+✅ Processed: docs/.vitepress/inlined-scripts/banner.d.ts
+✅ Processed: docs/.vitepress/inlined-scripts/banner.js
+⏭ Skipped (ext): docs/.vitepress/theme/components/AsideSponsors.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/BlogIndex.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/NonInheritBadge.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/SponsorBanner.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/SvgImage.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/YouTubeVideo.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/1. hero-section/HeroDiagram.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/1. hero-section/HeroSection.vue
+⏭ Skipped: docs/.vitepress/theme/components/landing/1. hero-section/github.svg
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/1. hero-section/svg-elements/SvgBlueIndicator.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/1. hero-section/svg-elements/SvgInputs.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/1. hero-section/svg-elements/SvgOutputs.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/1. hero-section/svg-elements/SvgPinkIndicator.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/2. feature-section/FeatureCI.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/2. feature-section/FeatureFlexiblePlugins.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/2. feature-section/FeatureHMR.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/2. feature-section/FeatureInstantServerStart.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/2. feature-section/FeatureOptimizedBuild.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/2. feature-section/FeatureRichFeatures.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/2. feature-section/FeatureSSRSupport.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/2. feature-section/FeatureSection.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/2. feature-section/FeatureTypedAPI.vue
+⏭ Skipped: docs/.vitepress/theme/components/landing/2. feature-section/images/css3.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/2. feature-section/images/js.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/2. feature-section/images/json.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/2. feature-section/images/postcss.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/2. feature-section/images/ts.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/2. feature-section/images/wa.svg
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/3. frameworks-section/FrameworkCard.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/3. frameworks-section/FrameworksSection.vue
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/adonis.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/analog.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/angular.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/astro.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/ember.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/hono.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/laravel.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/marko.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/nuxt.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/playwright.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/preact.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/qwik.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/react.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/redwood.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/remix.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/solid.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/storybook.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/svelte.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/vitest.svg
+⏭ Skipped: docs/.vitepress/theme/components/landing/3. frameworks-section/images/vue.svg
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/4. community-section/CommunityCard.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/4. community-section/CommunitySection.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/5. sponsor-section/SponsorSection.vue
+⏭ Skipped: docs/.vitepress/theme/components/landing/5. sponsor-section/heart.svg
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/6. get-started-section/GetStartedSection.vue
+⏭ Skipped (ext): docs/.vitepress/theme/components/landing/common/SvgNode.vue
+⏭ Skipped: docs/.vitepress/theme/components/landing/common/noise.webp
+⏭ Skipped: docs/.vitepress/theme/composables/images/astro.svg
+⏭ Skipped: docs/.vitepress/theme/composables/images/bolt.svg
+⏭ Skipped: docs/.vitepress/theme/composables/images/nuxtlabs.svg
+⏭ Skipped: docs/.vitepress/theme/composables/images/stackblitz.svg
+⏭ Skipped: docs/.vitepress/theme/composables/images/voidzero.svg
+✅ Processed: docs/.vitepress/theme/composables/sponsor.ts
+✅ Processed: docs/.vitepress/theme/composables/useCardAnimation.ts
+✅ Processed: docs/.vitepress/theme/composables/useSlideIn.ts
+✅ Processed: docs/.vitepress/theme/index.ts
+⏭ Skipped (ext): docs/.vitepress/theme/styles/landing.css
+⏭ Skipped (ext): docs/.vitepress/theme/styles/vars.css
+✅ Processed: docs/_data/blog.data.ts
+✅ Processed: docs/_data/team.js
+✅ Processed: docs/blog/announcing-vite2.md
+✅ Processed: docs/blog/announcing-vite3.md
+✅ Processed: docs/blog/announcing-vite4-3.md
+✅ Processed: docs/blog/announcing-vite4.md
+✅ Processed: docs/blog/announcing-vite5-1.md
+✅ Processed: docs/blog/announcing-vite5.md
+✅ Processed: docs/blog/announcing-vite6.md
+✅ Processed: docs/blog/announcing-vite7.md
+✅ Processed: docs/blog.md
+✅ Processed: docs/changes/hotupdate-hook.md
+✅ Processed: docs/changes/index.md
+✅ Processed: docs/changes/per-environment-apis.md
+✅ Processed: docs/changes/shared-plugins-during-build.md
+✅ Processed: docs/changes/ssr-using-modulerunner.md
+✅ Processed: docs/changes/this-environment-in-hooks.md
+✅ Processed: docs/config/build-options.md
+✅ Processed: docs/config/dep-optimization-options.md
+✅ Processed: docs/config/index.md
+✅ Processed: docs/config/preview-options.md
+✅ Processed: docs/config/server-options.md
+✅ Processed: docs/config/shared-options.md
+✅ Processed: docs/config/ssr-options.md
+✅ Processed: docs/config/worker-options.md
+✅ Processed: docs/guide/api-environment-frameworks.md
+✅ Processed: docs/guide/api-environment-instances.md
+✅ Processed: docs/guide/api-environment-plugins.md
+✅ Processed: docs/guide/api-environment-runtimes.md
+✅ Processed: docs/guide/api-environment.md
+✅ Processed: docs/guide/api-hmr.md
+✅ Processed: docs/guide/api-javascript.md
+✅ Processed: docs/guide/api-plugin.md
+✅ Processed: docs/guide/assets.md
+✅ Processed: docs/guide/backend-integration.md
+✅ Processed: docs/guide/build.md
+✅ Processed: docs/guide/cli.md
+✅ Processed: docs/guide/dep-pre-bundling.md
+✅ Processed: docs/guide/env-and-mode.md
+✅ Processed: docs/guide/features.md
+✅ Processed: docs/guide/index.md
+✅ Processed: docs/guide/migration.md
+✅ Processed: docs/guide/performance.md
+✅ Processed: docs/guide/philosophy.md
+✅ Processed: docs/guide/rolldown.md
+✅ Processed: docs/guide/ssr.md
+✅ Processed: docs/guide/static-deploy-github-pages.yaml
+✅ Processed: docs/guide/static-deploy.md
+✅ Processed: docs/guide/troubleshooting.md
+✅ Processed: docs/guide/using-plugins.md
+✅ Processed: docs/guide/why.md
+⏭ Skipped: docs/images/bundler.svg
+⏭ Skipped: docs/images/community/placeholder.webp
+⏭ Skipped (ext): docs/images/diagrams.fig
+⏭ Skipped: docs/images/ecosystem-vite4.webp
+⏭ Skipped: docs/images/esm.svg
+⏭ Skipped: docs/images/graph.svg
+⏭ Skipped: docs/images/lit.svg
+⏭ Skipped: docs/images/preact.svg
+⏭ Skipped: docs/images/react.svg
+⏭ Skipped: docs/images/svelte.svg
+⏭ Skipped: docs/images/v3-docs.webp
+⏭ Skipped: docs/images/v3-new-open-issues-and-PRs.webp
+⏭ Skipped: docs/images/v3-open-issues-and-PRs.webp
+⏭ Skipped: docs/images/vite-3-cold-start.svg
+⏭ Skipped: docs/images/vite-environments.svg
+⏭ Skipped: docs/images/vite-plugin-inspect.webp
+⏭ Skipped: docs/images/vite.svg
+⏭ Skipped: docs/images/vite4-3-hmr-time.webp
+⏭ Skipped: docs/images/vite4-3-startup-time.webp
+⏭ Skipped: docs/images/vite5-1-10K-modules-loading-time.webp
+⏭ Skipped: docs/images/vite6-npm-weekly-downloads.webp
+⏭ Skipped: docs/images/viteconf.svg
+⏭ Skipped: docs/images/voice.svg
+⏭ Skipped: docs/images/vue.svg
+✅ Processed: docs/index.md
+✅ Processed: docs/package.json
+✅ Processed: docs/plugins/index.md
+⏭ Skipped (ext): docs/public/_headers
+⏭ Skipped (ext): docs/public/_redirects
+⏭ Skipped: docs/public/logo-uwu.webp
+⏭ Skipped: docs/public/logo-with-shadow.webp
+⏭ Skipped: docs/public/logo.svg
+⏭ Skipped: docs/public/og-image-announcing-vite3.webp
+⏭ Skipped: docs/public/og-image-announcing-vite4-3.webp
+⏭ Skipped: docs/public/og-image-announcing-vite4.webp
+⏭ Skipped: docs/public/og-image-announcing-vite5-1.webp
+⏭ Skipped: docs/public/og-image-announcing-vite5.webp
+⏭ Skipped: docs/public/og-image-announcing-vite6.webp
+⏭ Skipped: docs/public/og-image-announcing-vite7.webp
+⏭ Skipped: docs/public/og-image.jpg
+⏭ Skipped (ext): docs/public/vite.mp3
+✅ Processed: docs/releases.md
+✅ Processed: docs/team.md
+✅ Processed: docs/tsconfig.json
+✅ Processed: eslint.config.js
+⏭ Skipped (ext): netlify.toml
+✅ Processed: package.json
+✅ Processed: packages/create-vite/CHANGELOG.md
+⏭ Skipped (ext): packages/create-vite/LICENSE
+✅ Processed: packages/create-vite/README.md
+✅ Processed: packages/create-vite/__tests__/cli.spec.ts
+✅ Processed: packages/create-vite/index.js
+✅ Processed: packages/create-vite/package.json
+✅ Processed: packages/create-vite/src/index.ts
+⏭ Skipped (ext): packages/create-vite/template-lit/_gitignore
+✅ Processed: packages/create-vite/template-lit/index.html
+✅ Processed: packages/create-vite/template-lit/package.json
+⏭ Skipped: packages/create-vite/template-lit/public/vite.svg
+⏭ Skipped: packages/create-vite/template-lit/src/assets/lit.svg
+⏭ Skipped (ext): packages/create-vite/template-lit/src/index.css
+✅ Processed: packages/create-vite/template-lit/src/my-element.js
+⏭ Skipped (ext): packages/create-vite/template-lit-ts/_gitignore
+✅ Processed: packages/create-vite/template-lit-ts/index.html
+✅ Processed: packages/create-vite/template-lit-ts/package.json
+⏭ Skipped: packages/create-vite/template-lit-ts/public/vite.svg
+⏭ Skipped: packages/create-vite/template-lit-ts/src/assets/lit.svg
+⏭ Skipped (ext): packages/create-vite/template-lit-ts/src/index.css
+✅ Processed: packages/create-vite/template-lit-ts/src/my-element.ts
+✅ Processed: packages/create-vite/template-lit-ts/tsconfig.json
+⏭ Skipped (ext): packages/create-vite/template-preact/_gitignore
+⏭ Skipped (empty or invalid): packages/create-vite/template-preact/index.html
+✅ Processed: packages/create-vite/template-preact/package.json
+⏭ Skipped: packages/create-vite/template-preact/public/vite.svg
+⏭ Skipped (ext): packages/create-vite/template-preact/src/app.css
+✅ Processed: packages/create-vite/template-preact/src/app.jsx
+⏭ Skipped: packages/create-vite/template-preact/src/assets/preact.svg
+⏭ Skipped (ext): packages/create-vite/template-preact/src/index.css
+✅ Processed: packages/create-vite/template-preact/src/main.jsx
+✅ Processed: packages/create-vite/template-preact/vite.config.js
+⏭ Skipped (ext): packages/create-vite/template-preact-ts/_gitignore
+⏭ Skipped (empty or invalid): packages/create-vite/template-preact-ts/index.html
+✅ Processed: packages/create-vite/template-preact-ts/package.json
+⏭ Skipped: packages/create-vite/template-preact-ts/public/vite.svg
+⏭ Skipped (ext): packages/create-vite/template-preact-ts/src/app.css
+✅ Processed: packages/create-vite/template-preact-ts/src/app.tsx
+⏭ Skipped: packages/create-vite/template-preact-ts/src/assets/preact.svg
+⏭ Skipped (ext): packages/create-vite/template-preact-ts/src/index.css
+✅ Processed: packages/create-vite/template-preact-ts/src/main.tsx
+✅ Processed: packages/create-vite/template-preact-ts/tsconfig.app.json
+✅ Processed: packages/create-vite/template-preact-ts/tsconfig.json
+✅ Processed: packages/create-vite/template-preact-ts/tsconfig.node.json
+✅ Processed: packages/create-vite/template-preact-ts/vite.config.ts
+✅ Processed: packages/create-vite/template-qwik/README.md
+⏭ Skipped (ext): packages/create-vite/template-qwik/_gitignore
+⏭ Skipped (empty or invalid): packages/create-vite/template-qwik/index.html
+✅ Processed: packages/create-vite/template-qwik/package.json
+⏭ Skipped: packages/create-vite/template-qwik/public/vite.svg
+⏭ Skipped (ext): packages/create-vite/template-qwik/src/app.css
+✅ Processed: packages/create-vite/template-qwik/src/app.jsx
+⏭ Skipped: packages/create-vite/template-qwik/src/assets/qwik.svg
+⏭ Skipped (ext): packages/create-vite/template-qwik/src/index.css
+✅ Processed: packages/create-vite/template-qwik/src/main.jsx
+✅ Processed: packages/create-vite/template-qwik/vite.config.js
+✅ Processed: packages/create-vite/template-qwik-ts/README.md
+⏭ Skipped (ext): packages/create-vite/template-qwik-ts/_gitignore
+⏭ Skipped (empty or invalid): packages/create-vite/template-qwik-ts/index.html
+✅ Processed: packages/create-vite/template-qwik-ts/package.json
+⏭ Skipped: packages/create-vite/template-qwik-ts/public/vite.svg
+⏭ Skipped (ext): packages/create-vite/template-qwik-ts/src/app.css
+✅ Processed: packages/create-vite/template-qwik-ts/src/app.tsx
+⏭ Skipped: packages/create-vite/template-qwik-ts/src/assets/qwik.svg
+⏭ Skipped (ext): packages/create-vite/template-qwik-ts/src/index.css
+✅ Processed: packages/create-vite/template-qwik-ts/src/main.tsx
+✅ Processed: packages/create-vite/template-qwik-ts/tsconfig.app.json
+✅ Processed: packages/create-vite/template-qwik-ts/tsconfig.json
+✅ Processed: packages/create-vite/template-qwik-ts/tsconfig.node.json
+✅ Processed: packages/create-vite/template-qwik-ts/vite.config.ts
+✅ Processed: packages/create-vite/template-react/README.md
+⏭ Skipped (ext): packages/create-vite/template-react/_gitignore
+✅ Processed: packages/create-vite/template-react/eslint.config.js
+⏭ Skipped (empty or invalid): packages/create-vite/template-react/index.html
+✅ Processed: packages/create-vite/template-react/package.json
+⏭ Skipped: packages/create-vite/template-react/public/vite.svg
+⏭ Skipped (ext): packages/create-vite/template-react/src/App.css
+✅ Processed: packages/create-vite/template-react/src/App.jsx
+⏭ Skipped: packages/create-vite/template-react/src/assets/react.svg
+⏭ Skipped (ext): packages/create-vite/template-react/src/index.css
+✅ Processed: packages/create-vite/template-react/src/main.jsx
+✅ Processed: packages/create-vite/template-react/vite.config.js
+✅ Processed: packages/create-vite/template-react-ts/README.md
+⏭ Skipped (ext): packages/create-vite/template-react-ts/_gitignore
+✅ Processed: packages/create-vite/template-react-ts/eslint.config.js
+⏭ Skipped (empty or invalid): packages/create-vite/template-react-ts/index.html
+✅ Processed: packages/create-vite/template-react-ts/package.json
+⏭ Skipped: packages/create-vite/template-react-ts/public/vite.svg
+⏭ Skipped (ext): packages/create-vite/template-react-ts/src/App.css
+✅ Processed: packages/create-vite/template-react-ts/src/App.tsx
+⏭ Skipped: packages/create-vite/template-react-ts/src/assets/react.svg
+⏭ Skipped (ext): packages/create-vite/template-react-ts/src/index.css
+✅ Processed: packages/create-vite/template-react-ts/src/main.tsx
+✅ Processed: packages/create-vite/template-react-ts/tsconfig.app.json
+✅ Processed: packages/create-vite/template-react-ts/tsconfig.json
+✅ Processed: packages/create-vite/template-react-ts/tsconfig.node.json
+✅ Processed: packages/create-vite/template-react-ts/vite.config.ts
+✅ Processed: packages/create-vite/template-solid/README.md
+⏭ Skipped (ext): packages/create-vite/template-solid/_gitignore
+⏭ Skipped (empty or invalid): packages/create-vite/template-solid/index.html
+✅ Processed: packages/create-vite/template-solid/package.json
+⏭ Skipped: packages/create-vite/template-solid/public/vite.svg
+⏭ Skipped (ext): packages/create-vite/template-solid/src/App.css
+✅ Processed: packages/create-vite/template-solid/src/App.jsx
+⏭ Skipped: packages/create-vite/template-solid/src/assets/solid.svg
+⏭ Skipped (ext): packages/create-vite/template-solid/src/index.css
+✅ Processed: packages/create-vite/template-solid/src/index.jsx
+✅ Processed: packages/create-vite/template-solid/vite.config.js
+✅ Processed: packages/create-vite/template-solid-ts/README.md
+⏭ Skipped (ext): packages/create-vite/template-solid-ts/_gitignore
+⏭ Skipped (empty or invalid): packages/create-vite/template-solid-ts/index.html
+✅ Processed: packages/create-vite/template-solid-ts/package.json
+⏭ Skipped: packages/create-vite/template-solid-ts/public/vite.svg
+⏭ Skipped (ext): packages/create-vite/template-solid-ts/src/App.css
+✅ Processed: packages/create-vite/template-solid-ts/src/App.tsx
+⏭ Skipped: packages/create-vite/template-solid-ts/src/assets/solid.svg
+⏭ Skipped (ext): packages/create-vite/template-solid-ts/src/index.css
+✅ Processed: packages/create-vite/template-solid-ts/src/index.tsx
+✅ Processed: packages/create-vite/template-solid-ts/tsconfig.app.json
+✅ Processed: packages/create-vite/template-solid-ts/tsconfig.json
+✅ Processed: packages/create-vite/template-solid-ts/tsconfig.node.json
+✅ Processed: packages/create-vite/template-solid-ts/vite.config.ts
+✅ Processed: packages/create-vite/template-svelte/.vscode/extensions.json
+✅ Processed: packages/create-vite/template-svelte/README.md
+⏭ Skipped (ext): packages/create-vite/template-svelte/_gitignore
+⏭ Skipped (empty or invalid): packages/create-vite/template-svelte/index.html
+✅ Processed: packages/create-vite/template-svelte/jsconfig.json
+✅ Processed: packages/create-vite/template-svelte/package.json
+⏭ Skipped: packages/create-vite/template-svelte/public/vite.svg
+⏭ Skipped (ext): packages/create-vite/template-svelte/src/App.svelte
+⏭ Skipped (ext): packages/create-vite/template-svelte/src/app.css
+⏭ Skipped: packages/create-vite/template-svelte/src/assets/svelte.svg
+⏭ Skipped (ext): packages/create-vite/template-svelte/src/lib/Counter.svelte
+✅ Processed: packages/create-vite/template-svelte/src/main.js
+✅ Processed: packages/create-vite/template-svelte/svelte.config.js
+✅ Processed: packages/create-vite/template-svelte/vite.config.js
+✅ Processed: packages/create-vite/template-svelte-ts/.vscode/extensions.json
+✅ Processed: packages/create-vite/template-svelte-ts/README.md
+⏭ Skipped (ext): packages/create-vite/template-svelte-ts/_gitignore
+⏭ Skipped (empty or invalid): packages/create-vite/template-svelte-ts/index.html
+✅ Processed: packages/create-vite/template-svelte-ts/package.json
+⏭ Skipped: packages/create-vite/template-svelte-ts/public/vite.svg
+⏭ Skipped (ext): packages/create-vite/template-svelte-ts/src/App.svelte
+⏭ Skipped (ext): packages/create-vite/template-svelte-ts/src/app.css
+⏭ Skipped: packages/create-vite/template-svelte-ts/src/assets/svelte.svg
+⏭ Skipped (ext): packages/create-vite/template-svelte-ts/src/lib/Counter.svelte
+✅ Processed: packages/create-vite/template-svelte-ts/src/main.ts
+✅ Processed: packages/create-vite/template-svelte-ts/svelte.config.js
+✅ Processed: packages/create-vite/template-svelte-ts/tsconfig.app.json
+✅ Processed: packages/create-vite/template-svelte-ts/tsconfig.json
+✅ Processed: packages/create-vite/template-svelte-ts/tsconfig.node.json
+✅ Processed: packages/create-vite/template-svelte-ts/vite.config.ts
+⏭ Skipped (ext): packages/create-vite/template-vanilla/_gitignore
+⏭ Skipped (empty or invalid): packages/create-vite/template-vanilla/index.html
+✅ Processed: packages/create-vite/template-vanilla/package.json
+⏭ Skipped: packages/create-vite/template-vanilla/public/vite.svg
+✅ Processed: packages/create-vite/template-vanilla/src/counter.js
+⏭ Skipped: packages/create-vite/template-vanilla/src/javascript.svg
+✅ Processed: packages/create-vite/template-vanilla/src/main.js
+⏭ Skipped (ext): packages/create-vite/template-vanilla/src/style.css
+⏭ Skipped (ext): packages/create-vite/template-vanilla-ts/_gitignore
+⏭ Skipped (empty or invalid): packages/create-vite/template-vanilla-ts/index.html
+✅ Processed: packages/create-vite/template-vanilla-ts/package.json
+⏭ Skipped: packages/create-vite/template-vanilla-ts/public/vite.svg
+✅ Processed: packages/create-vite/template-vanilla-ts/src/counter.ts
+✅ Processed: packages/create-vite/template-vanilla-ts/src/main.ts
+⏭ Skipped (ext): packages/create-vite/template-vanilla-ts/src/style.css
+⏭ Skipped: packages/create-vite/template-vanilla-ts/src/typescript.svg
+✅ Processed: packages/create-vite/template-vanilla-ts/tsconfig.json
+✅ Processed: packages/create-vite/template-vue/.vscode/extensions.json
+✅ Processed: packages/create-vite/template-vue/README.md
+⏭ Skipped (ext): packages/create-vite/template-vue/_gitignore
+⏭ Skipped (empty or invalid): packages/create-vite/template-vue/index.html
+✅ Processed: packages/create-vite/template-vue/package.json
+⏭ Skipped: packages/create-vite/template-vue/public/vite.svg
+⏭ Skipped (ext): packages/create-vite/template-vue/src/App.vue
+⏭ Skipped: packages/create-vite/template-vue/src/assets/vue.svg
+⏭ Skipped (ext): packages/create-vite/template-vue/src/components/HelloWorld.vue
+✅ Processed: packages/create-vite/template-vue/src/main.js
+⏭ Skipped (ext): packages/create-vite/template-vue/src/style.css
+✅ Processed: packages/create-vite/template-vue/vite.config.js
+✅ Processed: packages/create-vite/template-vue-ts/.vscode/extensions.json
+✅ Processed: packages/create-vite/template-vue-ts/README.md
+⏭ Skipped (ext): packages/create-vite/template-vue-ts/_gitignore
+⏭ Skipped (empty or invalid): packages/create-vite/template-vue-ts/index.html
+✅ Processed: packages/create-vite/template-vue-ts/package.json
+⏭ Skipped: packages/create-vite/template-vue-ts/public/vite.svg
+⏭ Skipped (ext): packages/create-vite/template-vue-ts/src/App.vue
+⏭ Skipped: packages/create-vite/template-vue-ts/src/assets/vue.svg
+⏭ Skipped (ext): packages/create-vite/template-vue-ts/src/components/HelloWorld.vue
+✅ Processed: packages/create-vite/template-vue-ts/src/main.ts
+⏭ Skipped (ext): packages/create-vite/template-vue-ts/src/style.css
+✅ Processed: packages/create-vite/template-vue-ts/tsconfig.app.json
+✅ Processed: packages/create-vite/template-vue-ts/tsconfig.json
+✅ Processed: packages/create-vite/template-vue-ts/tsconfig.node.json
+✅ Processed: packages/create-vite/template-vue-ts/vite.config.ts
+✅ Processed: packages/create-vite/tsconfig.json
+✅ Processed: packages/create-vite/tsdown.config.ts
+✅ Processed: packages/plugin-legacy/CHANGELOG.md
+⏭ Skipped (ext): packages/plugin-legacy/LICENSE
+✅ Processed: packages/plugin-legacy/README.md
+✅ Processed: packages/plugin-legacy/package.json
+✅ Processed: packages/plugin-legacy/src/__tests__/readme.spec.ts
+✅ Processed: packages/plugin-legacy/src/__tests__/snippets.spec.ts
+✅ Processed: packages/plugin-legacy/src/index.ts
+✅ Processed: packages/plugin-legacy/src/shims.d.ts
+✅ Processed: packages/plugin-legacy/src/snippets.ts
+✅ Processed: packages/plugin-legacy/src/types.ts
+✅ Processed: packages/plugin-legacy/tsconfig.json
+✅ Processed: packages/plugin-legacy/tsdown.config.ts
+✅ Processed: packages/plugin-legacy/types/legacy-for-rolldown-vite.d.ts
+✅ Processed: packages/vite/CHANGELOG.md
+✅ Processed: packages/vite/LICENSE.md
+✅ Processed: packages/vite/README.md
+✅ Processed: packages/vite/bin/openChrome.js
+✅ Processed: packages/vite/bin/vite.js
+✅ Processed: packages/vite/client.d.ts
+✅ Processed: packages/vite/misc/false.d.ts
+✅ Processed: packages/vite/misc/false.js
+✅ Processed: packages/vite/misc/true.d.ts
+✅ Processed: packages/vite/misc/true.js
+✅ Processed: packages/vite/package.json
+✅ Processed: packages/vite/rolldown.config.ts
+✅ Processed: packages/vite/rolldown.dts.config.ts
+✅ Processed: packages/vite/rollupLicensePlugin.ts
+✅ Processed: packages/vite/scripts/generateTarget.ts
+✅ Processed: packages/vite/src/client/client.ts
+✅ Processed: packages/vite/src/client/env.ts
+✅ Processed: packages/vite/src/client/overlay.ts
+✅ Processed: packages/vite/src/client/tsconfig.json
+✅ Processed: packages/vite/src/module-runner/constants.ts
+✅ Processed: packages/vite/src/module-runner/createImportMeta.ts
+✅ Processed: packages/vite/src/module-runner/esmEvaluator.ts
+✅ Processed: packages/vite/src/module-runner/evaluatedModules.ts
+✅ Processed: packages/vite/src/module-runner/hmrHandler.ts
+✅ Processed: packages/vite/src/module-runner/hmrLogger.ts
+✅ Processed: packages/vite/src/module-runner/importMetaResolver.ts
+✅ Processed: packages/vite/src/module-runner/index.ts
+✅ Processed: packages/vite/src/module-runner/runner.ts
+✅ Processed: packages/vite/src/module-runner/sourcemap/decoder.ts
+✅ Processed: packages/vite/src/module-runner/sourcemap/index.ts
+✅ Processed: packages/vite/src/module-runner/sourcemap/interceptor.ts
+✅ Processed: packages/vite/src/module-runner/tsconfig.json
+✅ Processed: packages/vite/src/module-runner/types.ts
+✅ Processed: packages/vite/src/module-runner/utils.ts
+⏭ Skipped (ext): packages/vite/src/node/__tests__/__snapshots__/utils.spec.ts.snap
+✅ Processed: packages/vite/src/node/__tests__/assetSource.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/build.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/config.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/constants.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/dev.spec.ts
+⏭ Skipped (ext): packages/vite/src/node/__tests__/env/.env
+⏭ Skipped (ext): packages/vite/src/node/__tests__/env/.env.development
+⏭ Skipped (ext): packages/vite/src/node/__tests__/env/.env.development2
+⏭ Skipped (ext): packages/vite/src/node/__tests__/env/.env.existing
+⏭ Skipped (ext): packages/vite/src/node/__tests__/env/.env.production
+⏭ Skipped (ext): packages/vite/src/node/__tests__/env/.env.testing
+✅ Processed: packages/vite/src/node/__tests__/env.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/environment.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/external.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/fixtures/cjs-ssr-dep/index.js
+✅ Processed: packages/vite/src/node/__tests__/fixtures/cjs-ssr-dep/package.json
+✅ Processed: packages/vite/src/node/__tests__/fixtures/config/entry/imports-field.ts
+✅ Processed: packages/vite/src/node/__tests__/fixtures/config/entry/package.json
+✅ Processed: packages/vite/src/node/__tests__/fixtures/config/entry/vite.config.import-attributes.ts
+✅ Processed: packages/vite/src/node/__tests__/fixtures/config/entry/vite.config.ts
+✅ Processed: packages/vite/src/node/__tests__/fixtures/config/import-meta/vite.config.ts
+⏭ Skipped (ext): packages/vite/src/node/__tests__/fixtures/config/loadConfigFromFile/.gitkeep
+✅ Processed: packages/vite/src/node/__tests__/fixtures/config/native-import/basic.js
+⏭ Skipped (ext): packages/vite/src/node/__tests__/fixtures/config/plugin-module-condition/index.cjs
+✅ Processed: packages/vite/src/node/__tests__/fixtures/config/plugin-module-condition/index.d.ts
+⏭ Skipped (ext): packages/vite/src/node/__tests__/fixtures/config/plugin-module-condition/index.mjs
+⏭ Skipped (ext): packages/vite/src/node/__tests__/fixtures/config/plugin-module-condition/module.mjs
+✅ Processed: packages/vite/src/node/__tests__/fixtures/config/plugin-module-condition/package.json
+✅ Processed: packages/vite/src/node/__tests__/fixtures/config/siblings/foo.ts
+✅ Processed: packages/vite/src/node/__tests__/fixtures/config/siblings/package.json
+⏭ Skipped (ext): packages/vite/src/node/__tests__/fixtures/dynamic-import/dep.mjs
+⏭ Skipped (ext): packages/vite/src/node/__tests__/fixtures/dynamic-import/entry.mjs
+⏭ Skipped (ext): packages/vite/src/node/__tests__/fixtures/emit-assets/css-module.module.css
+⏭ Skipped (ext): packages/vite/src/node/__tests__/fixtures/emit-assets/css-normal.css
+⏭ Skipped (ext): packages/vite/src/node/__tests__/fixtures/emit-assets/entry.mjs
+✅ Processed: packages/vite/src/node/__tests__/fixtures/environment-alias/test.client.js
+✅ Processed: packages/vite/src/node/__tests__/fixtures/environment-alias/test.rsc.js
+✅ Processed: packages/vite/src/node/__tests__/fixtures/environment-alias/test.ssr.js
+✅ Processed: packages/vite/src/node/__tests__/fixtures/file-url/entry.js
+✅ Processed: packages/vite/src/node/__tests__/fixtures/file-url/package.json
+✅ Processed: packages/vite/src/node/__tests__/fixtures/runner-import/basic.ts
+✅ Processed: packages/vite/src/node/__tests__/fixtures/runner-import/cjs.js
+✅ Processed: packages/vite/src/node/__tests__/fixtures/runner-import/dynamic-import-dep.ts
+✅ Processed: packages/vite/src/node/__tests__/fixtures/runner-import/dynamic-import.ts
+✅ Processed: packages/vite/src/node/__tests__/fixtures/runner-import/plugin.ts
+⏭ Skipped (ext): packages/vite/src/node/__tests__/fixtures/runner-import/vite.config.outside-pkg-import.mts
+✅ Processed: packages/vite/src/node/__tests__/fixtures/runner-import/vite.config.ts
+✅ Processed: packages/vite/src/node/__tests__/fixtures/scan-jsx-runtime/entry-jsx.tsx
+✅ Processed: packages/vite/src/node/__tests__/fixtures/scan-jsx-runtime/entry-no-jsx.js
+✅ Processed: packages/vite/src/node/__tests__/fixtures/scan-jsx-runtime/tsconfig.json
+✅ Processed: packages/vite/src/node/__tests__/fixtures/shared-config-build/emitAssets/entry.js
+⏭ Skipped (ext): packages/vite/src/node/__tests__/fixtures/shared-config-build/emitAssets/test.css
+✅ Processed: packages/vite/src/node/__tests__/fixtures/shared-plugins/minify/entry.js
+✅ Processed: packages/vite/src/node/__tests__/fixtures/test-dep-conditions/dir/index.default.js
+✅ Processed: packages/vite/src/node/__tests__/fixtures/test-dep-conditions/dir/index.module.js
+✅ Processed: packages/vite/src/node/__tests__/fixtures/test-dep-conditions/index.browser.js
+⏭ Skipped (ext): packages/vite/src/node/__tests__/fixtures/test-dep-conditions/index.css
+✅ Processed: packages/vite/src/node/__tests__/fixtures/test-dep-conditions/index.custom1.js
+✅ Processed: packages/vite/src/node/__tests__/fixtures/test-dep-conditions/index.default.js
+✅ Processed: packages/vite/src/node/__tests__/fixtures/test-dep-conditions/index.worker.js
+✅ Processed: packages/vite/src/node/__tests__/fixtures/test-dep-conditions/package.json
+✅ Processed: packages/vite/src/node/__tests__/fixtures/test-dep-conditions-app/entry-with-module.js
+⏭ Skipped (ext): packages/vite/src/node/__tests__/fixtures/test-dep-conditions-app/entry.css
+✅ Processed: packages/vite/src/node/__tests__/fixtures/test-dep-conditions-app/entry.js
+✅ Processed: packages/vite/src/node/__tests__/fixtures/watch-rebuild-manifest/dep.js
+✅ Processed: packages/vite/src/node/__tests__/fixtures/watch-rebuild-manifest/entry.js
+✅ Processed: packages/vite/src/node/__tests__/fixtures/watch-rebuild-manifest/package.json
+✅ Processed: packages/vite/src/node/__tests__/fixtures/worker-dynamic/dynamic.js
+✅ Processed: packages/vite/src/node/__tests__/fixtures/worker-dynamic/main.js
+✅ Processed: packages/vite/src/node/__tests__/fixtures/worker-dynamic/worker.js
+✅ Processed: packages/vite/src/node/__tests__/package.json
+✅ Processed: packages/vite/src/node/__tests__/packages/build-project/index.html
+✅ Processed: packages/vite/src/node/__tests__/packages/child/index.js
+✅ Processed: packages/vite/src/node/__tests__/packages/child/package.json
+✅ Processed: packages/vite/src/node/__tests__/packages/module/package.json
+✅ Processed: packages/vite/src/node/__tests__/packages/name/package.json
+✅ Processed: packages/vite/src/node/__tests__/packages/noname/package.json
+✅ Processed: packages/vite/src/node/__tests__/packages/package.json
+✅ Processed: packages/vite/src/node/__tests__/packages/parent/index.ts
+✅ Processed: packages/vite/src/node/__tests__/packages/parent/package.json
+⏭ Skipped (ext): packages/vite/src/node/__tests__/plugins/__snapshots__/license.spec.ts.snap
+✅ Processed: packages/vite/src/node/__tests__/plugins/assetImportMetaUrl.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/css.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/define.spec.ts
+⏭ Skipped (ext): packages/vite/src/node/__tests__/plugins/dynamicImportVar/__snapshots__/parse.spec.ts.snap
+✅ Processed: packages/vite/src/node/__tests__/plugins/dynamicImportVar/mods/hello.js
+✅ Processed: packages/vite/src/node/__tests__/plugins/dynamicImportVar/mods/hi.js
+✅ Processed: packages/vite/src/node/__tests__/plugins/dynamicImportVar/parse.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/esbuild.spec.ts
+⏭ Skipped (ext): packages/vite/src/node/__tests__/plugins/fixtures/css-module-compose/css/bar.module.css
+✅ Processed: packages/vite/src/node/__tests__/plugins/fixtures/license/dep-licence-cc0/index.js
+⏭ Skipped (ext): packages/vite/src/node/__tests__/plugins/fixtures/license/dep-licence-cc0/licence
+✅ Processed: packages/vite/src/node/__tests__/plugins/fixtures/license/dep-licence-cc0/package.json
+✅ Processed: packages/vite/src/node/__tests__/plugins/fixtures/license/dep-license-mit/index.js
+⏭ Skipped (ext): packages/vite/src/node/__tests__/plugins/fixtures/license/dep-license-mit/license
+✅ Processed: packages/vite/src/node/__tests__/plugins/fixtures/license/dep-license-mit/package.json
+⏭ Skipped (ext): packages/vite/src/node/__tests__/plugins/fixtures/license/dep-nested-license-isc/LICENSE
+✅ Processed: packages/vite/src/node/__tests__/plugins/fixtures/license/dep-nested-license-isc/index.js
+✅ Processed: packages/vite/src/node/__tests__/plugins/fixtures/license/dep-nested-license-isc/package.json
+⏭ Skipped (empty or invalid): packages/vite/src/node/__tests__/plugins/fixtures/license/index.html
+✅ Processed: packages/vite/src/node/__tests__/plugins/fixtures/license/package.json
+✅ Processed: packages/vite/src/node/__tests__/plugins/hooks.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/import.spec.ts
+⏭ Skipped (ext): packages/vite/src/node/__tests__/plugins/importGlob/__snapshots__/fixture.spec.ts.snap
+✅ Processed: packages/vite/src/node/__tests__/plugins/importGlob/fixture-a/.foo/test.ts
+⏭ Skipped (ext): packages/vite/src/node/__tests__/plugins/importGlob/fixture-a/.gitignore
+✅ Processed: packages/vite/src/node/__tests__/plugins/importGlob/fixture-a/index.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/importGlob/fixture-a/modules/a.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/importGlob/fixture-a/modules/b.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/importGlob/fixture-a/modules/index.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/importGlob/fixture-a/sibling.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/importGlob/fixture-b/a.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/importGlob/fixture-b/b.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/importGlob/fixture-b/index.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/importGlob/fixture.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/importGlob/parse.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/importGlob/utils.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/index.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/json.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/license.spec.ts
+⏭ Skipped (ext): packages/vite/src/node/__tests__/plugins/modulePreloadPolyfill/__snapshots__/modulePreloadPolyfill.spec.ts.snap
+✅ Processed: packages/vite/src/node/__tests__/plugins/modulePreloadPolyfill/modulePreloadPolyfill.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/pluginFilter.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/terser.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/plugins/workerImportMetaUrl.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/resolve.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/runnerImport.spec.ts
+✅ Processed: packages/vite/src/node/__tests__/scan.spec.ts
+⏭ Skipped (ext): packages/vite/src/node/__tests__/utils/isFileReadable/permission-test-file
+✅ Processed: packages/vite/src/node/__tests__/utils.spec.ts
+✅ Processed: packages/vite/src/node/__tests_dts__/config.ts
+✅ Processed: packages/vite/src/node/__tests_dts__/plugin.ts
+✅ Processed: packages/vite/src/node/__tests_dts__/tsconfig.json
+✅ Processed: packages/vite/src/node/__tests_dts__/typeOptions.ts
+✅ Processed: packages/vite/src/node/__tests_dts__/utils.ts
+✅ Processed: packages/vite/src/node/assetSource.ts
+✅ Processed: packages/vite/src/node/baseEnvironment.ts
+✅ Processed: packages/vite/src/node/build.ts
+✅ Processed: packages/vite/src/node/cli.ts
+✅ Processed: packages/vite/src/node/config.ts
+✅ Processed: packages/vite/src/node/constants.ts
+✅ Processed: packages/vite/src/node/deprecations.ts
+✅ Processed: packages/vite/src/node/env.ts
+✅ Processed: packages/vite/src/node/environment.ts
+✅ Processed: packages/vite/src/node/external.ts
+✅ Processed: packages/vite/src/node/http.ts
+✅ Processed: packages/vite/src/node/idResolver.ts
+✅ Processed: packages/vite/src/node/index.ts
+✅ Processed: packages/vite/src/node/logger.ts
+✅ Processed: packages/vite/src/node/nodeResolve.ts
+✅ Processed: packages/vite/src/node/optimizer/esbuildDepPlugin.ts
+✅ Processed: packages/vite/src/node/optimizer/index.ts
+✅ Processed: packages/vite/src/node/optimizer/optimizer.ts
+✅ Processed: packages/vite/src/node/optimizer/resolve.ts
+✅ Processed: packages/vite/src/node/optimizer/scan.ts
+✅ Processed: packages/vite/src/node/packages.ts
+✅ Processed: packages/vite/src/node/plugin.ts
+✅ Processed: packages/vite/src/node/plugins/asset.ts
+✅ Processed: packages/vite/src/node/plugins/assetImportMetaUrl.ts
+✅ Processed: packages/vite/src/node/plugins/clientInjections.ts
+✅ Processed: packages/vite/src/node/plugins/completeSystemWrap.ts
+✅ Processed: packages/vite/src/node/plugins/css.ts
+✅ Processed: packages/vite/src/node/plugins/dataUri.ts
+✅ Processed: packages/vite/src/node/plugins/define.ts
+✅ Processed: packages/vite/src/node/plugins/dynamicImportVars.ts
+✅ Processed: packages/vite/src/node/plugins/esbuild.ts
+✅ Processed: packages/vite/src/node/plugins/html.ts
+✅ Processed: packages/vite/src/node/plugins/importAnalysis.ts
+✅ Processed: packages/vite/src/node/plugins/importAnalysisBuild.ts
+✅ Processed: packages/vite/src/node/plugins/importMetaGlob.ts
+✅ Processed: packages/vite/src/node/plugins/index.ts
+✅ Processed: packages/vite/src/node/plugins/json.ts
+✅ Processed: packages/vite/src/node/plugins/license.ts
+✅ Processed: packages/vite/src/node/plugins/loadFallback.ts
+✅ Processed: packages/vite/src/node/plugins/manifest.ts
+✅ Processed: packages/vite/src/node/plugins/metadata.ts
+✅ Processed: packages/vite/src/node/plugins/modulePreloadPolyfill.ts
+✅ Processed: packages/vite/src/node/plugins/optimizedDeps.ts
+✅ Processed: packages/vite/src/node/plugins/pluginFilter.ts
+✅ Processed: packages/vite/src/node/plugins/preAlias.ts
+✅ Processed: packages/vite/src/node/plugins/prepareOutDir.ts
+✅ Processed: packages/vite/src/node/plugins/reporter.ts
+✅ Processed: packages/vite/src/node/plugins/resolve.ts
+✅ Processed: packages/vite/src/node/plugins/terser.ts
+✅ Processed: packages/vite/src/node/plugins/wasm.ts
+✅ Processed: packages/vite/src/node/plugins/worker.ts
+✅ Processed: packages/vite/src/node/plugins/workerImportMetaUrl.ts
+✅ Processed: packages/vite/src/node/preview.ts
+✅ Processed: packages/vite/src/node/publicDir.ts
+⏭ Skipped (empty or invalid): packages/vite/src/node/server/__tests__/fixtures/lerna/lerna.json
+✅ Processed: packages/vite/src/node/server/__tests__/fixtures/lerna/nested/package.json
+✅ Processed: packages/vite/src/node/server/__tests__/fixtures/none/nested/package.json
+✅ Processed: packages/vite/src/node/server/__tests__/fixtures/pnpm/nested/package.json
+✅ Processed: packages/vite/src/node/server/__tests__/fixtures/pnpm/package.json
+⏭ Skipped (empty or invalid): packages/vite/src/node/server/__tests__/fixtures/pnpm/pnpm-workspace.yaml
+⏭ Skipped (empty or invalid): packages/vite/src/node/server/__tests__/fixtures/watcher/config-deps/foo.js
+⏭ Skipped (ext): packages/vite/src/node/server/__tests__/fixtures/watcher/custom-env/.env
+⏭ Skipped (empty or invalid): packages/vite/src/node/server/__tests__/fixtures/watcher/custom-public/foo.txt
+✅ Processed: packages/vite/src/node/server/__tests__/fixtures/watcher/nested-root/vite.config.js
+✅ Processed: packages/vite/src/node/server/__tests__/fixtures/watcher/package.json
+✅ Processed: packages/vite/src/node/server/__tests__/fixtures/yarn/nested/package.json
+✅ Processed: packages/vite/src/node/server/__tests__/fixtures/yarn/package.json
+✅ Processed: packages/vite/src/node/server/__tests__/moduleGraph.spec.ts
+✅ Processed: packages/vite/src/node/server/__tests__/pluginContainer.spec.ts
+✅ Processed: packages/vite/src/node/server/__tests__/search-root.spec.ts
+✅ Processed: packages/vite/src/node/server/__tests__/watcher.spec.ts
+✅ Processed: packages/vite/src/node/server/environment.ts
+✅ Processed: packages/vite/src/node/server/environments/fetchableEnvironments.ts
+✅ Processed: packages/vite/src/node/server/environments/runnableEnvironment.ts
+✅ Processed: packages/vite/src/node/server/hmr.ts
+✅ Processed: packages/vite/src/node/server/index.ts
+✅ Processed: packages/vite/src/node/server/middlewares/__tests__/hostCheck.spec.ts
+✅ Processed: packages/vite/src/node/server/middlewares/__tests__/static.spec.ts
+✅ Processed: packages/vite/src/node/server/middlewares/base.ts
+✅ Processed: packages/vite/src/node/server/middlewares/error.ts
+✅ Processed: packages/vite/src/node/server/middlewares/hostCheck.ts
+✅ Processed: packages/vite/src/node/server/middlewares/htmlFallback.ts
+✅ Processed: packages/vite/src/node/server/middlewares/indexHtml.ts
+✅ Processed: packages/vite/src/node/server/middlewares/notFound.ts
+✅ Processed: packages/vite/src/node/server/middlewares/proxy.ts
+✅ Processed: packages/vite/src/node/server/middlewares/rejectInvalidRequest.ts
+✅ Processed: packages/vite/src/node/server/middlewares/static.ts
+✅ Processed: packages/vite/src/node/server/middlewares/time.ts
+✅ Processed: packages/vite/src/node/server/middlewares/transform.ts
+✅ Processed: packages/vite/src/node/server/mixedModuleGraph.ts
+✅ Processed: packages/vite/src/node/server/moduleGraph.ts
+✅ Processed: packages/vite/src/node/server/openBrowser.ts
+✅ Processed: packages/vite/src/node/server/pluginContainer.ts
+✅ Processed: packages/vite/src/node/server/searchRoot.ts
+✅ Processed: packages/vite/src/node/server/send.ts
+✅ Processed: packages/vite/src/node/server/sourcemap.ts
+✅ Processed: packages/vite/src/node/server/transformRequest.ts
+✅ Processed: packages/vite/src/node/server/warmup.ts
+✅ Processed: packages/vite/src/node/server/ws.ts
+✅ Processed: packages/vite/src/node/shortcuts.ts
+⏭ Skipped (ext): packages/vite/src/node/ssr/__tests__/__snapshots__/ssrLoadModule.spec.ts.snap
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/bundled-with-sourcemaps/bundle.js
+⏭ Skipped (ext): packages/vite/src/node/ssr/__tests__/fixtures/bundled-with-sourcemaps/bundle.js.map
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/errors/syntax-error-dep.js
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/errors/syntax-error-dep.ts
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/errors/syntax-error.js
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/errors/syntax-error.ts
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/file-url/test space.js
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/file-url/test.js
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/global/export.js
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/global/test.js
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/json/test.json
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/modules/has-error.js
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/modules/has-invalid-import.js
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/modules/import-meta.js
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/multi-source-sourcemaps/dist.js
+⏭ Skipped (ext): packages/vite/src/node/ssr/__tests__/fixtures/multi-source-sourcemaps/dist.js.map
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/multi-source-sourcemaps/entrypoint.js
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/multi-source-sourcemaps/nested-directory/nested-file.js
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/named-overwrite-all/dep1.js
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/named-overwrite-all/dep2.js
+✅ Processed: packages/vite/src/node/ssr/__tests__/fixtures/named-overwrite-all/main.js
+✅ Processed: packages/vite/src/node/ssr/__tests__/ssrLoadModule.spec.ts
+✅ Processed: packages/vite/src/node/ssr/__tests__/ssrStacktrace.spec.ts
+✅ Processed: packages/vite/src/node/ssr/__tests__/ssrTransform.spec.ts
+✅ Processed: packages/vite/src/node/ssr/fetchModule.ts
+✅ Processed: packages/vite/src/node/ssr/index.ts
+✅ Processed: packages/vite/src/node/ssr/runnerImport.ts
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/a.ts
+⏭ Skipped: packages/vite/src/node/ssr/runtime/__tests__/fixtures/assets/placeholder.mov
+⏭ Skipped: packages/vite/src/node/ssr/runtime/__tests__/fixtures/assets/placeholder.png
+⏭ Skipped (empty or invalid): packages/vite/src/node/ssr/runtime/__tests__/fixtures/assets/placeholder.txt
+⏭ Skipped: packages/vite/src/node/ssr/runtime/__tests__/fixtures/assets/placeholder.webp
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/assets.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/b.ts
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/basic.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/builtin-import.ts
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/c.ts
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/circular/circular-a.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/circular/circular-b.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/circular/circular-index.js
+⏭ Skipped (ext): packages/vite/src/node/ssr/runtime/__tests__/fixtures/cjs-external/index.cjs
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cjs-external/package.json
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cjs-external-existing.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cjs-external-non-existing.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic/action.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic/entry-cyclic.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic/entry.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/README.md
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/package.json
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test1/dep1.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test1/dep2.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test1/index.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test2/dep1.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test2/dep2.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test2/index.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test3/dep1.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test3/dep2.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test3/index.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test4/dep1.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test4/dep2.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test4/index.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test5/dep1.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test5/dep2.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test5/index.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test6/dep1.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test6/dep2.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test6/index.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test7/Ion.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test7/IonTypes.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test7/README.md
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test7/dom/Blob.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test7/dom/index.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test9/dep.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/cyclic2/test9/index.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/d.ts
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/default-string.ts
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/dynamic-import.js
+⏭ Skipped (ext): packages/vite/src/node/ssr/runtime/__tests__/fixtures/esm-external/index.mjs
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/esm-external/package.json
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/esm-external-existing.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/esm-external-non-existing.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/execution-order-re-export/dep1.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/execution-order-re-export/dep2.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/execution-order-re-export/index.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/has-error-deep.ts
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/has-error-first-comment.ts
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/has-error-first.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/has-error.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/hmr.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/import-external.ts
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/installed.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/live-binding/package.json
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/live-binding/test1/dep.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/live-binding/test1/index.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/live-binding/test2/dep.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/live-binding/test2/index.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/live-binding/test3/dep.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/live-binding/test3/index.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/live-binding/test4/dep.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/live-binding/test4/index.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/native.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/no-this/importee.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/no-this/importer.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/pre-source-mapped-file.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/simple.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/string-literal-sourcemap.ts
+⏭ Skipped (ext): packages/vite/src/node/ssr/runtime/__tests__/fixtures/test.css
+⏭ Skipped (ext): packages/vite/src/node/ssr/runtime/__tests__/fixtures/test.module.css
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/throws-error-method.ts
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/top-level-object.js
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/fixtures/virtual.js
+⏭ Skipped (ext): packages/vite/src/node/ssr/runtime/__tests__/fixtures/worker.invoke.mjs
+⏭ Skipped (ext): packages/vite/src/node/ssr/runtime/__tests__/fixtures/worker.mjs
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/package.json
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/server-hmr.spec.ts
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/server-no-hmr.spec.ts
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/server-runtime.spec.ts
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/server-source-maps.spec.ts
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/server-worker-runner.invoke.spec.ts
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/server-worker-runner.spec.ts
+✅ Processed: packages/vite/src/node/ssr/runtime/__tests__/utils.ts
+✅ Processed: packages/vite/src/node/ssr/runtime/serverModuleRunner.ts
+✅ Processed: packages/vite/src/node/ssr/ssrManifestPlugin.ts
+✅ Processed: packages/vite/src/node/ssr/ssrModuleLoader.ts
+✅ Processed: packages/vite/src/node/ssr/ssrStacktrace.ts
+✅ Processed: packages/vite/src/node/ssr/ssrTransform.ts
+✅ Processed: packages/vite/src/node/tsconfig.json
+✅ Processed: packages/vite/src/node/typeUtils.ts
+✅ Processed: packages/vite/src/node/utils.ts
+✅ Processed: packages/vite/src/node/watch.ts
+✅ Processed: packages/vite/src/shared/builtin.ts
+✅ Processed: packages/vite/src/shared/constants.ts
+✅ Processed: packages/vite/src/shared/hmr.ts
+✅ Processed: packages/vite/src/shared/hmrHandler.ts
+✅ Processed: packages/vite/src/shared/invokeMethods.ts
+✅ Processed: packages/vite/src/shared/moduleRunnerTransport.ts
+✅ Processed: packages/vite/src/shared/ssrTransform.ts
+✅ Processed: packages/vite/src/shared/tsconfig.json
+✅ Processed: packages/vite/src/shared/utils.ts
+✅ Processed: packages/vite/src/types/alias.d.ts
+✅ Processed: packages/vite/src/types/anymatch.d.ts
+✅ Processed: packages/vite/src/types/chokidar.d.ts
+✅ Processed: packages/vite/src/types/commonjs.d.ts
+✅ Processed: packages/vite/src/types/connect.d.ts
+✅ Processed: packages/vite/src/types/dynamicImportVars.d.ts
+✅ Processed: packages/vite/src/types/package.json
+✅ Processed: packages/vite/src/types/shims.d.ts
+✅ Processed: packages/vite/src/types/ws.d.ts
+✅ Processed: packages/vite/tsconfig.base.json
+✅ Processed: packages/vite/tsconfig.check.json
+✅ Processed: packages/vite/tsconfig.json
+✅ Processed: packages/vite/types/customEvent.d.ts
+✅ Processed: packages/vite/types/hmrPayload.d.ts
+✅ Processed: packages/vite/types/hot.d.ts
+✅ Processed: packages/vite/types/import-meta.d.ts
+✅ Processed: packages/vite/types/importGlob.d.ts
+✅ Processed: packages/vite/types/importMeta.d.ts
+✅ Processed: packages/vite/types/internal/cssPreprocessorOptions.d.ts
+✅ Processed: packages/vite/types/internal/lightningcssOptions.d.ts
+✅ Processed: packages/vite/types/internal/terserOptions.d.ts
+✅ Processed: packages/vite/types/metadata.d.ts
+✅ Processed: packages/vite/types/package.json
+⏭ Skipped (ext): patches/chokidar@3.6.0.patch
+⏭ Skipped (ext): patches/dotenv-expand@12.0.3.patch
+⏭ Skipped (ext): patches/sirv@3.0.2.patch
+✅ Processed: playground/alias/__tests__/alias.spec.ts
+✅ Processed: playground/alias/customResolver.js
+✅ Processed: playground/alias/dir/from-script-src.js
+✅ Processed: playground/alias/dir/module/index.js
+✅ Processed: playground/alias/dir/module/package.json
+⏭ Skipped (ext): playground/alias/dir/test.css
+✅ Processed: playground/alias/dir/test.js
+✅ Processed: playground/alias/dir/url_conflict.js
+✅ Processed: playground/alias/index.html
+✅ Processed: playground/alias/package.json
+✅ Processed: playground/alias/test.js
+✅ Processed: playground/alias/vite.config.js
+✅ Processed: playground/assets/__tests__/assets.spec.ts
+✅ Processed: playground/assets/__tests__/encoded-base/assets-encoded-base.spec.ts
+✅ Processed: playground/assets/__tests__/relative-base/assets-relative-base.spec.ts
+✅ Processed: playground/assets/__tests__/runtime-base/assets-runtime-base.spec.ts
+✅ Processed: playground/assets/__tests__/url-base/assets-url-base.spec.ts
+✅ Processed: playground/assets/asset/main.js
+⏭ Skipped: playground/assets/asset/percent%.png
+⏭ Skipped (ext): playground/assets/asset/style.css
+⏭ Skipped (ext): playground/assets/css/css-url-url.css
+⏭ Skipped (ext): playground/assets/css/css-url.css
+⏭ Skipped (ext): playground/assets/css/fonts.css
+⏭ Skipped (ext): playground/assets/css/foo.module.css
+⏭ Skipped (ext): playground/assets/css/icons.css
+⏭ Skipped (ext): playground/assets/css/import.css
+⏭ Skipped (ext): playground/assets/css/manual-chunks.css
+⏭ Skipped (ext): playground/assets/css/nested/at-imported-css-url.css
+⏭ Skipped: playground/assets/favicon.ico
+⏭ Skipped: playground/assets/fonts/Inter-Italic.woff
+⏭ Skipped: playground/assets/fonts/Inter-Italic.woff2
+✅ Processed: playground/assets/foo.js
+⏭ Skipped: playground/assets/import-meta-url/img-update.png
+⏭ Skipped: playground/assets/import-meta-url/img.png
+✅ Processed: playground/assets/index.html
+✅ Processed: playground/assets/manifest.json
+✅ Processed: playground/assets/multiline-import-meta-url.js
+⏭ Skipped: playground/assets/nested/asset.png
+⏭ Skipped: playground/assets/nested/asset[small].png
+⏭ Skipped: playground/assets/nested/donuts-large.svg
+⏭ Skipped (ext): playground/assets/nested/foo.unknown
+⏭ Skipped: playground/assets/nested/fragment-bg-hmr.svg
+⏭ Skipped: playground/assets/nested/fragment-bg-hmr2.svg
+⏭ Skipped: playground/assets/nested/fragment-bg.svg
+⏭ Skipped: playground/assets/nested/fragment.svg
+⏭ Skipped: playground/assets/nested/html-only-asset.jpg
+⏭ Skipped: playground/assets/nested/icon.png
+⏭ Skipped: playground/assets/nested/inlined.svg
+✅ Processed: playground/assets/nested/partial.html
+✅ Processed: playground/assets/nested/test.js
+⏭ Skipped: playground/assets/nested/with-single'quote.png
+⏭ Skipped: playground/assets/nested/テスト-測試-white space.png
+✅ Processed: playground/assets/package.json
+⏭ Skipped (ext): playground/assets/static/bar
+⏭ Skipped (ext): playground/assets/static/foo.css
+✅ Processed: playground/assets/static/foo.json
+✅ Processed: playground/assets/static/foo.txt
+⏭ Skipped: playground/assets/static/icon.png
+✅ Processed: playground/assets/static/import-expression.js
+⏭ Skipped (ext): playground/assets/static/raw.css
+✅ Processed: playground/assets/static/raw.js
+⏭ Skipped (ext): playground/assets/static/raw.mts
+✅ Processed: playground/assets/static/raw.ts
+✅ Processed: playground/assets/vite.config-encoded-base.js
+✅ Processed: playground/assets/vite.config-relative-base.js
+✅ Processed: playground/assets/vite.config-runtime-base.js
+✅ Processed: playground/assets/vite.config-url-base.js
+✅ Processed: playground/assets/vite.config.js
+✅ Processed: playground/assets/テスト-測試-white space.js
+⏭ Skipped: playground/assets-sanitize/+circle.svg
+⏭ Skipped (ext): playground/assets-sanitize/.env
+✅ Processed: playground/assets-sanitize/__tests__/assets-sanitize.spec.ts
+⏭ Skipped: playground/assets-sanitize/_circle.svg
+✅ Processed: playground/assets-sanitize/index.html
+✅ Processed: playground/assets-sanitize/index.js
+✅ Processed: playground/assets-sanitize/package.json
+✅ Processed: playground/assets-sanitize/vite.config.js
+✅ Processed: playground/backend-integration/__tests__/backend-integration.spec.ts
+⏭ Skipped (ext): playground/backend-integration/dir/custom.css
+⏭ Skipped (ext): playground/backend-integration/dir/foo.css
+⏭ Skipped (ext): playground/backend-integration/frontend/entrypoints/foo.pcss
+⏭ Skipped (ext): playground/backend-integration/frontend/entrypoints/global.css
+⏭ Skipped: playground/backend-integration/frontend/entrypoints/icon.png
+✅ Processed: playground/backend-integration/frontend/entrypoints/index.html
+✅ Processed: playground/backend-integration/frontend/entrypoints/main.ts
+⏭ Skipped (ext): playground/backend-integration/frontend/entrypoints/nested/blue.scss
+✅ Processed: playground/backend-integration/frontend/entrypoints/nested/sub.ts
+⏭ Skipped: playground/backend-integration/frontend/entrypoints/water-container.svg
+⏭ Skipped: playground/backend-integration/frontend/images/logo.png
+⏭ Skipped (ext): playground/backend-integration/frontend/styles/background.css
+⏭ Skipped (ext): playground/backend-integration/frontend/styles/imported.css
+⏭ Skipped (ext): playground/backend-integration/frontend/styles/tailwind.css
+⏭ Skipped (ext): playground/backend-integration/frontend/styles/url.css
+✅ Processed: playground/backend-integration/package.json
+⏭ Skipped (ext): playground/backend-integration/references.css
+✅ Processed: playground/backend-integration/vite.config.js
+✅ Processed: playground/build-old/__tests__/build-old.spec.ts
+✅ Processed: playground/build-old/dynamic.js
+✅ Processed: playground/build-old/index.html
+✅ Processed: playground/build-old/package.json
+✅ Processed: playground/build-old/vite.config.js
+✅ Processed: playground/cli/__tests__/cli.spec.ts
+✅ Processed: playground/cli/__tests__/serve.ts
+✅ Processed: playground/cli/index.html
+✅ Processed: playground/cli/index.js
+✅ Processed: playground/cli/package.json
+✅ Processed: playground/cli/vite.config.js
+✅ Processed: playground/cli-module/__tests__/cli-module.spec.ts
+✅ Processed: playground/cli-module/__tests__/serve.ts
+✅ Processed: playground/cli-module/index.html
+✅ Processed: playground/cli-module/index.js
+✅ Processed: playground/cli-module/package.json
+✅ Processed: playground/cli-module/vite.config.js
+✅ Processed: playground/client-reload/__tests__/client-reload.spec.ts
+✅ Processed: playground/client-reload/__tests__/serve.ts
+✅ Processed: playground/client-reload/index.html
+✅ Processed: playground/client-reload/package.json
+✅ Processed: playground/client-reload/vite.config.ts
+✅ Processed: playground/csp/__tests__/csp.spec.ts
+⏭ Skipped (ext): playground/csp/dynamic.css
+✅ Processed: playground/csp/dynamic.js
+⏭ Skipped (ext): playground/csp/from-js.css
+✅ Processed: playground/csp/index.html
+✅ Processed: playground/csp/index.js
+⏭ Skipped (ext): playground/csp/linked.css
+✅ Processed: playground/csp/package.json
+✅ Processed: playground/csp/vite.config.js
+✅ Processed: playground/css/__tests__/css.spec.ts
+✅ Processed: playground/css/__tests__/lightningcss/lightningcss.spec.ts
+✅ Processed: playground/css/__tests__/no-css-minify/css-no-css-minify.spec.ts
+✅ Processed: playground/css/__tests__/postcss-plugins-different-dir/css-postcss-plugins-different-dir.spec.ts
+✅ Processed: playground/css/__tests__/postcss-plugins-different-dir/serve.ts
+✅ Processed: playground/css/__tests__/same-file-name/css-same-file-name.spec.ts
+✅ Processed: playground/css/__tests__/sass-modern-compiler-build/sass-modern-compiler.spec.ts
+✅ Processed: playground/css/__tests__/sass-tests.ts
+✅ Processed: playground/css/__tests__/tests.ts
+⏭ Skipped (ext): playground/css/aliased/bar.module.css
+⏭ Skipped (ext): playground/css/aliased/foo.css
+⏭ Skipped (ext): playground/css/async/async-1.css
+✅ Processed: playground/css/async/async-1.js
+⏭ Skipped (ext): playground/css/async/async-2.css
+✅ Processed: playground/css/async/async-2.js
+✅ Processed: playground/css/async/async-3.js
+⏭ Skipped (ext): playground/css/async/async-3.module.css
+⏭ Skipped (ext): playground/css/async/base.css
+✅ Processed: playground/css/async/base.js
+✅ Processed: playground/css/async/index.js
+⏭ Skipped (ext): playground/css/async-treeshaken.css
+✅ Processed: playground/css/async-treeshaken.js
+⏭ Skipped (ext): playground/css/async.css
+✅ Processed: playground/css/async.js
+⏭ Skipped (ext): playground/css/charset.css
+⏭ Skipped (ext): playground/css/composed.module.css
+⏭ Skipped (ext): playground/css/composed.module.less
+⏭ Skipped (ext): playground/css/composed.module.scss
+⏭ Skipped (ext): playground/css/composes-path-resolving.module.css
+⏭ Skipped (ext): playground/css/css-dep/index.css
+✅ Processed: playground/css/css-dep/index.js
+⏭ Skipped (ext): playground/css/css-dep/index.scss
+⏭ Skipped (ext): playground/css/css-dep/index.styl
+✅ Processed: playground/css/css-dep/package.json
+⏭ Skipped (ext): playground/css/css-dep-exports/foo1.scss
+✅ Processed: playground/css/css-dep-exports/index.js
+✅ Processed: playground/css/css-dep-exports/package.json
+⏭ Skipped (ext): playground/css/css-dep-exports/style.css
+⏭ Skipped (ext): playground/css/css-dep-exports/style.scss
+⏭ Skipped (ext): playground/css/css-js-dep/bar.module.css
+⏭ Skipped (ext): playground/css/css-js-dep/foo.css
+✅ Processed: playground/css/css-js-dep/index.js
+✅ Processed: playground/css/css-js-dep/package.json
+⏭ Skipped (ext): playground/css/css-proxy-dep/index.css
+✅ Processed: playground/css/css-proxy-dep/package.json
+⏭ Skipped (ext): playground/css/css-proxy-dep-nested/index.css
+✅ Processed: playground/css/css-proxy-dep-nested/package.json
+⏭ Skipped (ext): playground/css/dep.css
+⏭ Skipped (ext): playground/css/empty.css
+⏭ Skipped (ext): playground/css/file-absolute.scss
+⏭ Skipped: playground/css/folder with space/ok.png
+⏭ Skipped (ext): playground/css/folder with space/space.css
+⏭ Skipped (ext): playground/css/glob-dep/bar.css
+⏭ Skipped (ext): playground/css/glob-dep/foo.css
+⏭ Skipped (ext): playground/css/glob-dep/nested (dir)/baz.css
+⏭ Skipped (ext): playground/css/glob-dep.css
+⏭ Skipped (ext): playground/css/glob-import/bar.css
+⏭ Skipped (ext): playground/css/glob-import/foo.css
+⏭ Skipped (ext): playground/css/imported-at-import.css
+⏭ Skipped (ext): playground/css/imported.css
+⏭ Skipped (ext): playground/css/imported.scss
+⏭ Skipped (ext): playground/css/imports-field.css
+⏭ Skipped (ext): playground/css/imports-imports-field.css
+✅ Processed: playground/css/index.html
+⏭ Skipped (ext): playground/css/inline.module.css
+⏭ Skipped (ext): playground/css/inlined.css
+✅ Processed: playground/css/jsfile.css.js
+⏭ Skipped (ext): playground/css/layered/blue.css
+⏭ Skipped (ext): playground/css/layered/green.css
+⏭ Skipped (ext): playground/css/layered/index.css
+⏭ Skipped (ext): playground/css/less/components/form.less
+⏭ Skipped: playground/css/less/images/backgrounds/form-select.svg
+⏭ Skipped (ext): playground/css/less/ommer.less
+✅ Processed: playground/css/less-plugin/test.js
+⏭ Skipped (ext): playground/css/less-plugin.less
+⏭ Skipped (ext): playground/css/less.less
+✅ Processed: playground/css/lightningcss-plugins.js
+⏭ Skipped (ext): playground/css/linked-at-import.css
+⏭ Skipped (ext): playground/css/linked.css
+✅ Processed: playground/css/main.js
+⏭ Skipped (ext): playground/css/manual-chunk.css
+⏭ Skipped (ext): playground/css/minify.css
+⏭ Skipped (ext): playground/css/mod.module.css
+⏭ Skipped (ext): playground/css/mod.module.scss
+⏭ Skipped (ext): playground/css/nested/_index.scss
+⏭ Skipped (ext): playground/css/nested/_partial.scss
+⏭ Skipped (ext): playground/css/nested/css-in-less-2.less
+⏭ Skipped (ext): playground/css/nested/css-in-less.css
+⏭ Skipped (ext): playground/css/nested/css-in-less.less
+⏭ Skipped (ext): playground/css/nested/css-in-scss.css
+⏭ Skipped: playground/css/nested/icon.png
+⏭ Skipped (ext): playground/css/nested/nested.less
+⏭ Skipped (ext): playground/css/nested/nested.sss
+⏭ Skipped (ext): playground/css/nested/nested.styl
+⏭ Skipped (ext): playground/css/nested/relative.scss
+⏭ Skipped (ext): playground/css/nested/replacement-alias.scss
+⏭ Skipped (ext): playground/css/nested/root-relative.scss
+⏭ Skipped: playground/css/ok.png
+⏭ Skipped (ext): playground/css/options/absolute-import.styl
+⏭ Skipped (ext): playground/css/options/relative-import.styl
+✅ Processed: playground/css/package.json
+⏭ Skipped (ext): playground/css/pkg-dep/_index.scss
+⏭ Skipped (empty or invalid): playground/css/pkg-dep/index.js
+✅ Processed: playground/css/pkg-dep/package.json
+⏭ Skipped (ext): playground/css/postcss-caching/blue-app/imported.css
+✅ Processed: playground/css/postcss-caching/blue-app/index.html
+✅ Processed: playground/css/postcss-caching/blue-app/main.js
+✅ Processed: playground/css/postcss-caching/blue-app/package.json
+✅ Processed: playground/css/postcss-caching/blue-app/postcss.config.js
+✅ Processed: playground/css/postcss-caching/css.spec.ts
+⏭ Skipped (ext): playground/css/postcss-caching/green-app/imported.css
+✅ Processed: playground/css/postcss-caching/green-app/index.html
+✅ Processed: playground/css/postcss-caching/green-app/main.js
+✅ Processed: playground/css/postcss-caching/green-app/package.json
+✅ Processed: playground/css/postcss-caching/green-app/postcss.config.js
+✅ Processed: playground/css/postcss-caching/serve.ts
+⏭ Skipped (ext): playground/css/postcss-inject-url.css
+⏭ Skipped (ext): playground/css/postcss-source-input.css
+✅ Processed: playground/css/postcss.config.js
+⏭ Skipped (ext): playground/css/raw-imported.css
+⏭ Skipped (ext): playground/css/same-name/sub1/sub.css
+✅ Processed: playground/css/same-name/sub1/sub.js
+⏭ Skipped (ext): playground/css/same-name/sub2/sub.css
+✅ Processed: playground/css/same-name/sub2/sub.js
+⏭ Skipped (ext): playground/css/sass-modern-compiler-build/entry1.scss
+⏭ Skipped (ext): playground/css/sass-modern-compiler-build/entry2.scss
+⏭ Skipped (ext): playground/css/sass.scss
+⏭ Skipped (ext): playground/css/scss-dir/dir/index.scss
+⏭ Skipped (ext): playground/css/scss-dir/main.scss
+⏭ Skipped (ext): playground/css/scss-proxy-dep/index.scss
+✅ Processed: playground/css/scss-proxy-dep/package.json
+⏭ Skipped (ext): playground/css/scss-proxy-dep-nested/index.css
+✅ Processed: playground/css/scss-proxy-dep-nested/package.json
+⏭ Skipped (ext): playground/css/stylus.styl
+⏭ Skipped (ext): playground/css/sugarss.sss
+✅ Processed: playground/css/treeshake-module/a.js
+⏭ Skipped (ext): playground/css/treeshake-module/a.module.css
+✅ Processed: playground/css/treeshake-module/b.js
+⏭ Skipped (ext): playground/css/treeshake-module/b.module.css
+✅ Processed: playground/css/treeshake-module/index.js
+⏭ Skipped (ext): playground/css/treeshake-scoped/a-scoped.css
+✅ Processed: playground/css/treeshake-scoped/a.js
+⏭ Skipped (ext): playground/css/treeshake-scoped/b-scoped.css
+✅ Processed: playground/css/treeshake-scoped/b.js
+⏭ Skipped (ext): playground/css/treeshake-scoped/c-scoped.css
+✅ Processed: playground/css/treeshake-scoped/c.js
+⏭ Skipped (ext): playground/css/treeshake-scoped/d-scoped.css
+✅ Processed: playground/css/treeshake-scoped/d.js
+✅ Processed: playground/css/treeshake-scoped/index.html
+✅ Processed: playground/css/treeshake-scoped/index.js
+⏭ Skipped (ext): playground/css/treeshake-scoped/order/a-scoped.css
+✅ Processed: playground/css/treeshake-scoped/order/a.js
+⏭ Skipped (ext): playground/css/treeshake-scoped/order/after.css
+⏭ Skipped (ext): playground/css/treeshake-scoped/order/before.css
+⏭ Skipped (ext): playground/css/unsupported.css
+⏭ Skipped (ext): playground/css/url-imported.css
+✅ Processed: playground/css/vite.config-lightningcss.js
+✅ Processed: playground/css/vite.config-no-css-minify.js
+✅ Processed: playground/css/vite.config-relative-base.js
+✅ Processed: playground/css/vite.config-same-file-name.js
+✅ Processed: playground/css/vite.config-sass-modern-compiler-build.js
+✅ Processed: playground/css/vite.config.js
+⏭ Skipped (ext): playground/css/weapp.wxss
+✅ Processed: playground/css-codesplit/__tests__/css-codesplit-consistent.spec.ts
+✅ Processed: playground/css-codesplit/__tests__/css-codesplit.spec.ts
+⏭ Skipped (ext): playground/css-codesplit/async-js.css
+✅ Processed: playground/css-codesplit/async-js.js
+⏭ Skipped (ext): playground/css-codesplit/async.css
+⏭ Skipped (ext): playground/css-codesplit/chunk.css
+✅ Processed: playground/css-codesplit/index.html
+⏭ Skipped (ext): playground/css-codesplit/inline.css
+⏭ Skipped (ext): playground/css-codesplit/main.css
+✅ Processed: playground/css-codesplit/main.js
+⏭ Skipped (ext): playground/css-codesplit/mod.module.css
+⏭ Skipped (ext): playground/css-codesplit/order/base.css
+⏭ Skipped (ext): playground/css-codesplit/order/dynamic.css
+✅ Processed: playground/css-codesplit/order/index.js
+✅ Processed: playground/css-codesplit/order/insert.js
+✅ Processed: playground/css-codesplit/other.js
+✅ Processed: playground/css-codesplit/package.json
+✅ Processed: playground/css-codesplit/shared-css-empty-1.js
+✅ Processed: playground/css-codesplit/shared-css-empty-2.js
+✅ Processed: playground/css-codesplit/shared-css-main.js
+✅ Processed: playground/css-codesplit/shared-css-no-js.html
+⏭ Skipped (ext): playground/css-codesplit/shared-css-theme.css
+✅ Processed: playground/css-codesplit/shared-css-with-js.html
+⏭ Skipped (ext): playground/css-codesplit/style.css
+⏭ Skipped (ext): playground/css-codesplit/style2.css
+✅ Processed: playground/css-codesplit/style2.js
+✅ Processed: playground/css-codesplit/vite.config.js
+✅ Processed: playground/css-codesplit-cjs/__tests__/css-codesplit-cjs.spec.ts
+⏭ Skipped (empty or invalid): playground/css-codesplit-cjs/index.html
+⏭ Skipped (ext): playground/css-codesplit-cjs/main.css
+✅ Processed: playground/css-codesplit-cjs/main.js
+✅ Processed: playground/css-codesplit-cjs/other.js
+✅ Processed: playground/css-codesplit-cjs/package.json
+⏭ Skipped (ext): playground/css-codesplit-cjs/style.css
+✅ Processed: playground/css-codesplit-cjs/vite.config.js
+✅ Processed: playground/css-dynamic-import/__tests__/css-dynamic-import.spec.ts
+✅ Processed: playground/css-dynamic-import/__tests__/serve.ts
+⏭ Skipped (ext): playground/css-dynamic-import/dynamic.css
+✅ Processed: playground/css-dynamic-import/dynamic.js
+✅ Processed: playground/css-dynamic-import/index.html
+✅ Processed: playground/css-dynamic-import/index.js
+✅ Processed: playground/css-dynamic-import/package.json
+⏭ Skipped (ext): playground/css-dynamic-import/static.css
+✅ Processed: playground/css-dynamic-import/static.js
+✅ Processed: playground/css-lightningcss/__tests__/css-lightningcss.spec.ts
+⏭ Skipped (ext): playground/css-lightningcss/composed.module.css
+⏭ Skipped (ext): playground/css-lightningcss/composes-path-resolving.module.css
+⏭ Skipped (ext): playground/css-lightningcss/css-url.css
+⏭ Skipped (ext): playground/css-lightningcss/external-url.css
+⏭ Skipped (ext): playground/css-lightningcss/imported-at-import.css
+⏭ Skipped (ext): playground/css-lightningcss/imported.css
+✅ Processed: playground/css-lightningcss/index.html
+⏭ Skipped (ext): playground/css-lightningcss/inline.module.css
+⏭ Skipped (ext): playground/css-lightningcss/inlined.css
+⏭ Skipped (ext): playground/css-lightningcss/linked-at-import.css
+⏭ Skipped (ext): playground/css-lightningcss/linked.css
+✅ Processed: playground/css-lightningcss/main.js
+⏭ Skipped (ext): playground/css-lightningcss/minify.css
+⏭ Skipped (ext): playground/css-lightningcss/mod.module.css
+⏭ Skipped: playground/css-lightningcss/nested/fragment.svg
+⏭ Skipped (ext): playground/css-lightningcss/nested/nested.css
+⏭ Skipped: playground/css-lightningcss/ok.png
+✅ Processed: playground/css-lightningcss/package.json
+✅ Processed: playground/css-lightningcss/vite.config.js
+✅ Processed: playground/css-lightningcss-proxy/__tests__/css-lightningcss-proxy.spec.ts
+✅ Processed: playground/css-lightningcss-proxy/__tests__/serve.ts
+✅ Processed: playground/css-lightningcss-proxy/index.html
+✅ Processed: playground/css-lightningcss-proxy/package.json
+✅ Processed: playground/css-lightningcss-proxy/server.js
+✅ Processed: playground/css-lightningcss-root/__tests__/css-lightningcss-root.spec.ts
+✅ Processed: playground/css-lightningcss-root/package.json
+✅ Processed: playground/css-lightningcss-root/root/index.html
+✅ Processed: playground/css-lightningcss-root/root/main.js
+⏭ Skipped: playground/css-lightningcss-root/root/ok.png
+⏭ Skipped (ext): playground/css-lightningcss-root/root/url-dep.css
+✅ Processed: playground/css-lightningcss-root/vite.config.js
+✅ Processed: playground/css-no-codesplit/__tests__/css-no-codesplit.spec.ts
+⏭ Skipped (ext): playground/css-no-codesplit/async-js.css
+✅ Processed: playground/css-no-codesplit/async-js.js
+✅ Processed: playground/css-no-codesplit/index.html
+✅ Processed: playground/css-no-codesplit/index.js
+✅ Processed: playground/css-no-codesplit/package.json
+⏭ Skipped (ext): playground/css-no-codesplit/shared-linked.css
+⏭ Skipped (empty or invalid): playground/css-no-codesplit/sub.html
+✅ Processed: playground/css-no-codesplit/vite.config.js
+✅ Processed: playground/css-sourcemap/__tests__/css-sourcemap.spec.ts
+✅ Processed: playground/css-sourcemap/__tests__/lib-entry/css-sourcemap-lib-entry.spec.ts
+✅ Processed: playground/css-sourcemap/__tests__/lightningcss/lightningcss.spec.ts
+⏭ Skipped (ext): playground/css-sourcemap/be-imported.css
+⏭ Skipped (ext): playground/css-sourcemap/imported-nested.sass
+⏭ Skipped (ext): playground/css-sourcemap/imported-with-import.css
+⏭ Skipped (ext): playground/css-sourcemap/imported.css
+⏭ Skipped (ext): playground/css-sourcemap/imported.less
+⏭ Skipped (ext): playground/css-sourcemap/imported.module.sass
+⏭ Skipped (ext): playground/css-sourcemap/imported.sass
+⏭ Skipped (ext): playground/css-sourcemap/imported.sss
+⏭ Skipped (ext): playground/css-sourcemap/imported.styl
+✅ Processed: playground/css-sourcemap/index.html
+✅ Processed: playground/css-sourcemap/index.js
+⏭ Skipped (ext): playground/css-sourcemap/input-map.css
+⏭ Skipped (ext): playground/css-sourcemap/input-map.css.map
+⏭ Skipped (ext): playground/css-sourcemap/input-map.src.css
+⏭ Skipped (ext): playground/css-sourcemap/linked-with-import.css
+⏭ Skipped (ext): playground/css-sourcemap/linked.css
+✅ Processed: playground/css-sourcemap/package.json
+✅ Processed: playground/css-sourcemap/vite.config-lib-entry.js
+✅ Processed: playground/css-sourcemap/vite.config-lightningcss.js
+✅ Processed: playground/css-sourcemap/vite.config.js
+✅ Processed: playground/data-uri/__tests__/data-uri.spec.ts
+⏭ Skipped: playground/data-uri/double-quote-in-single-quotes.svg
+⏭ Skipped: playground/data-uri/double-quotes-in-single-quotes.svg
+✅ Processed: playground/data-uri/index.html
+✅ Processed: playground/data-uri/main.js
+✅ Processed: playground/data-uri/package.json
+⏭ Skipped: playground/data-uri/single-quote-in-double-quotes.svg
+⏭ Skipped: playground/data-uri/single-quotes-in-double-quotes.svg
+✅ Processed: playground/data-uri/vite.config.js
+✅ Processed: playground/define/__tests__/define.spec.ts
+✅ Processed: playground/define/commonjs-dep/index.js
+✅ Processed: playground/define/commonjs-dep/package.json
+✅ Processed: playground/define/data.json
+✅ Processed: playground/define/index.html
+✅ Processed: playground/define/optional-env.js
+✅ Processed: playground/define/package.json
+✅ Processed: playground/define/vite.config.js
+✅ Processed: playground/dynamic-import/(app)/main.js
+✅ Processed: playground/dynamic-import/(app)/nest/index.js
+✅ Processed: playground/dynamic-import/__tests__/dynamic-import.spec.ts
+✅ Processed: playground/dynamic-import/alias/hello.js
+✅ Processed: playground/dynamic-import/alias/hi.js
+✅ Processed: playground/dynamic-import/alias/url.js
+✅ Processed: playground/dynamic-import/alias/worker.js
+⏭ Skipped (ext): playground/dynamic-import/css/index.css
+✅ Processed: playground/dynamic-import/files/mxd.js
+✅ Processed: playground/dynamic-import/files/mxd.json
+✅ Processed: playground/dynamic-import/index.html
+✅ Processed: playground/dynamic-import/nested/deps.js
+✅ Processed: playground/dynamic-import/nested/hello.js
+✅ Processed: playground/dynamic-import/nested/index.js
+✅ Processed: playground/dynamic-import/nested/nested/self.js
+✅ Processed: playground/dynamic-import/nested/self.js
+✅ Processed: playground/dynamic-import/nested/shared.js
+✅ Processed: playground/dynamic-import/nested/static.js
+✅ Processed: playground/dynamic-import/nested/treeshaken/syntax.js
+✅ Processed: playground/dynamic-import/nested/treeshaken/treeshaken.js
+✅ Processed: playground/dynamic-import/package.json
+✅ Processed: playground/dynamic-import/pkg/index.js
+✅ Processed: playground/dynamic-import/pkg/package.json
+⏭ Skipped (ext): playground/dynamic-import/pkg/pkg.css
+✅ Processed: playground/dynamic-import/views/bar.js
+✅ Processed: playground/dynamic-import/views/baz.js
+✅ Processed: playground/dynamic-import/views/foo.js
+✅ Processed: playground/dynamic-import/views/qux.js
+✅ Processed: playground/dynamic-import/vite.config.js
+✅ Processed: playground/dynamic-import-inline/__tests__/dynamic-import-inline.spec.ts
+⏭ Skipped (empty or invalid): playground/dynamic-import-inline/index.html
+✅ Processed: playground/dynamic-import-inline/package.json
+✅ Processed: playground/dynamic-import-inline/src/foo.js
+✅ Processed: playground/dynamic-import-inline/src/index.js
+✅ Processed: playground/dynamic-import-inline/vite.config.js
+⏭ Skipped (ext): playground/env/.env
+⏭ Skipped (ext): playground/env/.env.development
+⏭ Skipped (ext): playground/env/.env.production
+✅ Processed: playground/env/__tests__/env.spec.ts
+✅ Processed: playground/env/index.html
+✅ Processed: playground/env/index.js
+✅ Processed: playground/env/package.json
+✅ Processed: playground/env/vite.config.js
+⏭ Skipped (ext): playground/env-nested/.env
+✅ Processed: playground/env-nested/__tests__/env-nested.spec.ts
+⏭ Skipped (ext): playground/env-nested/envs/.env.development
+⏭ Skipped (ext): playground/env-nested/envs/.env.production
+✅ Processed: playground/env-nested/index.html
+✅ Processed: playground/env-nested/package.json
+✅ Processed: playground/env-nested/vite.config.js
+✅ Processed: playground/environment-react-ssr/__tests__/environment-react-ssr.spec.ts
+⏭ Skipped (empty or invalid): playground/environment-react-ssr/index.html
+✅ Processed: playground/environment-react-ssr/package.json
+✅ Processed: playground/environment-react-ssr/src/entry-client.tsx
+✅ Processed: playground/environment-react-ssr/src/entry-server.tsx
+✅ Processed: playground/environment-react-ssr/src/root.tsx
+✅ Processed: playground/environment-react-ssr/tsconfig.json
+✅ Processed: playground/environment-react-ssr/vite.config.ts
+✅ Processed: playground/extensions/__tests__/extensions.spec.ts
+✅ Processed: playground/extensions/index.html
+✅ Processed: playground/extensions/package.json
+✅ Processed: playground/extensions/vite.config.js
+✅ Processed: playground/external/__tests__/external.spec.ts
+✅ Processed: playground/external/dep-that-imports/index.js
+✅ Processed: playground/external/dep-that-imports/package.json
+✅ Processed: playground/external/dep-that-requires/index.js
+✅ Processed: playground/external/dep-that-requires/package.json
+✅ Processed: playground/external/index.html
+✅ Processed: playground/external/package.json
+✅ Processed: playground/external/public/slash@3.0.0.js
+✅ Processed: playground/external/src/main.js
+✅ Processed: playground/external/vite.config.js
+✅ Processed: playground/fs-serve/__tests__/base/fs-serve-base.spec.ts
+✅ Processed: playground/fs-serve/__tests__/deny/fs-serve-deny.spec.ts
+✅ Processed: playground/fs-serve/__tests__/fs-serve.spec.ts
+✅ Processed: playground/fs-serve/entry.js
+✅ Processed: playground/fs-serve/nested/foo.js
+✅ Processed: playground/fs-serve/package.json
+⏭ Skipped (ext): playground/fs-serve/root/src/.env
+✅ Processed: playground/fs-serve/root/src/code.js
+⏭ Skipped (ext): playground/fs-serve/root/src/deny/.deny
+✅ Processed: playground/fs-serve/root/src/deny/deny.txt
+⏭ Skipped (ext): playground/fs-serve/root/src/dummy.crt
+✅ Processed: playground/fs-serve/root/src/index.html
+✅ Processed: playground/fs-serve/root/src/safe.txt
+✅ Processed: playground/fs-serve/root/src/special characters åäö/safe.json
+✅ Processed: playground/fs-serve/root/src/special characters åäö/safe.txt
+✅ Processed: playground/fs-serve/root/src/subdir/safe.txt
+✅ Processed: playground/fs-serve/root/svgVirtualModulePlugin.ts
+✅ Processed: playground/fs-serve/root/unsafe.html
+⏭ Skipped: playground/fs-serve/root/unsafe.svg
+✅ Processed: playground/fs-serve/root/unsafe.txt
+✅ Processed: playground/fs-serve/root/vite.config-base.js
+✅ Processed: playground/fs-serve/root/vite.config-deny.js
+✅ Processed: playground/fs-serve/root/vite.config.js
+✅ Processed: playground/fs-serve/safe.json
+✅ Processed: playground/fs-serve/unsafe.html
+✅ Processed: playground/fs-serve/unsafe.json
+✅ Processed: playground/glob-import/__tests__/glob-import.spec.ts
+✅ Processed: playground/glob-import/array-test-dir/excluded.js
+✅ Processed: playground/glob-import/array-test-dir/included.js
+✅ Processed: playground/glob-import/dir/alias.js
+✅ Processed: playground/glob-import/dir/baz.json
+⏭ Skipped (ext): playground/glob-import/dir/foo.css
+✅ Processed: playground/glob-import/dir/foo.js
+✅ Processed: playground/glob-import/dir/index.js
+✅ Processed: playground/glob-import/dir/nested/bar.js
+✅ Processed: playground/glob-import/dir/quote'.js
+✅ Processed: playground/glob-import/escape/(parenthesis)/glob.js
+✅ Processed: playground/glob-import/escape/(parenthesis)/mod/index.js
+✅ Processed: playground/glob-import/escape/[brackets]/glob.js
+✅ Processed: playground/glob-import/escape/[brackets]/mod/index.js
+✅ Processed: playground/glob-import/escape/{curlies}/glob.js
+✅ Processed: playground/glob-import/escape/{curlies}/mod/index.js
+✅ Processed: playground/glob-import/import-meta-glob-pkg/index.js
+✅ Processed: playground/glob-import/import-meta-glob-pkg/package.json
+✅ Processed: playground/glob-import/imports-path/bar.js
+✅ Processed: playground/glob-import/imports-path/foo.js
+✅ Processed: playground/glob-import/index.html
+⏭ Skipped (ext): playground/glob-import/no-tree-shake.css
+✅ Processed: playground/glob-import/package.json
+✅ Processed: playground/glob-import/pkg-pages/foo.js
+✅ Processed: playground/glob-import/side-effect/writedom.js
+✅ Processed: playground/glob-import/side-effect/writetodom.js
+⏭ Skipped (ext): playground/glob-import/tree-shake.css
+✅ Processed: playground/glob-import/vite.config.ts
+✅ Processed: playground/hmr/__tests__/hmr.spec.ts
+✅ Processed: playground/hmr/accept-exports/dynamic-imports/deps-all-accepted.ts
+✅ Processed: playground/hmr/accept-exports/dynamic-imports/deps-some-accepted.ts
+✅ Processed: playground/hmr/accept-exports/dynamic-imports/dynamic-imports.ts
+⏭ Skipped (empty or invalid): playground/hmr/accept-exports/dynamic-imports/index.html
+✅ Processed: playground/hmr/accept-exports/export-from/depA.ts
+✅ Processed: playground/hmr/accept-exports/export-from/export-from.ts
+✅ Processed: playground/hmr/accept-exports/export-from/hub.ts
+⏭ Skipped (empty or invalid): playground/hmr/accept-exports/export-from/index.html
+✅ Processed: playground/hmr/accept-exports/main-accepted/callback.ts
+✅ Processed: playground/hmr/accept-exports/main-accepted/dep.ts
+⏭ Skipped (empty or invalid): playground/hmr/accept-exports/main-accepted/index.html
+✅ Processed: playground/hmr/accept-exports/main-accepted/main-accepted.ts
+✅ Processed: playground/hmr/accept-exports/main-accepted/target.ts
+✅ Processed: playground/hmr/accept-exports/main-non-accepted/default.ts
+✅ Processed: playground/hmr/accept-exports/main-non-accepted/dep.ts
+⏭ Skipped (empty or invalid): playground/hmr/accept-exports/main-non-accepted/index.html
+✅ Processed: playground/hmr/accept-exports/main-non-accepted/main-non-accepted.ts
+✅ Processed: playground/hmr/accept-exports/main-non-accepted/named.ts
+✅ Processed: playground/hmr/accept-exports/reexports.bak/accept-named.ts
+⏭ Skipped (empty or invalid): playground/hmr/accept-exports/reexports.bak/index.html
+✅ Processed: playground/hmr/accept-exports/reexports.bak/reexports.ts
+✅ Processed: playground/hmr/accept-exports/reexports.bak/source.ts
+⏭ Skipped (empty or invalid): playground/hmr/accept-exports/side-effects/index.html
+✅ Processed: playground/hmr/accept-exports/side-effects/side-effects.ts
+✅ Processed: playground/hmr/accept-exports/star-imports/deps-all-accepted.ts
+✅ Processed: playground/hmr/accept-exports/star-imports/deps-some-accepted.ts
+⏭ Skipped (empty or invalid): playground/hmr/accept-exports/star-imports/index.html
+✅ Processed: playground/hmr/accept-exports/star-imports/star-imports.ts
+⏭ Skipped (empty or invalid): playground/hmr/accept-exports/unused-exports/index.html
+✅ Processed: playground/hmr/accept-exports/unused-exports/index.ts
+✅ Processed: playground/hmr/accept-exports/unused-exports/unused.ts
+✅ Processed: playground/hmr/accept-exports/unused-exports/used.ts
+✅ Processed: playground/hmr/circular/index.js
+✅ Processed: playground/hmr/circular/mod-a.js
+✅ Processed: playground/hmr/circular/mod-b.js
+✅ Processed: playground/hmr/circular/mod-c.js
+✅ Processed: playground/hmr/counter/dep.ts
+✅ Processed: playground/hmr/counter/index.html
+✅ Processed: playground/hmr/counter/index.ts
+✅ Processed: playground/hmr/css-deps/dep.js
+✅ Processed: playground/hmr/css-deps/index.html
+⏭ Skipped (ext): playground/hmr/css-deps/main.css
+✅ Processed: playground/hmr/css-link/index.html
+✅ Processed: playground/hmr/css-link/main.js
+✅ Processed: playground/hmr/css-link/plugin.ts
+⏭ Skipped (ext): playground/hmr/css-link/styles.css
+✅ Processed: playground/hmr/customFile.js
+✅ Processed: playground/hmr/event.d.ts
+✅ Processed: playground/hmr/file-delete-restore/child.js
+✅ Processed: playground/hmr/file-delete-restore/index.js
+✅ Processed: playground/hmr/file-delete-restore/parent.js
+✅ Processed: playground/hmr/file-delete-restore/runtime.js
+⏭ Skipped (ext): playground/hmr/global.css
+✅ Processed: playground/hmr/hmr.ts
+✅ Processed: playground/hmr/hmrDep.js
+✅ Processed: playground/hmr/hmrNestedDep.js
+⏭ Skipped: playground/hmr/icon.png
+✅ Processed: playground/hmr/importedVirtual.js
+✅ Processed: playground/hmr/importing-updated/a.js
+✅ Processed: playground/hmr/importing-updated/b.js
+✅ Processed: playground/hmr/importing-updated/index.js
+✅ Processed: playground/hmr/index.html
+✅ Processed: playground/hmr/intermediate-file-delete/display.js
+✅ Processed: playground/hmr/intermediate-file-delete/index.js
+✅ Processed: playground/hmr/intermediate-file-delete/re-export.js
+✅ Processed: playground/hmr/invalidation/child.js
+✅ Processed: playground/hmr/invalidation/parent.js
+✅ Processed: playground/hmr/invalidation/root.js
+✅ Processed: playground/hmr/invalidation-circular-deps/circular-invalidate/child.js
+✅ Processed: playground/hmr/invalidation-circular-deps/circular-invalidate/parent.js
+✅ Processed: playground/hmr/invalidation-circular-deps/index.js
+✅ Processed: playground/hmr/invalidation-circular-deps/invalidate-handled-in-circle/child.js
+✅ Processed: playground/hmr/invalidation-circular-deps/invalidate-handled-in-circle/parent.js
+⏭ Skipped: playground/hmr/logo-no-inline.svg
+⏭ Skipped: playground/hmr/logo.svg
+✅ Processed: playground/hmr/missing-file/index.html
+✅ Processed: playground/hmr/missing-file/main.js
+✅ Processed: playground/hmr/missing-import/a.js
+✅ Processed: playground/hmr/missing-import/index.html
+✅ Processed: playground/hmr/missing-import/main.js
+✅ Processed: playground/hmr/modules.d.ts
+✅ Processed: playground/hmr/optional-chaining/child.js
+✅ Processed: playground/hmr/optional-chaining/parent.js
+✅ Processed: playground/hmr/package.json
+✅ Processed: playground/hmr/prune/dep1.js
+⏭ Skipped (empty or invalid): playground/hmr/prune/dep2-other.js
+✅ Processed: playground/hmr/prune/dep2.js
+✅ Processed: playground/hmr/prune/index.js
+✅ Processed: playground/hmr/self-accept-within-circular/a.js
+✅ Processed: playground/hmr/self-accept-within-circular/b.js
+✅ Processed: playground/hmr/self-accept-within-circular/c.js
+⏭ Skipped (empty or invalid): playground/hmr/self-accept-within-circular/index.html
+✅ Processed: playground/hmr/self-accept-within-circular/index.js
+✅ Processed: playground/hmr/soft-invalidation/child.js
+✅ Processed: playground/hmr/soft-invalidation/index.js
+✅ Processed: playground/hmr/unicode-path/中文-にほんご-한글-🌕🌖🌗/index.html
+✅ Processed: playground/hmr/vite.config.ts
+✅ Processed: playground/hmr-root/__tests__/hmr-root.spec.ts
+✅ Processed: playground/hmr-root/foo.js
+✅ Processed: playground/hmr-root/root/index.html
+✅ Processed: playground/hmr-root/vite.config.ts
+✅ Processed: playground/hmr-ssr/__tests__/hmr-ssr.spec.ts
+✅ Processed: playground/hmr-ssr/accept-exports/dynamic-imports/deps-all-accepted.ts
+✅ Processed: playground/hmr-ssr/accept-exports/dynamic-imports/deps-some-accepted.ts
+✅ Processed: playground/hmr-ssr/accept-exports/dynamic-imports/dynamic-imports.ts
+✅ Processed: playground/hmr-ssr/accept-exports/dynamic-imports/index.ts
+✅ Processed: playground/hmr-ssr/accept-exports/export-from/depA.ts
+✅ Processed: playground/hmr-ssr/accept-exports/export-from/export-from.ts
+✅ Processed: playground/hmr-ssr/accept-exports/export-from/hub.ts
+⏭ Skipped (empty or invalid): playground/hmr-ssr/accept-exports/export-from/index.html
+✅ Processed: playground/hmr-ssr/accept-exports/main-accepted/callback.ts
+✅ Processed: playground/hmr-ssr/accept-exports/main-accepted/dep.ts
+✅ Processed: playground/hmr-ssr/accept-exports/main-accepted/index.ts
+✅ Processed: playground/hmr-ssr/accept-exports/main-accepted/main-accepted.ts
+✅ Processed: playground/hmr-ssr/accept-exports/main-accepted/target.ts
+✅ Processed: playground/hmr-ssr/accept-exports/main-non-accepted/default.ts
+✅ Processed: playground/hmr-ssr/accept-exports/main-non-accepted/dep.ts
+✅ Processed: playground/hmr-ssr/accept-exports/main-non-accepted/index.ts
+✅ Processed: playground/hmr-ssr/accept-exports/main-non-accepted/main-non-accepted.ts
+✅ Processed: playground/hmr-ssr/accept-exports/main-non-accepted/named.ts
+✅ Processed: playground/hmr-ssr/accept-exports/reexports.bak/accept-named.ts
+⏭ Skipped (empty or invalid): playground/hmr-ssr/accept-exports/reexports.bak/index.html
+✅ Processed: playground/hmr-ssr/accept-exports/reexports.bak/reexports.ts
+✅ Processed: playground/hmr-ssr/accept-exports/reexports.bak/source.ts
+✅ Processed: playground/hmr-ssr/accept-exports/side-effects/index.ts
+✅ Processed: playground/hmr-ssr/accept-exports/side-effects/side-effects.ts
+✅ Processed: playground/hmr-ssr/accept-exports/star-imports/deps-all-accepted.ts
+✅ Processed: playground/hmr-ssr/accept-exports/star-imports/deps-some-accepted.ts
+✅ Processed: playground/hmr-ssr/accept-exports/star-imports/index.ts
+✅ Processed: playground/hmr-ssr/accept-exports/star-imports/star-imports.ts
+⏭ Skipped (empty or invalid): playground/hmr-ssr/accept-exports/unused-exports/index.html
+✅ Processed: playground/hmr-ssr/accept-exports/unused-exports/index.ts
+✅ Processed: playground/hmr-ssr/accept-exports/unused-exports/unused.ts
+✅ Processed: playground/hmr-ssr/accept-exports/unused-exports/used.ts
+✅ Processed: playground/hmr-ssr/circular/index.js
+✅ Processed: playground/hmr-ssr/circular/mod-a.js
+✅ Processed: playground/hmr-ssr/circular/mod-b.js
+✅ Processed: playground/hmr-ssr/circular/mod-c.js
+✅ Processed: playground/hmr-ssr/counter/dep.ts
+✅ Processed: playground/hmr-ssr/counter/index.ts
+✅ Processed: playground/hmr-ssr/customFile.js
+✅ Processed: playground/hmr-ssr/event.d.ts
+✅ Processed: playground/hmr-ssr/file-delete-restore/child.js
+✅ Processed: playground/hmr-ssr/file-delete-restore/index.js
+✅ Processed: playground/hmr-ssr/file-delete-restore/parent.js
+✅ Processed: playground/hmr-ssr/file-delete-restore/runtime.js
+✅ Processed: playground/hmr-ssr/hmr.ts
+✅ Processed: playground/hmr-ssr/hmrDep.js
+✅ Processed: playground/hmr-ssr/hmrNestedDep.js
+✅ Processed: playground/hmr-ssr/importedVirtual.js
+✅ Processed: playground/hmr-ssr/importing-updated/a.js
+✅ Processed: playground/hmr-ssr/importing-updated/b.js
+✅ Processed: playground/hmr-ssr/importing-updated/index.js
+✅ Processed: playground/hmr-ssr/intermediate-file-delete/display.js
+✅ Processed: playground/hmr-ssr/intermediate-file-delete/index.js
+✅ Processed: playground/hmr-ssr/intermediate-file-delete/re-export.js
+✅ Processed: playground/hmr-ssr/invalidation/child.js
+✅ Processed: playground/hmr-ssr/invalidation/parent.js
+✅ Processed: playground/hmr-ssr/invalidation-circular-deps/circular-invalidate/child.js
+✅ Processed: playground/hmr-ssr/invalidation-circular-deps/circular-invalidate/parent.js
+✅ Processed: playground/hmr-ssr/invalidation-circular-deps/index.js
+✅ Processed: playground/hmr-ssr/invalidation-circular-deps/invalidate-handled-in-circle/child.js
+✅ Processed: playground/hmr-ssr/invalidation-circular-deps/invalidate-handled-in-circle/parent.js
+⏭ Skipped: playground/hmr-ssr/logo-no-inline.svg
+⏭ Skipped: playground/hmr-ssr/logo.svg
+✅ Processed: playground/hmr-ssr/missing-import/a.js
+✅ Processed: playground/hmr-ssr/missing-import/index.js
+✅ Processed: playground/hmr-ssr/missing-import/main.js
+✅ Processed: playground/hmr-ssr/modules.d.ts
+✅ Processed: playground/hmr-ssr/non-tested/dep.js
+✅ Processed: playground/hmr-ssr/non-tested/index.js
+✅ Processed: playground/hmr-ssr/optional-chaining/child.js
+✅ Processed: playground/hmr-ssr/optional-chaining/parent.js
+✅ Processed: playground/hmr-ssr/package.json
+✅ Processed: playground/hmr-ssr/queries/index.js
+⏭ Skipped (empty or invalid): playground/hmr-ssr/queries/multi-query.js
+✅ Processed: playground/hmr-ssr/self-accept-within-circular/a.js
+✅ Processed: playground/hmr-ssr/self-accept-within-circular/b.js
+✅ Processed: playground/hmr-ssr/self-accept-within-circular/c.js
+✅ Processed: playground/hmr-ssr/self-accept-within-circular/index.js
+✅ Processed: playground/hmr-ssr/soft-invalidation/child.js
+✅ Processed: playground/hmr-ssr/soft-invalidation/index.js
+✅ Processed: playground/hmr-ssr/unresolved.ts
+✅ Processed: playground/hmr-ssr/vite.config.ts
+⏭ Skipped (ext): playground/html/.env
+✅ Processed: playground/html/__tests__/html.spec.ts
+✅ Processed: playground/html/a á.html
+⏭ Skipped (ext): playground/html/common.css
+⏭ Skipped (empty or invalid): playground/html/emptyAttr.html
+✅ Processed: playground/html/env.html
+✅ Processed: playground/html/foo.html
+⏭ Skipped (empty or invalid): playground/html/importmapOrder.html
+✅ Processed: playground/html/index.html
+✅ Processed: playground/html/inline/common.js
+✅ Processed: playground/html/inline/dep1.js
+✅ Processed: playground/html/inline/dep2.js
+✅ Processed: playground/html/inline/dep3.js
+⏭ Skipped (ext): playground/html/inline/module-graph.dot
+⏭ Skipped (empty or invalid): playground/html/inline/shared-1.html
+⏭ Skipped (empty or invalid): playground/html/inline/shared-2.html
+✅ Processed: playground/html/inline/shared.js
+✅ Processed: playground/html/inline/shared_a.html
+⏭ Skipped (empty or invalid): playground/html/inline/unique.html
+✅ Processed: playground/html/inline/unique.js
+⏭ Skipped (empty or invalid): playground/html/invalid.html
+⏭ Skipped (empty or invalid): playground/html/invalidClick.html
+⏭ Skipped (empty or invalid): playground/html/invalidEscape.html
+✅ Processed: playground/html/link-props/index.html
+⏭ Skipped (ext): playground/html/link-props/print.css
+⏭ Skipped (ext): playground/html/link-props/screen.css
+✅ Processed: playground/html/link.html
+⏭ Skipped (ext): playground/html/main.css
+✅ Processed: playground/html/main.js
+✅ Processed: playground/html/malformed-url.html
+✅ Processed: playground/html/nested/asset/main.js
+⏭ Skipped (ext): playground/html/nested/asset/style.css
+✅ Processed: playground/html/nested/index.html
+⏭ Skipped (ext): playground/html/nested/nested.css
+✅ Processed: playground/html/nested/nested.js
+✅ Processed: playground/html/noBody.html
+✅ Processed: playground/html/noHead.html
+✅ Processed: playground/html/package.json
+⏭ Skipped: playground/html/public/sprite.svg
+✅ Processed: playground/html/relative-input/main.js
+⏭ Skipped (empty or invalid): playground/html/relative-input.html
+✅ Processed: playground/html/scriptAsync.html
+✅ Processed: playground/html/scriptMixed.html
+✅ Processed: playground/html/serve/both/index.html
+✅ Processed: playground/html/serve/both.html
+✅ Processed: playground/html/serve/file.html
+✅ Processed: playground/html/serve/folder/index.html
+✅ Processed: playground/html/shared.js
+✅ Processed: playground/html/side-effects/index.html
+✅ Processed: playground/html/side-effects/package.json
+✅ Processed: playground/html/side-effects/sideEffects.js
+✅ Processed: playground/html/test.js
+✅ Processed: playground/html/transform-inline-js.html
+✅ Processed: playground/html/unicode-path/中文-にほんご-한글-🌕🌖🌗/index.html
+✅ Processed: playground/html/valid.html
+✅ Processed: playground/html/valid.js
+✅ Processed: playground/html/vite.config.js
+✅ Processed: playground/html/warmup/warm.js
+⏭ Skipped (empty or invalid): playground/html/write.html
+✅ Processed: playground/html/zeroJS.html
+✅ Processed: playground/import-assertion/__tests__/import-assertion.spec.ts
+✅ Processed: playground/import-assertion/data.json
+✅ Processed: playground/import-assertion/import-assertion-dep/data.json
+✅ Processed: playground/import-assertion/import-assertion-dep/index.js
+✅ Processed: playground/import-assertion/import-assertion-dep/package.json
+✅ Processed: playground/import-assertion/index.html
+✅ Processed: playground/import-assertion/package.json
+✅ Processed: playground/js-sourcemap/__tests__/js-sourcemap.spec.ts
+✅ Processed: playground/js-sourcemap/after-preload-dynamic-hashbang.js
+✅ Processed: playground/js-sourcemap/after-preload-dynamic-no-dep.js
+✅ Processed: playground/js-sourcemap/after-preload-dynamic.js
+✅ Processed: playground/js-sourcemap/bar.ts
+⏭ Skipped (ext): playground/js-sourcemap/dynamic/dynamic-foo.css
+✅ Processed: playground/js-sourcemap/dynamic/dynamic-foo.js
+✅ Processed: playground/js-sourcemap/dynamic/dynamic-no-dep.js
+✅ Processed: playground/js-sourcemap/foo-with-sourcemap-plugin.ts
+✅ Processed: playground/js-sourcemap/foo-with-sourcemap.js
+✅ Processed: playground/js-sourcemap/foo.js
+✅ Processed: playground/js-sourcemap/importee-pkg/index.js
+✅ Processed: playground/js-sourcemap/importee-pkg/package.json
+✅ Processed: playground/js-sourcemap/index.html
+✅ Processed: playground/js-sourcemap/package.json
+✅ Processed: playground/js-sourcemap/plugin-foo.js
+✅ Processed: playground/js-sourcemap/test-ssr-dev.js
+✅ Processed: playground/js-sourcemap/vite.config.js
+✅ Processed: playground/js-sourcemap/with-define-object-ssr.ts
+✅ Processed: playground/js-sourcemap/with-define-object.ts
+✅ Processed: playground/js-sourcemap/with-multiline-import.ts
+✅ Processed: playground/js-sourcemap/zoo-with-sourcemap-plugin.ts
+✅ Processed: playground/js-sourcemap/zoo.js
+✅ Processed: playground/json/__tests__/csr/json-csr.spec.ts
+✅ Processed: playground/json/dep-json-require/content.json
+✅ Processed: playground/json/dep-json-require/index.js
+✅ Processed: playground/json/dep-json-require/package.json
+✅ Processed: playground/json/hmr.json
+✅ Processed: playground/json/index.html
+✅ Processed: playground/json/json-bom/has-bom.json
+✅ Processed: playground/json/json-module/index.json
+✅ Processed: playground/json/json-module/package.json
+✅ Processed: playground/json/package.json
+✅ Processed: playground/json/public/public.json
+✅ Processed: playground/json/test.json
+✅ Processed: playground/legacy/__tests__/client-and-ssr/legacy-client-legacy-ssr-sequential-builds.spec.ts
+✅ Processed: playground/legacy/__tests__/client-and-ssr/serve.ts
+✅ Processed: playground/legacy/__tests__/legacy.spec.ts
+✅ Processed: playground/legacy/__tests__/no-polyfills/legacy-no-polyfills.spec.ts
+✅ Processed: playground/legacy/__tests__/no-polyfills-no-systemjs/legacy-no-polyfills-no-systemjs.spec.ts
+✅ Processed: playground/legacy/__tests__/ssr/legacy-ssr.spec.ts
+✅ Processed: playground/legacy/__tests__/ssr/serve.ts
+✅ Processed: playground/legacy/__tests__/watch/legacy-styles-only-entry-watch.spec.ts
+✅ Processed: playground/legacy/async.js
+✅ Processed: playground/legacy/custom0.js
+✅ Processed: playground/legacy/custom1.js
+✅ Processed: playground/legacy/custom2.js
+⏭ Skipped (ext): playground/legacy/dynamic.css
+✅ Processed: playground/legacy/entry-server-sequential.js
+✅ Processed: playground/legacy/entry-server.js
+✅ Processed: playground/legacy/immutable-chunk.js
+✅ Processed: playground/legacy/index.html
+✅ Processed: playground/legacy/main.js
+✅ Processed: playground/legacy/module.js
+⏭ Skipped (empty or invalid): playground/legacy/nested/index.html
+⏭ Skipped (empty or invalid): playground/legacy/no-polyfills-no-systemjs.html
+✅ Processed: playground/legacy/no-polyfills-no-systemjs.js
+⏭ Skipped (empty or invalid): playground/legacy/no-polyfills.html
+✅ Processed: playground/legacy/no-polyfills.js
+✅ Processed: playground/legacy/package.json
+⏭ Skipped (ext): playground/legacy/style-only-entry.css
+⏭ Skipped (ext): playground/legacy/style.css
+✅ Processed: playground/legacy/vite.config-custom-filename.js
+✅ Processed: playground/legacy/vite.config-multiple-output.js
+✅ Processed: playground/legacy/vite.config-no-polyfills-no-systemjs.js
+✅ Processed: playground/legacy/vite.config-no-polyfills.js
+✅ Processed: playground/legacy/vite.config-watch.js
+✅ Processed: playground/legacy/vite.config.js
+⏭ Skipped: playground/legacy/vite.svg
+✅ Processed: playground/legacy/worker.js
+✅ Processed: playground/lib/__tests__/lib.spec.ts
+✅ Processed: playground/lib/__tests__/serve.ts
+✅ Processed: playground/lib/index.dist.html
+✅ Processed: playground/lib/index.html
+✅ Processed: playground/lib/package.json
+✅ Processed: playground/lib/src/css-entry-1.js
+✅ Processed: playground/lib/src/css-entry-2.js
+⏭ Skipped (ext): playground/lib/src/dynamic.css
+⏭ Skipped (ext): playground/lib/src/entry-1.css
+⏭ Skipped (ext): playground/lib/src/entry-2.css
+⏭ Skipped (ext): playground/lib/src/index.css
+✅ Processed: playground/lib/src/main-helpers-injection.js
+✅ Processed: playground/lib/src/main-multiple-output.js
+✅ Processed: playground/lib/src/main-named.js
+✅ Processed: playground/lib/src/main.js
+✅ Processed: playground/lib/src/main2.js
+✅ Processed: playground/lib/src/message.js
+✅ Processed: playground/lib/src/sub-multiple-output.js
+✅ Processed: playground/lib/vite.config.js
+✅ Processed: playground/lib/vite.css-code-split.config.js
+✅ Processed: playground/lib/vite.css-multi-entry.config.js
+✅ Processed: playground/lib/vite.css-single-entry.config.js
+✅ Processed: playground/lib/vite.dyimport.config.js
+✅ Processed: playground/lib/vite.helpers-injection.config.js
+✅ Processed: playground/lib/vite.multiple-output.config.js
+✅ Processed: playground/lib/vite.named-exports.config.js
+✅ Processed: playground/lib/vite.nominify.config.js
+✅ Processed: playground/lib/vite.terser.config.js
+✅ Processed: playground/minify/__tests__/minify.spec.ts
+⏭ Skipped (ext): playground/minify/dir/module/index.css
+✅ Processed: playground/minify/dir/module/index.js
+✅ Processed: playground/minify/dir/module/package.json
+✅ Processed: playground/minify/index.html
+✅ Processed: playground/minify/main.js
+✅ Processed: playground/minify/package.json
+⏭ Skipped (ext): playground/minify/test.css
+✅ Processed: playground/minify/vite.config.js
+✅ Processed: playground/module-graph/__tests__/module-graph.spec.ts
+⏭ Skipped (empty or invalid): playground/module-graph/empty.js
+✅ Processed: playground/module-graph/imported-urls-order.js
+✅ Processed: playground/module-graph/index.html
+✅ Processed: playground/module-graph/package.json
+✅ Processed: playground/module-graph/vite.config.ts
+✅ Processed: playground/multiple-entrypoints/__tests__/multiple-entrypoints.spec.ts
+✅ Processed: playground/multiple-entrypoints/deps.json
+✅ Processed: playground/multiple-entrypoints/dynamic-a.js
+✅ Processed: playground/multiple-entrypoints/dynamic-b.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a0.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a1.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a10.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a11.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a12.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a13.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a14.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a15.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a16.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a17.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a18.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a19.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a2.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a20.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a21.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a22.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a23.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a24.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a3.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a4.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a5.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a6.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a7.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a8.js
+✅ Processed: playground/multiple-entrypoints/entrypoints/a9.js
+✅ Processed: playground/multiple-entrypoints/index.html
+✅ Processed: playground/multiple-entrypoints/index.js
+✅ Processed: playground/multiple-entrypoints/package.json
+✅ Processed: playground/multiple-entrypoints/reference.js
+⏭ Skipped (ext): playground/multiple-entrypoints/reference.scss
+✅ Processed: playground/multiple-entrypoints/vite.config.js
+✅ Processed: playground/nested-deps/__tests__/nested-deps.spec.ts
+✅ Processed: playground/nested-deps/index.html
+✅ Processed: playground/nested-deps/package.json
+✅ Processed: playground/nested-deps/test-package-a/index.js
+✅ Processed: playground/nested-deps/test-package-a/package.json
+✅ Processed: playground/nested-deps/test-package-b/index.js
+✅ Processed: playground/nested-deps/test-package-b/package.json
+✅ Processed: playground/nested-deps/test-package-c/index-es.js
+✅ Processed: playground/nested-deps/test-package-c/index.js
+✅ Processed: playground/nested-deps/test-package-c/package.json
+✅ Processed: playground/nested-deps/test-package-c/side.js
+✅ Processed: playground/nested-deps/test-package-d/index.js
+✅ Processed: playground/nested-deps/test-package-d/package.json
+✅ Processed: playground/nested-deps/test-package-d/test-package-d-nested/index.js
+✅ Processed: playground/nested-deps/test-package-d/test-package-d-nested/package.json
+✅ Processed: playground/nested-deps/test-package-e/index.js
+✅ Processed: playground/nested-deps/test-package-e/package.json
+✅ Processed: playground/nested-deps/test-package-e/test-package-e-excluded/index.js
+✅ Processed: playground/nested-deps/test-package-e/test-package-e-excluded/package.json
+✅ Processed: playground/nested-deps/test-package-e/test-package-e-included/index.js
+✅ Processed: playground/nested-deps/test-package-e/test-package-e-included/package.json
+✅ Processed: playground/nested-deps/test-package-f/index.js
+✅ Processed: playground/nested-deps/test-package-f/package.json
+✅ Processed: playground/nested-deps/vite.config.js
+✅ Processed: playground/object-hooks/__tests__/object-hooks.spec.ts
+✅ Processed: playground/object-hooks/index.html
+✅ Processed: playground/object-hooks/main.ts
+✅ Processed: playground/object-hooks/package.json
+✅ Processed: playground/object-hooks/vite.config.ts
+✅ Processed: playground/optimize-deps/.hidden-dir/foo.js
+✅ Processed: playground/optimize-deps/__tests__/optimize-deps.spec.ts
+✅ Processed: playground/optimize-deps/added-in-entries/index.js
+✅ Processed: playground/optimize-deps/added-in-entries/package.json
+✅ Processed: playground/optimize-deps/cjs-dynamic.js
+✅ Processed: playground/optimize-deps/cjs.js
+✅ Processed: playground/optimize-deps/dedupe.js
+✅ Processed: playground/optimize-deps/dep-alias-using-absolute-path/index.js
+✅ Processed: playground/optimize-deps/dep-alias-using-absolute-path/package.json
+✅ Processed: playground/optimize-deps/dep-cjs-browser-field-bare/events-shim.js
+✅ Processed: playground/optimize-deps/dep-cjs-browser-field-bare/index.js
+✅ Processed: playground/optimize-deps/dep-cjs-browser-field-bare/internal.js
+✅ Processed: playground/optimize-deps/dep-cjs-browser-field-bare/package.json
+✅ Processed: playground/optimize-deps/dep-cjs-compiled-from-cjs/index.js
+✅ Processed: playground/optimize-deps/dep-cjs-compiled-from-cjs/package.json
+✅ Processed: playground/optimize-deps/dep-cjs-compiled-from-esm/index.js
+✅ Processed: playground/optimize-deps/dep-cjs-compiled-from-esm/package.json
+✅ Processed: playground/optimize-deps/dep-cjs-external-package-omit-js-suffix/index.js
+✅ Processed: playground/optimize-deps/dep-cjs-external-package-omit-js-suffix/package.json
+✅ Processed: playground/optimize-deps/dep-cjs-external-package-omit-js-suffix/test.astro.js
+✅ Processed: playground/optimize-deps/dep-cjs-external-package-omit-js-suffix/test.okay.js
+✅ Processed: playground/optimize-deps/dep-cjs-external-package-omit-js-suffix/test.scss.js
+✅ Processed: playground/optimize-deps/dep-cjs-external-package-omit-js-suffix/test.tsx.js
+⏭ Skipped (ext): playground/optimize-deps/dep-cjs-with-assets/foo.css
+✅ Processed: playground/optimize-deps/dep-cjs-with-assets/index.js
+✅ Processed: playground/optimize-deps/dep-cjs-with-assets/package.json
+✅ Processed: playground/optimize-deps/dep-cjs-with-external-deps/index.js
+✅ Processed: playground/optimize-deps/dep-cjs-with-external-deps/package.json
+⏭ Skipped (ext): playground/optimize-deps/dep-css-require/index.cjs
+⏭ Skipped (ext): playground/optimize-deps/dep-css-require/mod.cjs
+⏭ Skipped (ext): playground/optimize-deps/dep-css-require/mod.module.css
+✅ Processed: playground/optimize-deps/dep-css-require/package.json
+⏭ Skipped (ext): playground/optimize-deps/dep-css-require/style.css
+✅ Processed: playground/optimize-deps/dep-esbuild-plugin-transform/index.js
+✅ Processed: playground/optimize-deps/dep-esbuild-plugin-transform/package.json
+✅ Processed: playground/optimize-deps/dep-esm-dummy-node-builtin/index.js
+✅ Processed: playground/optimize-deps/dep-esm-dummy-node-builtin/package.json
+✅ Processed: playground/optimize-deps/dep-esm-external/index.js
+✅ Processed: playground/optimize-deps/dep-esm-external/package.json
+✅ Processed: playground/optimize-deps/dep-incompatible/index.js
+✅ Processed: playground/optimize-deps/dep-incompatible/package.json
+✅ Processed: playground/optimize-deps/dep-incompatible/sub.js
+✅ Processed: playground/optimize-deps/dep-linked/index.js
+✅ Processed: playground/optimize-deps/dep-linked/package.json
+⏭ Skipped (ext): playground/optimize-deps/dep-linked-include/Test.vue
+✅ Processed: playground/optimize-deps/dep-linked-include/foo.js
+⏭ Skipped (ext): playground/optimize-deps/dep-linked-include/index.mjs
+✅ Processed: playground/optimize-deps/dep-linked-include/package.json
+⏭ Skipped (ext): playground/optimize-deps/dep-linked-include/test.css
+✅ Processed: playground/optimize-deps/dep-node-env/index.js
+✅ Processed: playground/optimize-deps/dep-node-env/package.json
+✅ Processed: playground/optimize-deps/dep-non-optimized/index.js
+✅ Processed: playground/optimize-deps/dep-non-optimized/package.json
+✅ Processed: playground/optimize-deps/dep-not-js/foo.js
+⏭ Skipped (ext): playground/optimize-deps/dep-not-js/index.notjs
+✅ Processed: playground/optimize-deps/dep-not-js/package.json
+⏭ Skipped (empty or invalid): playground/optimize-deps/dep-optimize-exports-with-glob/glob/bar.js
+⏭ Skipped (empty or invalid): playground/optimize-deps/dep-optimize-exports-with-glob/glob/foo.js
+⏭ Skipped (empty or invalid): playground/optimize-deps/dep-optimize-exports-with-glob/glob/nested/baz.js
+⏭ Skipped (empty or invalid): playground/optimize-deps/dep-optimize-exports-with-glob/index.js
+⏭ Skipped (empty or invalid): playground/optimize-deps/dep-optimize-exports-with-glob/named.js
+✅ Processed: playground/optimize-deps/dep-optimize-exports-with-glob/package.json
+⏭ Skipped (empty or invalid): playground/optimize-deps/dep-optimize-exports-with-root-glob/dir/file2.js
+⏭ Skipped (empty or invalid): playground/optimize-deps/dep-optimize-exports-with-root-glob/file1.js
+⏭ Skipped (empty or invalid): playground/optimize-deps/dep-optimize-exports-with-root-glob/index.js
+✅ Processed: playground/optimize-deps/dep-optimize-exports-with-root-glob/package.json
+⏭ Skipped (empty or invalid): playground/optimize-deps/dep-optimize-with-glob/glob/bar.js
+⏭ Skipped (empty or invalid): playground/optimize-deps/dep-optimize-with-glob/glob/foo.js
+⏭ Skipped (empty or invalid): playground/optimize-deps/dep-optimize-with-glob/glob/nested/baz.js
+⏭ Skipped (empty or invalid): playground/optimize-deps/dep-optimize-with-glob/index.js
+⏭ Skipped (empty or invalid): playground/optimize-deps/dep-optimize-with-glob/named.js
+✅ Processed: playground/optimize-deps/dep-optimize-with-glob/package.json
+✅ Processed: playground/optimize-deps/dep-relative-to-main/entry.js
+✅ Processed: playground/optimize-deps/dep-relative-to-main/lib/main.js
+✅ Processed: playground/optimize-deps/dep-relative-to-main/package.json
+✅ Processed: playground/optimize-deps/dep-source-map-no-sources/all.js
+✅ Processed: playground/optimize-deps/dep-source-map-no-sources/package.json
+✅ Processed: playground/optimize-deps/dep-source-map-no-sources/sub.js
+⏭ Skipped (ext): playground/optimize-deps/dep-with-asset-ext/dep1/index.mjs
+✅ Processed: playground/optimize-deps/dep-with-asset-ext/dep1/package.json
+✅ Processed: playground/optimize-deps/dep-with-asset-ext/dep2/index.js
+✅ Processed: playground/optimize-deps/dep-with-asset-ext/dep2/package.json
+✅ Processed: playground/optimize-deps/dep-with-builtin-module-cjs/index.js
+✅ Processed: playground/optimize-deps/dep-with-builtin-module-cjs/package.json
+✅ Processed: playground/optimize-deps/dep-with-builtin-module-esm/index.js
+✅ Processed: playground/optimize-deps/dep-with-builtin-module-esm/package.json
+✅ Processed: playground/optimize-deps/dep-with-dynamic-import/dynamic.js
+✅ Processed: playground/optimize-deps/dep-with-dynamic-import/index.js
+✅ Processed: playground/optimize-deps/dep-with-dynamic-import/package.json
+✅ Processed: playground/optimize-deps/dep-with-optional-peer-dep/index.js
+✅ Processed: playground/optimize-deps/dep-with-optional-peer-dep/package.json
+✅ Processed: playground/optimize-deps/dep-with-optional-peer-dep-cjs/index.js
+✅ Processed: playground/optimize-deps/dep-with-optional-peer-dep-cjs/package.json
+✅ Processed: playground/optimize-deps/dep-with-optional-peer-dep-submodule/index.js
+✅ Processed: playground/optimize-deps/dep-with-optional-peer-dep-submodule/package.json
+✅ Processed: playground/optimize-deps/dynamic-use-dep-alias-using-absolute-path.js
+⏭ Skipped (ext): playground/optimize-deps/generics.vue
+✅ Processed: playground/optimize-deps/glob/foo.js
+⏭ Skipped (ext): playground/optimize-deps/index.astro
+✅ Processed: playground/optimize-deps/index.html
+✅ Processed: playground/optimize-deps/long-file-name.js
+✅ Processed: playground/optimize-deps/longfilename/index.js
+✅ Processed: playground/optimize-deps/longfilename/package.json
+✅ Processed: playground/optimize-deps/nested-exclude/index.js
+✅ Processed: playground/optimize-deps/nested-exclude/package.json
+✅ Processed: playground/optimize-deps/nested-include/index.js
+✅ Processed: playground/optimize-deps/nested-include/package.json
+⏭ Skipped (ext): playground/optimize-deps/non-optimizable-include/index.css
+✅ Processed: playground/optimize-deps/non-optimizable-include/package.json
+✅ Processed: playground/optimize-deps/package.json
+✅ Processed: playground/optimize-deps/unused-split-entry.js
+✅ Processed: playground/optimize-deps/vite.config.js
+✅ Processed: playground/optimize-deps-no-discovery/__tests__/optimize-deps-no-discovery.spec.ts
+✅ Processed: playground/optimize-deps-no-discovery/dep-no-discovery/index.js
+✅ Processed: playground/optimize-deps-no-discovery/dep-no-discovery/package.json
+✅ Processed: playground/optimize-deps-no-discovery/index.html
+✅ Processed: playground/optimize-deps-no-discovery/package.json
+✅ Processed: playground/optimize-deps-no-discovery/vite.config.js
+✅ Processed: playground/optimize-missing-deps/__test__/optimize-missing-deps.spec.ts
+✅ Processed: playground/optimize-missing-deps/__test__/serve.ts
+⏭ Skipped (empty or invalid): playground/optimize-missing-deps/index.html
+✅ Processed: playground/optimize-missing-deps/main.js
+✅ Processed: playground/optimize-missing-deps/missing-dep/index.js
+✅ Processed: playground/optimize-missing-deps/missing-dep/package.json
+✅ Processed: playground/optimize-missing-deps/multi-entry-dep/index.browser.js
+✅ Processed: playground/optimize-missing-deps/multi-entry-dep/index.js
+✅ Processed: playground/optimize-missing-deps/multi-entry-dep/package.json
+✅ Processed: playground/optimize-missing-deps/package.json
+✅ Processed: playground/optimize-missing-deps/server.js
+✅ Processed: playground/package.json
+✅ Processed: playground/preload/__tests__/preload-disabled/preload-disabled.spec.ts
+✅ Processed: playground/preload/__tests__/preload.spec.ts
+✅ Processed: playground/preload/__tests__/resolve-deps/preload-resolve-deps.spec.ts
+✅ Processed: playground/preload/dep-a/index.js
+✅ Processed: playground/preload/dep-a/package.json
+✅ Processed: playground/preload/dep-including-a/index.js
+✅ Processed: playground/preload/dep-including-a/package.json
+✅ Processed: playground/preload/index.html
+✅ Processed: playground/preload/package.json
+✅ Processed: playground/preload/public/preloaded.js
+✅ Processed: playground/preload/src/about.js
+✅ Processed: playground/preload/src/chunk.js
+✅ Processed: playground/preload/src/hello.js
+⏭ Skipped (ext): playground/preload/src/hello.module.css
+✅ Processed: playground/preload/src/main.js
+✅ Processed: playground/preload/vite.config-preload-disabled.js
+✅ Processed: playground/preload/vite.config-resolve-deps.js
+✅ Processed: playground/preload/vite.config.ts
+✅ Processed: playground/preserve-symlinks/__tests__/preserve-symlinks.spec.ts
+⏭ Skipped (empty or invalid): playground/preserve-symlinks/index.html
+✅ Processed: playground/preserve-symlinks/module-a/linked.js
+✅ Processed: playground/preserve-symlinks/module-a/package.json
+✅ Processed: playground/preserve-symlinks/module-a/src/data.js
+✅ Processed: playground/preserve-symlinks/module-a/src/index.js
+✅ Processed: playground/preserve-symlinks/package.json
+✅ Processed: playground/preserve-symlinks/src/main.js
+✅ Processed: playground/proxy-bypass/__tests__/proxy-bypass.spec.ts
+✅ Processed: playground/proxy-bypass/index.html
+✅ Processed: playground/proxy-bypass/package.json
+✅ Processed: playground/proxy-bypass/vite.config.js
+✅ Processed: playground/proxy-hmr/__tests__/proxy-hmr.spec.ts
+✅ Processed: playground/proxy-hmr/__tests__/serve.ts
+✅ Processed: playground/proxy-hmr/index.html
+✅ Processed: playground/proxy-hmr/other-app/index.html
+✅ Processed: playground/proxy-hmr/other-app/package.json
+✅ Processed: playground/proxy-hmr/other-app/vite.config.js
+✅ Processed: playground/proxy-hmr/package.json
+✅ Processed: playground/proxy-hmr/vite.config.js
+✅ Processed: playground/resolve/__tests__/mainfields-custom-first/resolve-mainfields-custom-first.spec.ts
+✅ Processed: playground/resolve/__tests__/resolve.spec.ts
+✅ Processed: playground/resolve/absolute.js
+✅ Processed: playground/resolve/browser-field/bare-import.js
+✅ Processed: playground/resolve/browser-field/multiple.dot.path.js
+✅ Processed: playground/resolve/browser-field/no-ext-index/index.js
+✅ Processed: playground/resolve/browser-field/no-ext.js
+✅ Processed: playground/resolve/browser-field/not-browser.js
+✅ Processed: playground/resolve/browser-field/out/cjs.node.js
+✅ Processed: playground/resolve/browser-field/out/esm.browser.js
+✅ Processed: playground/resolve/browser-field/package.json
+✅ Processed: playground/resolve/browser-field/relative.js
+✅ Processed: playground/resolve/browser-field-bare-import-fail/main.js
+✅ Processed: playground/resolve/browser-field-bare-import-fail/module.js
+✅ Processed: playground/resolve/browser-field-bare-import-fail/package.json
+✅ Processed: playground/resolve/browser-field-bare-import-success/main.js
+✅ Processed: playground/resolve/browser-field-bare-import-success/module.js
+✅ Processed: playground/resolve/browser-field-bare-import-success/package.json
+✅ Processed: playground/resolve/browser-module-field1/index.js
+✅ Processed: playground/resolve/browser-module-field1/index.web.js
+✅ Processed: playground/resolve/browser-module-field1/package.json
+✅ Processed: playground/resolve/browser-module-field2/index.js
+✅ Processed: playground/resolve/browser-module-field2/index.web.js
+✅ Processed: playground/resolve/browser-module-field2/package.json
+✅ Processed: playground/resolve/browser-module-field3/index.js
+✅ Processed: playground/resolve/browser-module-field3/index.web.js
+✅ Processed: playground/resolve/browser-module-field3/package.json
+⏭ Skipped (ext): playground/resolve/config-dep.cjs
+✅ Processed: playground/resolve/custom-browser-main-field/index.browser.js
+✅ Processed: playground/resolve/custom-browser-main-field/index.custom.js
+✅ Processed: playground/resolve/custom-browser-main-field/index.js
+✅ Processed: playground/resolve/custom-browser-main-field/package.json
+✅ Processed: playground/resolve/custom-condition/index.custom.js
+✅ Processed: playground/resolve/custom-condition/index.js
+✅ Processed: playground/resolve/custom-condition/package.json
+⏭ Skipped (ext): playground/resolve/custom-ext.es
+✅ Processed: playground/resolve/custom-main-field/index.custom.js
+✅ Processed: playground/resolve/custom-main-field/index.js
+✅ Processed: playground/resolve/custom-main-field/package.json
+✅ Processed: playground/resolve/dir/index.js
+✅ Processed: playground/resolve/dir-with-ext/index.js
+⏭ Skipped (ext): playground/resolve/dir-with-ext.js/empty
+✅ Processed: playground/resolve/dir.js
+✅ Processed: playground/resolve/drive-relative.js
+✅ Processed: playground/resolve/exact-extension/file.js
+✅ Processed: playground/resolve/exact-extension/file.js.js
+✅ Processed: playground/resolve/exact-extension/file.json.js
+⏭ Skipped (empty or invalid): playground/resolve/exports-and-nested-scope/index.js
+✅ Processed: playground/resolve/exports-and-nested-scope/nested-scope/file.js
+✅ Processed: playground/resolve/exports-and-nested-scope/nested-scope/package.json
+✅ Processed: playground/resolve/exports-and-nested-scope/package.json
+✅ Processed: playground/resolve/exports-env/browser.js
+⏭ Skipped (ext): playground/resolve/exports-env/browser.mjs
+⏭ Skipped (ext): playground/resolve/exports-env/browser.prod.mjs
+✅ Processed: playground/resolve/exports-env/fallback.umd.js
+✅ Processed: playground/resolve/exports-env/package.json
+✅ Processed: playground/resolve/exports-from-root/file.js
+⏭ Skipped (empty or invalid): playground/resolve/exports-from-root/index.js
+✅ Processed: playground/resolve/exports-from-root/nested/file.js
+✅ Processed: playground/resolve/exports-from-root/nested/package.json
+✅ Processed: playground/resolve/exports-from-root/package.json
+✅ Processed: playground/resolve/exports-legacy-fallback/dir/index.js
+⏭ Skipped (ext): playground/resolve/exports-legacy-fallback/dir/index.mjs
+✅ Processed: playground/resolve/exports-legacy-fallback/dir/package.json
+✅ Processed: playground/resolve/exports-legacy-fallback/index.js
+✅ Processed: playground/resolve/exports-legacy-fallback/package.json
+✅ Processed: playground/resolve/exports-path/cjs.js
+✅ Processed: playground/resolve/exports-path/deep.js
+✅ Processed: playground/resolve/exports-path/deep.json
+✅ Processed: playground/resolve/exports-path/dir/dir.js
+✅ Processed: playground/resolve/exports-path/main.js
+✅ Processed: playground/resolve/exports-path/package.json
+⏭ Skipped (ext): playground/resolve/exports-with-module/import.mjs
+⏭ Skipped (ext): playground/resolve/exports-with-module/module.mjs
+✅ Processed: playground/resolve/exports-with-module/package.json
+✅ Processed: playground/resolve/exports-with-module-condition/index.esm.js
+✅ Processed: playground/resolve/exports-with-module-condition/index.js
+⏭ Skipped (ext): playground/resolve/exports-with-module-condition/index.mjs
+✅ Processed: playground/resolve/exports-with-module-condition/package.json
+⏭ Skipped (ext): playground/resolve/exports-with-module-condition-required/index.cjs
+✅ Processed: playground/resolve/exports-with-module-condition-required/package.json
+✅ Processed: playground/resolve/file-url.js
+✅ Processed: playground/resolve/imports-path/.dot-prefixed/index.js
+✅ Processed: playground/resolve/imports-path/importer.js
+✅ Processed: playground/resolve/imports-path/nested-path.js
+✅ Processed: playground/resolve/imports-path/other-pkg/nest/index.js
+✅ Processed: playground/resolve/imports-path/other-pkg/package.json
+✅ Processed: playground/resolve/imports-path/query.json
+✅ Processed: playground/resolve/imports-path/same-level.js
+✅ Processed: playground/resolve/imports-path/slash/index.js
+✅ Processed: playground/resolve/imports-path/star/index.js
+✅ Processed: playground/resolve/imports-path/top-level.js
+✅ Processed: playground/resolve/index.html
+✅ Processed: playground/resolve/inline-package/inline.js
+✅ Processed: playground/resolve/inline-package/package.json
+✅ Processed: playground/resolve/non-normalized.js
+✅ Processed: playground/resolve/package.json
+⏭ Skipped (ext): playground/resolve/public/should-not-be-copied
+⏭ Skipped (ext): playground/resolve/require-pkg-with-module-field/dep.cjs
+⏭ Skipped (ext): playground/resolve/require-pkg-with-module-field/index.cjs
+✅ Processed: playground/resolve/require-pkg-with-module-field/package.json
+⏭ Skipped (ext): playground/resolve/sharp-dir/index.cjs
+✅ Processed: playground/resolve/sharp-dir/package.json
+✅ Processed: playground/resolve/side-effects-glob/effects/file.js
+✅ Processed: playground/resolve/side-effects-glob/index.js
+✅ Processed: playground/resolve/side-effects-glob/no-effect.js
+✅ Processed: playground/resolve/side-effects-glob/package.json
+⏭ Skipped (ext): playground/resolve/style.css
+✅ Processed: playground/resolve/ts-extension/hello.ts
+⏭ Skipped (ext): playground/resolve/ts-extension/hellocjs.cts
+✅ Processed: playground/resolve/ts-extension/hellojsx.tsx
+⏭ Skipped (ext): playground/resolve/ts-extension/hellomjs.mts
+✅ Processed: playground/resolve/ts-extension/hellotsx.tsx
+✅ Processed: playground/resolve/ts-extension/index-js.js
+✅ Processed: playground/resolve/ts-extension/index.ts
+✅ Processed: playground/resolve/utf8-bom/main.js
+⏭ Skipped (ext): playground/resolve/utf8-bom-package/index.mjs
+✅ Processed: playground/resolve/utf8-bom-package/package.json
+✅ Processed: playground/resolve/util/bar.util.js
+✅ Processed: playground/resolve/util/index.js
+✅ Processed: playground/resolve/vite.config-mainfields-custom-first.js
+✅ Processed: playground/resolve/vite.config.js
+✅ Processed: playground/resolve-linked/dep.js
+✅ Processed: playground/resolve-linked/package.json
+✅ Processed: playground/resolve-linked/src/index.js
+✅ Processed: playground/self-referencing/index.js
+✅ Processed: playground/self-referencing/package.json
+✅ Processed: playground/self-referencing/test/index.js
+✅ Processed: playground/shims.d.ts
+✅ Processed: playground/ssr/__tests__/serve.ts
+✅ Processed: playground/ssr/__tests__/ssr.spec.ts
+✅ Processed: playground/ssr/index.html
+✅ Processed: playground/ssr/package.json
+✅ Processed: playground/ssr/server.js
+✅ Processed: playground/ssr/src/app.js
+✅ Processed: playground/ssr/src/circular-dep-init/README.md
+✅ Processed: playground/ssr/src/circular-dep-init/circular-dep-init.js
+✅ Processed: playground/ssr/src/circular-dep-init/module-a.js
+✅ Processed: playground/ssr/src/circular-dep-init/module-b.js
+✅ Processed: playground/ssr/src/circular-import/a.js
+✅ Processed: playground/ssr/src/circular-import/b.js
+✅ Processed: playground/ssr/src/circular-import/index.js
+✅ Processed: playground/ssr/src/circular-import2/a.js
+✅ Processed: playground/ssr/src/circular-import2/b.js
+✅ Processed: playground/ssr/src/circular-import2/index.js
+✅ Processed: playground/ssr/src/forked-deadlock/README.md
+✅ Processed: playground/ssr/src/forked-deadlock/common-module.js
+✅ Processed: playground/ssr/src/forked-deadlock/deadlock-fuse-module.js
+✅ Processed: playground/ssr/src/forked-deadlock/dynamic-imports/common-module.js
+✅ Processed: playground/ssr/src/forked-deadlock/dynamic-imports/deadlock-fuse-module.js
+✅ Processed: playground/ssr/src/forked-deadlock/dynamic-imports/fuse-stuck-bridge-module.js
+✅ Processed: playground/ssr/src/forked-deadlock/dynamic-imports/middle-module.js
+✅ Processed: playground/ssr/src/forked-deadlock/dynamic-imports/stuck-module.js
+✅ Processed: playground/ssr/src/forked-deadlock/fuse-stuck-bridge-module.js
+✅ Processed: playground/ssr/src/forked-deadlock/middle-module.js
+✅ Processed: playground/ssr/src/forked-deadlock/stuck-module.js
+✅ Processed: playground/ssr/src/utils.js
+✅ Processed: playground/ssr/vite.config.ts
+✅ Processed: playground/ssr-alias/__tests__/ssr-alias.spec.ts
+✅ Processed: playground/ssr-alias/alias-original/index.js
+✅ Processed: playground/ssr-alias/alias-original/package.json
+✅ Processed: playground/ssr-alias/package.json
+✅ Processed: playground/ssr-alias/src/alias-process.js
+✅ Processed: playground/ssr-alias/src/alias-replaced.js
+✅ Processed: playground/ssr-alias/src/main.js
+✅ Processed: playground/ssr-alias/vite.config.js
+✅ Processed: playground/ssr-conditions/__tests__/serve.ts
+✅ Processed: playground/ssr-conditions/__tests__/ssr-conditions.spec.ts
+✅ Processed: playground/ssr-conditions/external/browser.js
+✅ Processed: playground/ssr-conditions/external/default.js
+✅ Processed: playground/ssr-conditions/external/edge.js
+✅ Processed: playground/ssr-conditions/external/node.js
+✅ Processed: playground/ssr-conditions/external/node.unbundled.js
+✅ Processed: playground/ssr-conditions/external/package.json
+✅ Processed: playground/ssr-conditions/index.html
+✅ Processed: playground/ssr-conditions/no-external/browser.js
+✅ Processed: playground/ssr-conditions/no-external/default.js
+✅ Processed: playground/ssr-conditions/no-external/edge.js
+✅ Processed: playground/ssr-conditions/no-external/node.js
+✅ Processed: playground/ssr-conditions/no-external/node.unbundled.js
+✅ Processed: playground/ssr-conditions/no-external/package.json
+✅ Processed: playground/ssr-conditions/package.json
+✅ Processed: playground/ssr-conditions/server.js
+✅ Processed: playground/ssr-conditions/src/app.js
+✅ Processed: playground/ssr-conditions/vite.config.js
+✅ Processed: playground/ssr-deps/__tests__/serve.ts
+✅ Processed: playground/ssr-deps/__tests__/ssr-deps.spec.ts
+⏭ Skipped (ext): playground/ssr-deps/css-lib/index.css
+✅ Processed: playground/ssr-deps/css-lib/package.json
+✅ Processed: playground/ssr-deps/define-properties-exports/index.js
+✅ Processed: playground/ssr-deps/define-properties-exports/package.json
+✅ Processed: playground/ssr-deps/define-property-exports/index.js
+✅ Processed: playground/ssr-deps/define-property-exports/package.json
+✅ Processed: playground/ssr-deps/external-entry/entry.js
+✅ Processed: playground/ssr-deps/external-entry/index.js
+✅ Processed: playground/ssr-deps/external-entry/package.json
+✅ Processed: playground/ssr-deps/external-using-external-entry/index.js
+✅ Processed: playground/ssr-deps/external-using-external-entry/package.json
+✅ Processed: playground/ssr-deps/forwarded-export/index.js
+✅ Processed: playground/ssr-deps/forwarded-export/package.json
+✅ Processed: playground/ssr-deps/import-builtin-cjs/index.js
+✅ Processed: playground/ssr-deps/import-builtin-cjs/package.json
+✅ Processed: playground/ssr-deps/index.html
+✅ Processed: playground/ssr-deps/linked-no-external/index.js
+✅ Processed: playground/ssr-deps/linked-no-external/package.json
+⏭ Skipped (ext): playground/ssr-deps/message
+⏭ Skipped (ext): playground/ssr-deps/module-condition/import.mjs
+✅ Processed: playground/ssr-deps/module-condition/module.js
+✅ Processed: playground/ssr-deps/module-condition/package.json
+✅ Processed: playground/ssr-deps/nested-exclude/index.js
+✅ Processed: playground/ssr-deps/nested-exclude/package.json
+✅ Processed: playground/ssr-deps/nested-external/index.js
+✅ Processed: playground/ssr-deps/nested-external/package.json
+✅ Processed: playground/ssr-deps/nested-external-cjs/index.js
+✅ Processed: playground/ssr-deps/nested-external-cjs/package.json
+✅ Processed: playground/ssr-deps/nested-include/index.js
+✅ Processed: playground/ssr-deps/nested-include/package.json
+✅ Processed: playground/ssr-deps/no-external-cjs/index.js
+✅ Processed: playground/ssr-deps/no-external-cjs/package.json
+⏭ Skipped (ext): playground/ssr-deps/no-external-css/index.css
+✅ Processed: playground/ssr-deps/no-external-css/package.json
+✅ Processed: playground/ssr-deps/non-optimized-with-nested-external/index.js
+✅ Processed: playground/ssr-deps/non-optimized-with-nested-external/package.json
+✅ Processed: playground/ssr-deps/object-assigned-exports/index.js
+✅ Processed: playground/ssr-deps/object-assigned-exports/package.json
+✅ Processed: playground/ssr-deps/only-object-assigned-exports/index.js
+✅ Processed: playground/ssr-deps/only-object-assigned-exports/package.json
+✅ Processed: playground/ssr-deps/optimized-cjs-with-nested-external/index.js
+✅ Processed: playground/ssr-deps/optimized-cjs-with-nested-external/package.json
+✅ Processed: playground/ssr-deps/optimized-with-nested-external/index.js
+✅ Processed: playground/ssr-deps/optimized-with-nested-external/package.json
+✅ Processed: playground/ssr-deps/package.json
+✅ Processed: playground/ssr-deps/pkg-exports/index.js
+✅ Processed: playground/ssr-deps/pkg-exports/package.json
+✅ Processed: playground/ssr-deps/primitive-export/index.js
+✅ Processed: playground/ssr-deps/primitive-export/package.json
+✅ Processed: playground/ssr-deps/read-file-content/index.js
+✅ Processed: playground/ssr-deps/read-file-content/package.json
+✅ Processed: playground/ssr-deps/require-absolute/foo.js
+✅ Processed: playground/ssr-deps/require-absolute/index.js
+✅ Processed: playground/ssr-deps/require-absolute/package.json
+✅ Processed: playground/ssr-deps/server.js
+✅ Processed: playground/ssr-deps/src/app.js
+✅ Processed: playground/ssr-deps/src/isomorphic-module-browser.js
+✅ Processed: playground/ssr-deps/src/isomorphic-module-server.js
+✅ Processed: playground/ssr-deps/ts-transpiled-exports/index.js
+✅ Processed: playground/ssr-deps/ts-transpiled-exports/package.json
+✅ Processed: playground/ssr-html/__tests__/serve.ts
+✅ Processed: playground/ssr-html/__tests__/ssr-html.spec.ts
+✅ Processed: playground/ssr-html/index.html
+✅ Processed: playground/ssr-html/package.json
+✅ Processed: playground/ssr-html/public/slash@3.0.0.js
+✅ Processed: playground/ssr-html/server.js
+✅ Processed: playground/ssr-html/src/app.js
+✅ Processed: playground/ssr-html/src/error-js.js
+✅ Processed: playground/ssr-html/src/error-ts.ts
+✅ Processed: playground/ssr-html/src/has-error-deep.ts
+✅ Processed: playground/ssr-html/src/importedVirtual.js
+✅ Processed: playground/ssr-html/src/network-imports.js
+✅ Processed: playground/ssr-html/test-network-imports.js
+✅ Processed: playground/ssr-html/test-stacktrace-runtime.js
+✅ Processed: playground/ssr-html/test-stacktrace.js
+✅ Processed: playground/ssr-noexternal/__tests__/serve.ts
+✅ Processed: playground/ssr-noexternal/__tests__/ssr-noexternal.spec.ts
+⏭ Skipped (ext): playground/ssr-noexternal/external-cjs/import.mjs
+✅ Processed: playground/ssr-noexternal/external-cjs/package.json
+⏭ Skipped (ext): playground/ssr-noexternal/external-cjs/require.cjs
+⏭ Skipped (empty or invalid): playground/ssr-noexternal/index.html
+✅ Processed: playground/ssr-noexternal/package.json
+✅ Processed: playground/ssr-noexternal/require-external-cjs/main.js
+✅ Processed: playground/ssr-noexternal/require-external-cjs/package.json
+✅ Processed: playground/ssr-noexternal/server.js
+✅ Processed: playground/ssr-noexternal/src/entry-server.js
+✅ Processed: playground/ssr-noexternal/vite.config.js
+✅ Processed: playground/ssr-pug/__tests__/serve.ts
+✅ Processed: playground/ssr-pug/__tests__/ssr-pug.spec.ts
+⏭ Skipped (ext): playground/ssr-pug/index.pug
+✅ Processed: playground/ssr-pug/package.json
+✅ Processed: playground/ssr-pug/server.js
+✅ Processed: playground/ssr-pug/src/app.js
+✅ Processed: playground/ssr-resolve/__tests__/ssr-resolve.spec.ts
+✅ Processed: playground/ssr-resolve/deep-import/bar/package.json
+✅ Processed: playground/ssr-resolve/deep-import/foo/index.js
+✅ Processed: playground/ssr-resolve/deep-import/foo/package.json
+✅ Processed: playground/ssr-resolve/deep-import/index.js
+✅ Processed: playground/ssr-resolve/deep-import/package.json
+✅ Processed: playground/ssr-resolve/deep-import/utils/bar.js
+✅ Processed: playground/ssr-resolve/entries/dir/index.js
+✅ Processed: playground/ssr-resolve/entries/file.js
+✅ Processed: playground/ssr-resolve/entries/package.json
+✅ Processed: playground/ssr-resolve/main.js
+✅ Processed: playground/ssr-resolve/package.json
+✅ Processed: playground/ssr-resolve/pkg-exports/entry.js
+✅ Processed: playground/ssr-resolve/pkg-exports/index.js
+✅ Processed: playground/ssr-resolve/pkg-exports/package.json
+✅ Processed: playground/ssr-resolve/pkg-module-sync/index.js
+✅ Processed: playground/ssr-resolve/pkg-module-sync/package.json
+✅ Processed: playground/ssr-resolve/util.js
+✅ Processed: playground/ssr-resolve/vite.config.js
+✅ Processed: playground/ssr-webworker/__tests__/serve.ts
+✅ Processed: playground/ssr-webworker/__tests__/ssr-webworker.spec.ts
+✅ Processed: playground/ssr-webworker/browser-exports/browser.js
+✅ Processed: playground/ssr-webworker/browser-exports/node.js
+✅ Processed: playground/ssr-webworker/browser-exports/package.json
+✅ Processed: playground/ssr-webworker/package.json
+✅ Processed: playground/ssr-webworker/src/dynamic.js
+✅ Processed: playground/ssr-webworker/src/entry-worker.jsx
+✅ Processed: playground/ssr-webworker/vite.config.js
+✅ Processed: playground/ssr-webworker/worker-exports/browser.js
+✅ Processed: playground/ssr-webworker/worker-exports/node.js
+✅ Processed: playground/ssr-webworker/worker-exports/package.json
+✅ Processed: playground/ssr-webworker/worker-exports/worker.js
+✅ Processed: playground/ssr-webworker/worker.js
+✅ Processed: playground/tailwind/__test__/tailwind.spec.ts
+⏭ Skipped (ext): playground/tailwind/index.css
+✅ Processed: playground/tailwind/index.html
+✅ Processed: playground/tailwind/package.json
+⏭ Skipped: playground/tailwind/public/favicon.ico
+✅ Processed: playground/tailwind/src/components/component1.js
+✅ Processed: playground/tailwind/src/main.js
+✅ Processed: playground/tailwind/src/views/view1.js
+✅ Processed: playground/tailwind/tailwind.config.ts
+✅ Processed: playground/tailwind/vite.config.ts
+✅ Processed: playground/tailwind-sourcemap/__tests__/tailwind-sourcemap.spec.ts
+✅ Processed: playground/tailwind-sourcemap/index.html
+✅ Processed: playground/tailwind-sourcemap/package.json
+✅ Processed: playground/tailwind-sourcemap/postcss.config.js
+⏭ Skipped (ext): playground/tailwind-sourcemap/tailwind.css
+✅ Processed: playground/tailwind-sourcemap/vite.config.js
+✅ Processed: playground/tailwind-v3/__test__/tailwind-v3.spec.ts
+⏭ Skipped (ext): playground/tailwind-v3/index.css
+⏭ Skipped (empty or invalid): playground/tailwind-v3/index.html
+✅ Processed: playground/tailwind-v3/package.json
+✅ Processed: playground/tailwind-v3/postcss.config.js
+✅ Processed: playground/tailwind-v3/src/components/component1.js
+✅ Processed: playground/tailwind-v3/src/main.js
+✅ Processed: playground/tailwind-v3/src/views/view1.js
+✅ Processed: playground/tailwind-v3/tailwind.config.ts
+✅ Processed: playground/tailwind-v3/vite.config.ts
+✅ Processed: playground/test-utils.ts
+✅ Processed: playground/transform-plugin/__tests__/base/transform-plugin.spec.ts
+✅ Processed: playground/transform-plugin/__tests__/tests.ts
+✅ Processed: playground/transform-plugin/__tests__/transform-plugin.spec.ts
+⏭ Skipped (empty or invalid): playground/transform-plugin/index.html
+✅ Processed: playground/transform-plugin/index.js
+✅ Processed: playground/transform-plugin/package.json
+✅ Processed: playground/transform-plugin/plugin-dep-load.js
+✅ Processed: playground/transform-plugin/plugin-dep.js
+✅ Processed: playground/transform-plugin/vite.config-base.js
+✅ Processed: playground/transform-plugin/vite.config.js
+✅ Processed: playground/tsconfig-json/__tests__/tsconfig-json.spec.ts
+⏭ Skipped (empty or invalid): playground/tsconfig-json/index.html
+✅ Processed: playground/tsconfig-json/nested/main.ts
+✅ Processed: playground/tsconfig-json/nested/not-used-type.ts
+✅ Processed: playground/tsconfig-json/nested/tsconfig.json
+✅ Processed: playground/tsconfig-json/nested-with-extends/main.ts
+✅ Processed: playground/tsconfig-json/nested-with-extends/not-used-type.ts
+✅ Processed: playground/tsconfig-json/nested-with-extends/tsconfig.json
+✅ Processed: playground/tsconfig-json/package.json
+✅ Processed: playground/tsconfig-json/src/decorator.ts
+✅ Processed: playground/tsconfig-json/src/main.ts
+✅ Processed: playground/tsconfig-json/src/not-used-type.ts
+✅ Processed: playground/tsconfig-json/tsconfig.json
+✅ Processed: playground/tsconfig-json-load-error/__tests__/serve.ts
+✅ Processed: playground/tsconfig-json-load-error/__tests__/tsconfig-json-load-error.spec.ts
+✅ Processed: playground/tsconfig-json-load-error/has-error/main.ts
+✅ Processed: playground/tsconfig-json-load-error/has-error/tsconfig.json
+⏭ Skipped (empty or invalid): playground/tsconfig-json-load-error/index.html
+✅ Processed: playground/tsconfig-json-load-error/package.json
+✅ Processed: playground/tsconfig-json-load-error/src/main.ts
+✅ Processed: playground/tsconfig-json-load-error/tsconfig.json
+✅ Processed: playground/tsconfig.json
+✅ Processed: playground/vitestGlobalSetup.ts
+✅ Processed: playground/vitestSetup.ts
+✅ Processed: playground/wasm/__tests__/wasm.spec.ts
+⏭ Skipped (ext): playground/wasm/add.wasm
+⏭ Skipped (ext): playground/wasm/heavy.wasm
+⏭ Skipped (ext): playground/wasm/heavy.wasm.map
+✅ Processed: playground/wasm/index.html
+⏭ Skipped (ext): playground/wasm/light.wasm
+✅ Processed: playground/wasm/package.json
+✅ Processed: playground/wasm/vite.config.ts
+✅ Processed: playground/wasm/worker.js
+✅ Processed: playground/worker/__tests__/es/worker-es.spec.ts
+✅ Processed: playground/worker/__tests__/iife/worker-iife.spec.ts
+✅ Processed: playground/worker/__tests__/relative-base/worker-relative-base.spec.ts
+✅ Processed: playground/worker/__tests__/relative-base-iife/worker-relative-base-iife.spec.ts
+✅ Processed: playground/worker/__tests__/sourcemap/worker-sourcemap.spec.ts
+✅ Processed: playground/worker/__tests__/sourcemap-hidden/worker-sourcemap-hidden.spec.ts
+✅ Processed: playground/worker/__tests__/sourcemap-inline/worker-sourcemap-inline.spec.ts
+✅ Processed: playground/worker/classic-esm.js
+✅ Processed: playground/worker/classic-shared-worker.js
+✅ Processed: playground/worker/classic-worker.js
+✅ Processed: playground/worker/deeply-nested-second-worker.js
+✅ Processed: playground/worker/deeply-nested-third-worker.js
+✅ Processed: playground/worker/deeply-nested-worker.js
+⏭ Skipped (ext): playground/worker/dep-cjs/index.cjs
+✅ Processed: playground/worker/dep-cjs/package.json
+✅ Processed: playground/worker/dep-self-reference-url-worker/index.js
+✅ Processed: playground/worker/dep-self-reference-url-worker/package.json
+✅ Processed: playground/worker/dep-self-reference-url-worker/worker.js
+✅ Processed: playground/worker/dep-to-optimize/index.js
+✅ Processed: playground/worker/dep-to-optimize/package.json
+✅ Processed: playground/worker/emit-chunk-dynamic-import-worker.js
+✅ Processed: playground/worker/emit-chunk-nested-worker.js
+✅ Processed: playground/worker/emit-chunk-sub-worker.js
+✅ Processed: playground/worker/importMetaGlob.worker.js
+✅ Processed: playground/worker/importMetaGlobEager.worker.js
+✅ Processed: playground/worker/index.html
+✅ Processed: playground/worker/module-and-worker.js
+✅ Processed: playground/worker/modules/module0.js
+✅ Processed: playground/worker/modules/module1.js
+✅ Processed: playground/worker/modules/module2.js
+✅ Processed: playground/worker/modules/module3.js
+✅ Processed: playground/worker/modules/test-plugin.js
+✅ Processed: playground/worker/modules/workerImport.ts
+✅ Processed: playground/worker/my-inline-shared-worker.ts
+✅ Processed: playground/worker/my-shared-worker.ts
+✅ Processed: playground/worker/my-worker.ts
+✅ Processed: playground/worker/package.json
+⏭ Skipped (ext): playground/worker/possible-ts-output-worker.mjs
+✅ Processed: playground/worker/public/classic.js
+✅ Processed: playground/worker/self-reference-url-worker.js
+✅ Processed: playground/worker/self-reference-worker.js
+✅ Processed: playground/worker/simple-worker.js
+✅ Processed: playground/worker/sub-worker.js
+✅ Processed: playground/worker/url-shared-worker.js
+✅ Processed: playground/worker/url-worker.js
+✅ Processed: playground/worker/vite.config-es.js
+✅ Processed: playground/worker/vite.config-iife.js
+✅ Processed: playground/worker/vite.config-relative-base-iife.js
+✅ Processed: playground/worker/vite.config-relative-base.js
+✅ Processed: playground/worker/vite.config-sourcemap-hidden.js
+✅ Processed: playground/worker/vite.config-sourcemap-inline.js
+✅ Processed: playground/worker/vite.config-sourcemap.js
+⏭ Skipped: playground/worker/vite.svg
+✅ Processed: playground/worker/worker/main-classic.js
+✅ Processed: playground/worker/worker/main-deeply-nested.js
+✅ Processed: playground/worker/worker/main-format-es.js
+✅ Processed: playground/worker/worker/main-module.js
+✅ Processed: playground/worker/worker/main-url.js
+✅ Processed: playground/worker/worker/main.js
+✅ Processed: playground/worker/worker-nested-worker.js
+✅ Processed: playground/worker/worker-plugin-test-plugin.js
+✅ Processed: playground/worker/worker-sourcemap-config.js
+✅ Processed: pnpm-lock.yaml
+✅ Processed: pnpm-workspace.yaml
+⏭ Skipped (ext): scripts/.DS_Store
+⏭ Skipped (ext): scripts/docs-check.sh
+✅ Processed: scripts/publishCI.ts
+✅ Processed: scripts/release.ts
+✅ Processed: scripts/releaseUtils.ts
+✅ Processed: scripts/sync-docs/package-lock.json
+✅ Processed: scripts/sync-docs/package.json
+⏭ Skipped (ext): scripts/sync-docs/sync-docs-universal.mjs
+✅ Processed: scripts/tsconfig.json
+✅ Processed: terminal-cmds.md
+✅ Processed: vite-file-structure.txt
+✅ Processed: vitest.config.e2e.ts
+✅ Processed: vitest.config.ts
